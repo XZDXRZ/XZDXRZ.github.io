@@ -85,9 +85,9 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>数据结构</tag>
-        <tag>OI</tag>
         <tag>C++</tag>
+        <tag>OI</tag>
+        <tag>数据结构</tag>
         <tag>平衡树</tag>
       </tags>
   </entry>
@@ -164,10 +164,10 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>数论</tag>
-        <tag>OI</tag>
         <tag>C++</tag>
         <tag>算法</tag>
+        <tag>数论</tag>
+        <tag>OI</tag>
       </tags>
   </entry>
   <entry>
@@ -230,10 +230,10 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>数论</tag>
-        <tag>OI</tag>
         <tag>C++</tag>
         <tag>算法</tag>
+        <tag>数论</tag>
+        <tag>OI</tag>
       </tags>
   </entry>
   <entry>
@@ -266,8 +266,8 @@
         <category>题解</category>
       </categories>
       <tags>
-        <tag>OI</tag>
         <tag>C++</tag>
+        <tag>OI</tag>
         <tag>题解</tag>
         <tag>DP</tag>
       </tags>
@@ -302,10 +302,9 @@
         <category>题解</category>
       </categories>
       <tags>
-        <tag>OI</tag>
         <tag>C++</tag>
+        <tag>OI</tag>
         <tag>题解</tag>
-        <tag>模拟</tag>
       </tags>
   </entry>
   <entry>
@@ -327,10 +326,9 @@
         <category>题解</category>
       </categories>
       <tags>
-        <tag>OI</tag>
         <tag>C++</tag>
+        <tag>OI</tag>
         <tag>题解</tag>
-        <tag>模拟</tag>
       </tags>
   </entry>
   <entry>
@@ -348,11 +346,28 @@
         <category>题解</category>
       </categories>
       <tags>
-        <tag>OI</tag>
         <tag>C++</tag>
+        <tag>OI</tag>
         <tag>题解</tag>
-        <tag>Hash</tag>
-        <tag>字符串哈希</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>题解 P1276 【校门外的树（增强版）】</title>
+    <url>/2019/08/12/%E9%A2%98%E8%A7%A3-P1276-%E3%80%90%E6%A0%A1%E9%97%A8%E5%A4%96%E7%9A%84%E6%A0%91%EF%BC%88%E5%A2%9E%E5%BC%BA%E7%89%88%EF%BC%89%E3%80%91/</url>
+    <content><![CDATA[<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><a id="more"></a>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> r[<span class="number">10002</span>];                     <span class="comment">//这个数组里的每一个数只有三态，0表示被砍掉，1表示大树，2表示树苗</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n,l,a,b,x;</span><br><span class="line">    <span class="keyword">int</span> sum=<span class="number">0</span>;                    <span class="comment">//sum变量用于存储种上又被拔掉的树苗数目</span></span><br><span class="line">    <span class="built_in">cin</span> &gt;&gt; l &gt;&gt; n;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;=l;i++)</span><br><span class="line">        r[i]=<span class="number">1</span>;                   <span class="comment">//植树</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;n;i++) &#123;</span><br><span class="line">        <span class="built_in">cin</span> &gt;&gt; x &gt;&gt; a &gt;&gt; b;</span><br><span class="line">        <span class="keyword">if</span> (x==<span class="number">0</span>)                 <span class="comment">//如果是砍树</span></span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j=a;j&lt;=b;j++) &#123;</span><br><span class="line">                <span class="keyword">if</span> (r[j]==<span class="number">2</span>)      <span class="comment">//如果砍的是树苗</span></span><br><span class="line">                    sum++;</span><br><span class="line">                r[j]=<span class="number">0</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span> (x==<span class="number">1</span>)</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j=a;j&lt;=b;j++)</span><br><span class="line">                <span class="keyword">if</span> (r[j]==<span class="number">0</span>)      <span class="comment">//如果被砍掉了</span></span><br><span class="line">                    r[j]=<span class="number">2</span>;       <span class="comment">//记！住！种！的！是！树！苗！</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">int</span> count=<span class="number">0</span>;                  <span class="comment">//count变量用于存储剩下的树苗</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;=l;i++) &#123;      <span class="comment">//统计</span></span><br><span class="line">        <span class="keyword">if</span> (r[i]==<span class="number">2</span>)              <span class="comment">//如果是树苗</span></span><br><span class="line">            count++;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d\n%d"</span>,count,sum);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h1><p>如题，这题很坑</p>
+<h2 id="一号坑"><a href="#一号坑" class="headerlink" title="一号坑"></a>一号坑</h2><p>$L$是从0开始而不是1，<del>这个坑能摔死人</del></p>
+<h2 id="二号坑"><a href="#二号坑" class="headerlink" title="二号坑"></a>二号坑</h2><p>种下去的是树苗，永远不会长成大树</p>
+<p>其他好像就没有了</p>
+]]></content>
+      <categories>
+        <category>题解</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+        <tag>OI</tag>
+        <tag>题解</tag>
       </tags>
   </entry>
   <entry>
@@ -376,31 +391,10 @@
         <category>题解</category>
       </categories>
       <tags>
+        <tag>C++</tag>
+        <tag>OI</tag>
         <tag>数据结构</tag>
-        <tag>OI</tag>
-        <tag>C++</tag>
         <tag>题解</tag>
-        <tag>队列</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>题解 P1276 【校门外的树（增强版）】</title>
-    <url>/2019/08/12/%E9%A2%98%E8%A7%A3-P1276-%E3%80%90%E6%A0%A1%E9%97%A8%E5%A4%96%E7%9A%84%E6%A0%91%EF%BC%88%E5%A2%9E%E5%BC%BA%E7%89%88%EF%BC%89%E3%80%91/</url>
-    <content><![CDATA[<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><a id="more"></a>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> r[<span class="number">10002</span>];                     <span class="comment">//这个数组里的每一个数只有三态，0表示被砍掉，1表示大树，2表示树苗</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n,l,a,b,x;</span><br><span class="line">    <span class="keyword">int</span> sum=<span class="number">0</span>;                    <span class="comment">//sum变量用于存储种上又被拔掉的树苗数目</span></span><br><span class="line">    <span class="built_in">cin</span> &gt;&gt; l &gt;&gt; n;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;=l;i++)</span><br><span class="line">        r[i]=<span class="number">1</span>;                   <span class="comment">//植树</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;n;i++) &#123;</span><br><span class="line">        <span class="built_in">cin</span> &gt;&gt; x &gt;&gt; a &gt;&gt; b;</span><br><span class="line">        <span class="keyword">if</span> (x==<span class="number">0</span>)                 <span class="comment">//如果是砍树</span></span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j=a;j&lt;=b;j++) &#123;</span><br><span class="line">                <span class="keyword">if</span> (r[j]==<span class="number">2</span>)      <span class="comment">//如果砍的是树苗</span></span><br><span class="line">                    sum++;</span><br><span class="line">                r[j]=<span class="number">0</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span> (x==<span class="number">1</span>)</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j=a;j&lt;=b;j++)</span><br><span class="line">                <span class="keyword">if</span> (r[j]==<span class="number">0</span>)      <span class="comment">//如果被砍掉了</span></span><br><span class="line">                    r[j]=<span class="number">2</span>;       <span class="comment">//记！住！种！的！是！树！苗！</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">int</span> count=<span class="number">0</span>;                  <span class="comment">//count变量用于存储剩下的树苗</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;=l;i++) &#123;      <span class="comment">//统计</span></span><br><span class="line">        <span class="keyword">if</span> (r[i]==<span class="number">2</span>)              <span class="comment">//如果是树苗</span></span><br><span class="line">            count++;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d\n%d"</span>,count,sum);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h1><p>如题，这题很坑</p>
-<h2 id="一号坑"><a href="#一号坑" class="headerlink" title="一号坑"></a>一号坑</h2><p>$L$是从0开始而不是1，<del>这个坑能摔死人</del></p>
-<h2 id="二号坑"><a href="#二号坑" class="headerlink" title="二号坑"></a>二号坑</h2><p>种下去的是树苗，永远不会长成大树</p>
-<p>其他好像就没有了</p>
-]]></content>
-      <categories>
-        <category>题解</category>
-      </categories>
-      <tags>
-        <tag>OI</tag>
-        <tag>C++</tag>
-        <tag>题解</tag>
-        <tag>模拟</tag>
       </tags>
   </entry>
   <entry>
@@ -491,7 +485,6 @@
       </categories>
       <tags>
         <tag>小说</tag>
-        <tag>转载</tag>
       </tags>
   </entry>
   <entry>
