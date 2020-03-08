@@ -11,7 +11,7 @@
 <p>对于方程$ax+by=1$，只有当整数$a,b$互质时，方程才有整数解。</p>
 </blockquote>
 <p>以上内容摘自<a href="https://baike.baidu.com/item/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86/5186593" target="_blank" rel="noopener">百度百科</a>。</p>
-<h2 id="裴蜀定理的证明"><a href="#裴蜀定理的证明" class="headerlink" title="裴蜀定理的证明"></a>裴蜀定理的证明</h2><p><strong>特此证明：以下证明纯属我自己yy，如有错误请联系我指正。</strong></p>
+<h2 id="裴蜀定理的证明"><a href="#裴蜀定理的证明" class="headerlink" title="裴蜀定理的证明"></a>裴蜀定理的证明</h2><p><strong>特此说明：以下证明纯属我自己yy，如有错误请联系我指正。</strong></p>
 <h3 id="定理1证明"><a href="#定理1证明" class="headerlink" title="定理1证明"></a>定理1证明</h3><p>我们设$ d=\gcd(a,b) $，则显而易见，$d \mid a$，且$d \mid b$。</p>
 <p>根据整除的性质，我们得出$ d \mid ax+by ( x,y \in Z ) $。······（式1.2.1.1）</p>
 <p>所以根据（式1.2.1.1）以及整除的意义得出$ ax+by=dk ( k \in Z^+ ) $。</p>
@@ -85,9 +85,9 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>C++</tag>
-        <tag>OI</tag>
         <tag>数据结构</tag>
+        <tag>OI</tag>
+        <tag>C++</tag>
         <tag>平衡树</tag>
       </tags>
   </entry>
@@ -164,10 +164,10 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>C++</tag>
-        <tag>算法</tag>
         <tag>数论</tag>
         <tag>OI</tag>
+        <tag>C++</tag>
+        <tag>算法</tag>
       </tags>
   </entry>
   <entry>
@@ -230,10 +230,10 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>C++</tag>
-        <tag>算法</tag>
         <tag>数论</tag>
         <tag>OI</tag>
+        <tag>C++</tag>
+        <tag>算法</tag>
       </tags>
   </entry>
   <entry>
@@ -266,8 +266,8 @@
         <category>题解</category>
       </categories>
       <tags>
-        <tag>C++</tag>
         <tag>OI</tag>
+        <tag>C++</tag>
         <tag>题解</tag>
         <tag>DP</tag>
       </tags>
@@ -302,8 +302,8 @@
         <category>题解</category>
       </categories>
       <tags>
-        <tag>C++</tag>
         <tag>OI</tag>
+        <tag>C++</tag>
         <tag>题解</tag>
       </tags>
   </entry>
@@ -326,8 +326,8 @@
         <category>题解</category>
       </categories>
       <tags>
-        <tag>C++</tag>
         <tag>OI</tag>
+        <tag>C++</tag>
         <tag>题解</tag>
       </tags>
   </entry>
@@ -346,8 +346,8 @@
         <category>题解</category>
       </categories>
       <tags>
-        <tag>C++</tag>
         <tag>OI</tag>
+        <tag>C++</tag>
         <tag>题解</tag>
       </tags>
   </entry>
@@ -365,8 +365,8 @@
         <category>题解</category>
       </categories>
       <tags>
-        <tag>C++</tag>
         <tag>OI</tag>
+        <tag>C++</tag>
         <tag>题解</tag>
       </tags>
   </entry>
@@ -391,9 +391,9 @@
         <category>题解</category>
       </categories>
       <tags>
-        <tag>C++</tag>
-        <tag>OI</tag>
         <tag>数据结构</tag>
+        <tag>OI</tag>
+        <tag>C++</tag>
         <tag>题解</tag>
       </tags>
   </entry>
