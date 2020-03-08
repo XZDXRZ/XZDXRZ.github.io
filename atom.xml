@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>兄主的仙人掌的个人博客</title>
+  <icon>https://xzdxrz.github.io/icon.png</icon>
+  <subtitle>学如逆水行舟，不进则退</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://xzdxrz.github.io/"/>
+  <updated>2020-03-08T05:11:36.498Z</updated>
+  <id>https://xzdxrz.github.io/</id>
+  
+  <author>
+    <name>兄主的仙人掌</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>裴蜀定理学习笔记</title>
+    <link href="https://xzdxrz.github.io/2020/03/07/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>https://xzdxrz.github.io/2020/03/07/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+    <published>2020-03-07T13:16:11.000Z</published>
+    <updated>2020-03-08T05:11:36.498Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;裴蜀定理&quot;&gt;&lt;a href=&quot;#裴蜀定理&quot; class=&quot;headerlink&quot; title=&quot;裴蜀定理&quot;&gt;&lt;/a&gt;裴蜀定理&lt;/h1&gt;
+    
+    </summary>
+    
+    
+      <category term="学习笔记" scheme="https://xzdxrz.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="数论" scheme="https://xzdxrz.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>树旋转学习笔记</title>
+    <link href="https://xzdxrz.github.io/2020/03/01/%E6%A0%91%E6%97%8B%E8%BD%AC%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>https://xzdxrz.github.io/2020/03/01/%E6%A0%91%E6%97%8B%E8%BD%AC%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+    <published>2020-03-01T07:51:35.000Z</published>
+    <updated>2020-03-01T11:12:55.160Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;平衡树树旋转&quot;&gt;&lt;a href=&quot;#平衡树树旋转&quot; class=&quot;headerlink&quot; title=&quot;平衡树树旋转&quot;&gt;&lt;/a&gt;平衡树树旋转&lt;/h1&gt;
+    
+    </summary>
+    
+    
+      <category term="学习笔记" scheme="https://xzdxrz.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="数据结构" scheme="https://xzdxrz.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+      <category term="OI" scheme="https://xzdxrz.github.io/tags/OI/"/>
+    
+      <category term="C++" scheme="https://xzdxrz.github.io/tags/C/"/>
+    
+      <category term="平衡树" scheme="https://xzdxrz.github.io/tags/%E5%B9%B3%E8%A1%A1%E6%A0%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>公告：关于黑历史</title>
+    <link href="https://xzdxrz.github.io/2020/02/29/%E5%85%B3%E4%BA%8E%E9%BB%91%E5%8E%86%E5%8F%B2/"/>
+    <id>https://xzdxrz.github.io/2020/02/29/%E5%85%B3%E4%BA%8E%E9%BB%91%E5%8E%86%E5%8F%B2/</id>
+    <published>2020-02-28T21:50:09.000Z</published>
+    <updated>2020-02-28T21:54:16.869Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;我博客的黑历史已经被我隐藏了一部分，具体文件可以在&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>PyGame学习笔记之壹</title>
+    <link href="https://xzdxrz.github.io/2020/02/28/PyGame%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8B%E5%A3%B9/"/>
+    <id>https://xzdxrz.github.io/2020/02/28/PyGame%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8B%E5%A3%B9/</id>
+    <published>2020-02-28T13:14:14.000Z</published>
+    <updated>2020-03-08T05:11:55.845Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;新建窗口&quot;&gt;&lt;a href=&quot;#新建窗口&quot; class=&quot;headerlink&quot; title=&quot;新建窗口&quot;&gt;&lt;/a&gt;新建窗口&lt;/h1&gt;
+    
+    </summary>
+    
+    
+      <category term="学习笔记" scheme="https://xzdxrz.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="Python3" scheme="https://xzdxrz.github.io/tags/Python3/"/>
+    
+      <category term="PyGame" scheme="https://xzdxrz.github.io/tags/PyGame/"/>
+    
+      <category term="游戏编程" scheme="https://xzdxrz.github.io/tags/%E6%B8%B8%E6%88%8F%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>欧拉筛学习笔记</title>
+    <link href="https://xzdxrz.github.io/2020/02/26/%E6%AC%A7%E6%8B%89%E7%AD%9B%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>https://xzdxrz.github.io/2020/02/26/%E6%AC%A7%E6%8B%89%E7%AD%9B%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+    <published>2020-02-26T11:54:54.000Z</published>
+    <updated>2020-03-08T05:11:31.035Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;线性筛质数&quot;&gt;&lt;a href=&quot;#线性筛质数&quot; class=&quot;headerlink&quot; title=&quot;线性筛质数&quot;&gt;&lt;/a&gt;线性筛质数&lt;/h1&gt;
+    
+    </summary>
+    
+    
+      <category term="学习笔记" scheme="https://xzdxrz.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="数论" scheme="https://xzdxrz.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
+    
+      <category term="OI" scheme="https://xzdxrz.github.io/tags/OI/"/>
+    
+      <category term="C++" scheme="https://xzdxrz.github.io/tags/C/"/>
+    
+      <category term="算法" scheme="https://xzdxrz.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>快速幂学习笔记</title>
+    <link href="https://xzdxrz.github.io/2020/02/24/%E5%BF%AB%E9%80%9F%E5%B9%82%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>https://xzdxrz.github.io/2020/02/24/%E5%BF%AB%E9%80%9F%E5%B9%82%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+    <published>2020-02-23T20:49:14.000Z</published>
+    <updated>2020-03-08T05:11:26.276Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;快速幂-取余运算&quot;&gt;&lt;a href=&quot;#快速幂-取余运算&quot; class=&quot;headerlink&quot; title=&quot;快速幂||取余运算&quot;&gt;&lt;/a&gt;快速幂||取余运算&lt;/h1&gt;
+    
+    </summary>
+    
+    
+      <category term="学习笔记" scheme="https://xzdxrz.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="数论" scheme="https://xzdxrz.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
+    
+      <category term="OI" scheme="https://xzdxrz.github.io/tags/OI/"/>
+    
+      <category term="C++" scheme="https://xzdxrz.github.io/tags/C/"/>
+    
+      <category term="算法" scheme="https://xzdxrz.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客一周年纪念</title>
+    <link href="https://xzdxrz.github.io/2020/01/26/%E5%8D%9A%E5%AE%A2%E4%B8%80%E5%91%A8%E5%B9%B4%E7%BA%AA%E5%BF%B5/"/>
+    <id>https://xzdxrz.github.io/2020/01/26/%E5%8D%9A%E5%AE%A2%E4%B8%80%E5%91%A8%E5%B9%B4%E7%BA%AA%E5%BF%B5/</id>
+    <published>2020-01-25T16:00:00.000Z</published>
+    <updated>2020-02-28T22:38:15.588Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;一周年纪念日！&quot;&gt;&lt;a href=&quot;#一周年纪念日！&quot; class=&quot;headerlink&quot; title=&quot;一周年纪念日！&quot;&gt;&lt;/a&gt;一周年纪念日！&lt;/h1&gt;&lt;p&gt;本 Blog 于 2019/01/26 日建成，历经 365 天，终于迎来了一周年！这中间我的
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>题解 P1002 【过河卒】</title>
+    <link href="https://xzdxrz.github.io/2019/10/27/%E9%A2%98%E8%A7%A3-P1002-%E3%80%90%E8%BF%87%E6%B2%B3%E5%8D%92%E3%80%91/"/>
+    <id>https://xzdxrz.github.io/2019/10/27/%E9%A2%98%E8%A7%A3-P1002-%E3%80%90%E8%BF%87%E6%B2%B3%E5%8D%92%E3%80%91/</id>
+    <published>2019-10-27T13:57:10.000Z</published>
+    <updated>2020-03-01T12:34:29.910Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;百忙之下抽空写题解，先贴一下代码：&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="题解" scheme="https://xzdxrz.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="OI" scheme="https://xzdxrz.github.io/tags/OI/"/>
+    
+      <category term="C++" scheme="https://xzdxrz.github.io/tags/C/"/>
+    
+      <category term="题解" scheme="https://xzdxrz.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+      <category term="DP" scheme="https://xzdxrz.github.io/tags/DP/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>题解 AT2465 【平均点 (Average Score)】</title>
+    <link href="https://xzdxrz.github.io/2019/10/04/%E9%A2%98%E8%A7%A3-AT2465-%E3%80%90%E5%B9%B3%E5%9D%87%E7%82%B9-Average-Score-%E3%80%91/"/>
+    <id>https://xzdxrz.github.io/2019/10/04/%E9%A2%98%E8%A7%A3-AT2465-%E3%80%90%E5%B9%B3%E5%9D%87%E7%82%B9-Average-Score-%E3%80%91/</id>
+    <published>2019-10-03T16:00:00.000Z</published>
+    <updated>2020-03-01T12:34:22.905Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在POJ上做题做到自闭:(&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="题解" scheme="https://xzdxrz.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="OI" scheme="https://xzdxrz.github.io/tags/OI/"/>
+    
+      <category term="C++" scheme="https://xzdxrz.github.io/tags/C/"/>
+    
+      <category term="题解" scheme="https://xzdxrz.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+      <category term="模拟" scheme="https://xzdxrz.github.io/tags/%E6%A8%A1%E6%8B%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>题解 P1181 【数列分段Section I】</title>
+    <link href="https://xzdxrz.github.io/2019/08/18/%E9%A2%98%E8%A7%A3-P1181-%E3%80%90%E6%95%B0%E5%88%97%E5%88%86%E6%AE%B5Section-I%E3%80%91/"/>
+    <id>https://xzdxrz.github.io/2019/08/18/%E9%A2%98%E8%A7%A3-P1181-%E3%80%90%E6%95%B0%E5%88%97%E5%88%86%E6%AE%B5Section-I%E3%80%91/</id>
+    <published>2019-08-17T16:00:00.000Z</published>
+    <updated>2020-03-01T12:34:41.309Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;代码&quot;&gt;&lt;a href=&quot;#代码&quot; class=&quot;headerlink&quot; title=&quot;代码&quot;&gt;&lt;/a&gt;代码&lt;/h1&gt;
+    
+    </summary>
+    
+    
+      <category term="题解" scheme="https://xzdxrz.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="OI" scheme="https://xzdxrz.github.io/tags/OI/"/>
+    
+      <category term="C++" scheme="https://xzdxrz.github.io/tags/C/"/>
+    
+      <category term="题解" scheme="https://xzdxrz.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+      <category term="模拟" scheme="https://xzdxrz.github.io/tags/%E6%A8%A1%E6%8B%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>题解 P3370 【【模板】字符串哈希】</title>
+    <link href="https://xzdxrz.github.io/2019/08/13/%E9%A2%98%E8%A7%A3-P3370-%E3%80%90%E3%80%90%E6%A8%A1%E6%9D%BF%E3%80%91%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%93%88%E5%B8%8C%E3%80%91/"/>
+    <id>https://xzdxrz.github.io/2019/08/13/%E9%A2%98%E8%A7%A3-P3370-%E3%80%90%E3%80%90%E6%A8%A1%E6%9D%BF%E3%80%91%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%93%88%E5%B8%8C%E3%80%91/</id>
+    <published>2019-08-12T16:00:00.000Z</published>
+    <updated>2020-03-01T12:35:37.633Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;代码&quot;&gt;&lt;a href=&quot;#代码&quot; class=&quot;headerlink&quot; title=&quot;代码&quot;&gt;&lt;/a&gt;代码&lt;/h1&gt;
+    
+    </summary>
+    
+    
+      <category term="题解" scheme="https://xzdxrz.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="OI" scheme="https://xzdxrz.github.io/tags/OI/"/>
+    
+      <category term="C++" scheme="https://xzdxrz.github.io/tags/C/"/>
+    
+      <category term="题解" scheme="https://xzdxrz.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+      <category term="Hash" scheme="https://xzdxrz.github.io/tags/Hash/"/>
+    
+      <category term="字符串哈希" scheme="https://xzdxrz.github.io/tags/%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%93%88%E5%B8%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>题解 P1276 【校门外的树（增强版）】</title>
+    <link href="https://xzdxrz.github.io/2019/08/12/%E9%A2%98%E8%A7%A3-P1276-%E3%80%90%E6%A0%A1%E9%97%A8%E5%A4%96%E7%9A%84%E6%A0%91%EF%BC%88%E5%A2%9E%E5%BC%BA%E7%89%88%EF%BC%89%E3%80%91/"/>
+    <id>https://xzdxrz.github.io/2019/08/12/%E9%A2%98%E8%A7%A3-P1276-%E3%80%90%E6%A0%A1%E9%97%A8%E5%A4%96%E7%9A%84%E6%A0%91%EF%BC%88%E5%A2%9E%E5%BC%BA%E7%89%88%EF%BC%89%E3%80%91/</id>
+    <published>2019-08-11T16:00:00.000Z</published>
+    <updated>2020-03-01T12:34:52.464Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;代码&quot;&gt;&lt;a href=&quot;#代码&quot; class=&quot;headerlink&quot; title=&quot;代码&quot;&gt;&lt;/a&gt;代码&lt;/h1&gt;
+    
+    </summary>
+    
+    
+      <category term="题解" scheme="https://xzdxrz.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="OI" scheme="https://xzdxrz.github.io/tags/OI/"/>
+    
+      <category term="C++" scheme="https://xzdxrz.github.io/tags/C/"/>
+    
+      <category term="题解" scheme="https://xzdxrz.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+      <category term="模拟" scheme="https://xzdxrz.github.io/tags/%E6%A8%A1%E6%8B%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>题解 P1996 【约瑟夫问题】</title>
+    <link href="https://xzdxrz.github.io/2019/08/12/%E9%A2%98%E8%A7%A3-P1996-%E3%80%90%E7%BA%A6%E7%91%9F%E5%A4%AB%E9%97%AE%E9%A2%98%E3%80%91/"/>
+    <id>https://xzdxrz.github.io/2019/08/12/%E9%A2%98%E8%A7%A3-P1996-%E3%80%90%E7%BA%A6%E7%91%9F%E5%A4%AB%E9%97%AE%E9%A2%98%E3%80%91/</id>
+    <published>2019-08-11T16:00:00.000Z</published>
+    <updated>2020-03-01T12:35:03.103Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;约瑟夫问题（✘）&lt;/p&gt;
+&lt;p&gt;枪毙小朋友（✔）&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="题解" scheme="https://xzdxrz.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
+    
+    
+      <category term="数据结构" scheme="https://xzdxrz.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+      <category term="OI" scheme="https://xzdxrz.github.io/tags/OI/"/>
+    
+      <category term="C++" scheme="https://xzdxrz.github.io/tags/C/"/>
+    
+      <category term="题解" scheme="https://xzdxrz.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+      <category term="队列" scheme="https://xzdxrz.github.io/tags/%E9%98%9F%E5%88%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>沙雕代码</title>
+    <link href="https://xzdxrz.github.io/2019/07/01/%E6%B2%99%E9%9B%95%E4%BB%A3%E7%A0%81/"/>
+    <id>https://xzdxrz.github.io/2019/07/01/%E6%B2%99%E9%9B%95%E4%BB%A3%E7%A0%81/</id>
+    <published>2019-06-30T16:00:00.000Z</published>
+    <updated>2020-02-28T21:51:49.534Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;源代码（Python3）&quot;&gt;&lt;a href=&quot;#源代码（Python3）&quot; class=&quot;headerlink&quot; title=&quot;源代码（Python3）&quot;&gt;&lt;/a&gt;源代码（Python3）&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;需要requests，BeautifulSoup库&lt;/strong&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="其它" scheme="https://xzdxrz.github.io/categories/%E5%85%B6%E5%AE%83/"/>
+    
+    
+      <category term="Python3" scheme="https://xzdxrz.github.io/tags/Python3/"/>
+    
+      <category term="Requests库" scheme="https://xzdxrz.github.io/tags/Requests%E5%BA%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>星空特效</title>
+    <link href="https://xzdxrz.github.io/2019/06/20/%E6%98%9F%E7%A9%BA%E7%89%B9%E6%95%88/"/>
+    <id>https://xzdxrz.github.io/2019/06/20/%E6%98%9F%E7%A9%BA%E7%89%B9%E6%95%88/</id>
+    <published>2019-06-19T16:00:00.000Z</published>
+    <updated>2020-02-28T22:10:03.776Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;源代码：&quot;&gt;&lt;a href=&quot;#源代码：&quot; class=&quot;headerlink&quot; title=&quot;源代码：&quot;&gt;&lt;/a&gt;源代码：&lt;/h1&gt;
+    
+    </summary>
+    
+    
+      <category term="其它" scheme="https://xzdxrz.github.io/categories/%E5%85%B6%E5%AE%83/"/>
+    
+    
+      <category term="C++" scheme="https://xzdxrz.github.io/tags/C/"/>
+    
+      <category term="EasyX" scheme="https://xzdxrz.github.io/tags/EasyX/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>红枣女孩</title>
+    <link href="https://xzdxrz.github.io/2019/06/09/%E7%BA%A2%E6%9E%A3%E5%A5%B3%E5%AD%A9/"/>
+    <id>https://xzdxrz.github.io/2019/06/09/%E7%BA%A2%E6%9E%A3%E5%A5%B3%E5%AD%A9/</id>
+    <published>2019-06-08T16:00:00.000Z</published>
+    <updated>2020-02-28T21:35:32.476Z</updated>
+    
+    <summary type="html">
+    
+      &lt;center&gt;&lt;b&gt;原作者：郑渊洁&lt;/b&gt;&lt;/center&gt;
+    
+    </summary>
+    
+    
+      <category term="小说" scheme="https://xzdxrz.github.io/categories/%E5%B0%8F%E8%AF%B4/"/>
+    
+    
+      <category term="小说" scheme="https://xzdxrz.github.io/tags/%E5%B0%8F%E8%AF%B4/"/>
+    
+      <category term="转载" scheme="https://xzdxrz.github.io/tags/%E8%BD%AC%E8%BD%BD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>归并排序学习笔记</title>
+    <link href="https://xzdxrz.github.io/2019/05/26/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/"/>
+    <id>https://xzdxrz.github.io/2019/05/26/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/</id>
+    <published>2019-05-25T16:00:00.000Z</published>
+    <updated>2020-03-08T05:11:21.044Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;代码&quot;&gt;&lt;a href=&quot;#代码&quot; class=&quot;headerlink&quot; title=&quot;代码&quot;&gt;&lt;/a&gt;代码&lt;/h1&gt;&lt;p&gt;先上伪代码：&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="学习笔记" scheme="https://xzdxrz.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="C++" scheme="https://xzdxrz.github.io/tags/C/"/>
+    
+      <category term="算法" scheme="https://xzdxrz.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>插入排序学习笔记</title>
+    <link href="https://xzdxrz.github.io/2019/05/12/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F/"/>
+    <id>https://xzdxrz.github.io/2019/05/12/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F/</id>
+    <published>2019-05-11T16:00:00.000Z</published>
+    <updated>2020-03-08T05:11:11.519Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;代码&quot;&gt;&lt;a href=&quot;#代码&quot; class=&quot;headerlink&quot; title=&quot;代码&quot;&gt;&lt;/a&gt;代码&lt;/h1&gt;&lt;p&gt;第一个算法就是“插入排序”。伪代码如下：&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="学习笔记" scheme="https://xzdxrz.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="C++" scheme="https://xzdxrz.github.io/tags/C/"/>
+    
+      <category term="算法" scheme="https://xzdxrz.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+</feed>
