@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xzdxrz.github.io/"/>
-  <updated>2020-03-08T05:47:13.422Z</updated>
+  <updated>2020-04-10T02:11:49.321Z</updated>
   <id>https://xzdxrz.github.io/</id>
   
   <author>
@@ -15,6 +15,46 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>葵是天使啊suki</title>
+    <link href="https://xzdxrz.github.io/2020/04/10/%E8%91%B5%E6%98%AF%E5%A4%A9%E4%BD%BF%E5%95%8Asuki/"/>
+    <id>https://xzdxrz.github.io/2020/04/10/%E8%91%B5%E6%98%AF%E5%A4%A9%E4%BD%BF%E5%95%8Asuki/</id>
+    <published>2020-04-10T02:06:19.000Z</published>
+    <updated>2020-04-10T02:11:49.321Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;斯~哈~斯~哈~&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="其它" scheme="https://xzdxrz.github.io/categories/%E5%85%B6%E5%AE%83/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>拓展欧几里得算法学习笔记</title>
+    <link href="https://xzdxrz.github.io/2020/03/08/%E6%8B%93%E5%B1%95%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>https://xzdxrz.github.io/2020/03/08/%E6%8B%93%E5%B1%95%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+    <published>2020-03-08T05:49:55.000Z</published>
+    <updated>2020-03-08T05:51:09.807Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;欧几里得算法及其拓展&quot;&gt;&lt;a href=&quot;#欧几里得算法及其拓展&quot; class=&quot;headerlink&quot; title=&quot;欧几里得算法及其拓展&quot;&gt;&lt;/a&gt;欧几里得算法及其拓展&lt;/h1&gt;
+    
+    </summary>
+    
+    
+      <category term="学习笔记" scheme="https://xzdxrz.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="数论" scheme="https://xzdxrz.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>裴蜀定理学习笔记</title>
@@ -129,13 +169,13 @@
       <category term="学习笔记" scheme="https://xzdxrz.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="数论" scheme="https://xzdxrz.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
-    
       <category term="OI" scheme="https://xzdxrz.github.io/tags/OI/"/>
     
       <category term="C++" scheme="https://xzdxrz.github.io/tags/C/"/>
     
       <category term="算法" scheme="https://xzdxrz.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="数论" scheme="https://xzdxrz.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
     
   </entry>
   
@@ -156,13 +196,13 @@
       <category term="学习笔记" scheme="https://xzdxrz.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
-      <category term="数论" scheme="https://xzdxrz.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
-    
       <category term="OI" scheme="https://xzdxrz.github.io/tags/OI/"/>
     
       <category term="C++" scheme="https://xzdxrz.github.io/tags/C/"/>
     
       <category term="算法" scheme="https://xzdxrz.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="数论" scheme="https://xzdxrz.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
     
   </entry>
   
@@ -171,7 +211,7 @@
     <link href="https://xzdxrz.github.io/2020/01/26/%E5%8D%9A%E5%AE%A2%E4%B8%80%E5%91%A8%E5%B9%B4%E7%BA%AA%E5%BF%B5/"/>
     <id>https://xzdxrz.github.io/2020/01/26/%E5%8D%9A%E5%AE%A2%E4%B8%80%E5%91%A8%E5%B9%B4%E7%BA%AA%E5%BF%B5/</id>
     <published>2020-01-25T16:00:00.000Z</published>
-    <updated>2020-02-28T22:38:15.588Z</updated>
+    <updated>2020-04-10T01:22:47.241Z</updated>
     
     <summary type="html">
     

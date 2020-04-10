@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>葵是天使啊suki</title>
+    <url>/2020/04/10/%E8%91%B5%E6%98%AF%E5%A4%A9%E4%BD%BF%E5%95%8Asuki/</url>
+    <content><![CDATA[<p>斯~哈~斯~哈~</p>
+<a id="more"></a>
+<p><strong>转载自<a href="https://space.bilibili.com/403928672" target="_blank" rel="noopener">本田向日葵Official</a></strong></p>
+<h1 id="最近做的loading画面-・ワ・-）-本田向日葵Official"><a href="#最近做的loading画面-・ワ・-）-本田向日葵Official" class="headerlink" title="最近做的loading画面(・ワ・????） - 本田向日葵Official"></a><a href="https://www.bilibili.com/video/BV1jc411h7xq" target="_blank" rel="noopener">最近做的loading画面(・ワ・????） - 本田向日葵Official</a></h1><iframe src="//player.bilibili.com/player.html?aid=285057557&bvid=BV1jc411h7xq&cid=173577067&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
+      <categories>
+        <category>其它</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>拓展欧几里得算法学习笔记</title>
+    <url>/2020/03/08/%E6%8B%93%E5%B1%95%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="欧几里得算法及其拓展"><a href="#欧几里得算法及其拓展" class="headerlink" title="欧几里得算法及其拓展"></a>欧几里得算法及其拓展</h1><a id="more"></a>
+<h2 id="欧几里得算法"><a href="#欧几里得算法" class="headerlink" title="欧几里得算法"></a>欧几里得算法</h2><h3 id="欧几里得算法的内容"><a href="#欧几里得算法的内容" class="headerlink" title="欧几里得算法的内容"></a>欧几里得算法的内容</h3><p>欧几里得算法由于求解正整数$a,b$的最大公约数（即$\gcd$），公式为$\gcd(a,b)=\gcd(b,a \mod b)$</p>
+<h3 id="欧几里得算法证明"><a href="#欧几里得算法证明" class="headerlink" title="欧几里得算法证明"></a>欧几里得算法证明</h3><p>我们设</p>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>数论</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>裴蜀定理学习笔记</title>
     <url>/2020/03/07/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<h1 id="裴蜀定理"><a href="#裴蜀定理" class="headerlink" title="裴蜀定理"></a>裴蜀定理</h1><a id="more"></a>
@@ -164,10 +189,10 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>数论</tag>
         <tag>OI</tag>
         <tag>C++</tag>
         <tag>算法</tag>
+        <tag>数论</tag>
       </tags>
   </entry>
   <entry>
@@ -230,10 +255,10 @@
         <category>学习笔记</category>
       </categories>
       <tags>
-        <tag>数论</tag>
         <tag>OI</tag>
         <tag>C++</tag>
         <tag>算法</tag>
+        <tag>数论</tag>
       </tags>
   </entry>
   <entry>
