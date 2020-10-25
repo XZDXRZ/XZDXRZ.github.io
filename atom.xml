@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xzdxrz.github.io/"/>
-  <updated>2020-10-25T12:34:30.000Z</updated>
+  <updated>2020-10-25T12:38:44.000Z</updated>
   <id>https://xzdxrz.github.io/</id>
   
   <author>
@@ -21,17 +21,11 @@
     <link href="https://xzdxrz.github.io/2020/10/25/Plane-Fighter-%E7%AE%80%E4%BB%8B/"/>
     <id>https://xzdxrz.github.io/2020/10/25/Plane-Fighter-%E7%AE%80%E4%BB%8B/</id>
     <published>2020-10-25T12:01:31.000Z</published>
-    <updated>2020-10-25T12:34:30.000Z</updated>
+    <updated>2020-10-25T12:38:44.000Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;h1 id=&quot;Plane-Fighter&quot;&gt;&lt;a href=&quot;#Plane-Fighter&quot; class=&quot;headerlink&quot; title=&quot;Plane Fighter&quot;&gt;&lt;/a&gt;Plane Fighter&lt;/h1&gt;&lt;h2 id=&quot;游戏简介&quot;&gt;&lt;a
-        
-      
+      &lt;h1 id=&quot;Plane-Fighter&quot;&gt;&lt;a href=&quot;#Plane-Fighter&quot; class=&quot;headerlink&quot; title=&quot;Plane Fighter&quot;&gt;&lt;/a&gt;Plane Fighter&lt;/h1&gt;
     
     </summary>
     
@@ -41,9 +35,9 @@
     
       <category term="Python3" scheme="https://xzdxrz.github.io/tags/Python3/"/>
     
-      <category term="Pygame" scheme="https://xzdxrz.github.io/tags/Pygame/"/>
-    
       <category term="游戏编程" scheme="https://xzdxrz.github.io/tags/%E6%B8%B8%E6%88%8F%E7%BC%96%E7%A8%8B/"/>
+    
+      <category term="Pygame" scheme="https://xzdxrz.github.io/tags/Pygame/"/>
     
   </entry>
   
@@ -156,9 +150,9 @@
     
       <category term="Python3" scheme="https://xzdxrz.github.io/tags/Python3/"/>
     
-      <category term="游戏编程" scheme="https://xzdxrz.github.io/tags/%E6%B8%B8%E6%88%8F%E7%BC%96%E7%A8%8B/"/>
-    
       <category term="PyGame" scheme="https://xzdxrz.github.io/tags/PyGame/"/>
+    
+      <category term="游戏编程" scheme="https://xzdxrz.github.io/tags/%E6%B8%B8%E6%88%8F%E7%BC%96%E7%A8%8B/"/>
     
   </entry>
   
@@ -179,13 +173,13 @@
       <category term="学习笔记" scheme="https://xzdxrz.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
+      <category term="数论" scheme="https://xzdxrz.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
+    
       <category term="OI" scheme="https://xzdxrz.github.io/tags/OI/"/>
     
       <category term="C++" scheme="https://xzdxrz.github.io/tags/C/"/>
     
       <category term="算法" scheme="https://xzdxrz.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="数论" scheme="https://xzdxrz.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
     
   </entry>
   
@@ -206,13 +200,13 @@
       <category term="学习笔记" scheme="https://xzdxrz.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
+      <category term="数论" scheme="https://xzdxrz.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
+    
       <category term="OI" scheme="https://xzdxrz.github.io/tags/OI/"/>
     
       <category term="C++" scheme="https://xzdxrz.github.io/tags/C/"/>
     
       <category term="算法" scheme="https://xzdxrz.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="数论" scheme="https://xzdxrz.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
     
   </entry>
   
