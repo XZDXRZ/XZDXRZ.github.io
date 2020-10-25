@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 4.2.0">
+<meta name="generator" content="Hexo 4.2.1">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/128.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/16.png">
@@ -189,7 +189,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://xzdxrz.github.io/2020/02/29/%E5%85%B3%E4%BA%8E%E9%BB%91%E5%8E%86%E5%8F%B2/">
+    <link itemprop="mainEntityOfPage" href="https://xzdxrz.github.io/2020/10/25/Plane-Fighter-%E7%AE%80%E4%BB%8B/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/me.png">
@@ -203,15 +203,11 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2020/02/29/%E5%85%B3%E4%BA%8E%E9%BB%91%E5%8E%86%E5%8F%B2/" class="post-title-link" itemprop="url">公告：关于黑历史</a>
+            <a href="/2020/10/25/Plane-Fighter-%E7%AE%80%E4%BB%8B/" class="post-title-link" itemprop="url">Plane Fighter 简介</a>
         </h1>
 
         <div class="post-meta">
 
-          
-            <i class="fa fa-thumb-tack"></i>
-            <font color=FF0000>置顶</font>
-            <span class="post-meta-divider">|</span>
           
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -220,7 +216,18 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2020-02-29 05:50:09 / 修改时间：05:54:16" itemprop="dateCreated datePublished" datetime="2020-02-29T05:50:09+08:00">2020-02-29</time>
+              <time title="创建时间：2020-10-25 20:01:31 / 修改时间：20:34:30" itemprop="dateCreated datePublished" datetime="2020-10-25T20:01:31+08:00">2020-10-25</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E4%BD%9C%E5%93%81%E4%BB%8B%E7%BB%8D/" itemprop="url" rel="index">
+                    <span itemprop="name">作品介绍</span>
+                  </a>
+                </span>
             </span>
 
           
@@ -234,7 +241,16 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p>我博客的黑历史已经被我隐藏了一部分，具体文件可以在<a href="/files/Black_History.zip">这里</a>下载</p>
+          <h1 id="Plane-Fighter"><a href="#Plane-Fighter" class="headerlink" title="Plane Fighter"></a>Plane Fighter</h1><h2 id="游戏简介"><a href="#游戏简介" class="headerlink" title="游戏简介"></a>游戏简介</h2><p>一款普通得不能再普通的弹幕游戏。</p>
+<h2 id="游戏截图"><a href="#游戏截图" class="headerlink" title="游戏截图"></a>游戏截图</h2><p><img src="/images/Plane Fighter/Screenshot from 2020-10-25 20-10-05.png" alt="开始界面"></p>
+<p><img src="/images/Plane Fighter/Screenshot from 2020-10-25 20-07-18.png" alt="游戏界面"></p>
+<h2 id="游戏玩法"><a href="#游戏玩法" class="headerlink" title="游戏玩法"></a>游戏玩法</h2><p>拖动鼠标，移动自机。</p>
+<p>自机弹幕自动发射，敌机弹道随机（具体看代码）。</p>
+<h2 id="游戏常数"><a href="#游戏常数" class="headerlink" title="游戏常数"></a>游戏常数</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">MAXENERMY &#x3D; 3</span><br><span class="line">MAXSPEED &#x3D; 3</span><br><span class="line">MAXPLAYERBULLET &#x3D; 40</span><br><span class="line">PLAYERBULLETDELAY &#x3D; 400</span><br><span class="line">MAXENERMYBULLET &#x3D; 7</span><br><span class="line">ENERMYBULLETDELAY &#x3D; 300</span><br></pre></td></tr></table></figure>
+<h2 id="游戏所需库"><a href="#游戏所需库" class="headerlink" title="游戏所需库"></a>游戏所需库</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">import pygame, sys, random, time, threading</span><br></pre></td></tr></table></figure>
+<h2 id="游戏下载"><a href="#游戏下载" class="headerlink" title="游戏下载"></a>游戏下载</h2><p><a href="https://github.com/XZDXRZ/Plane-Fighter" target="_blank" rel="noopener">Github链接</a></p>
+<p><a href="/files/Plane_Fighter.zip">Zip下载</a></p>
+<h2 id="后话"><a href="#后话" class="headerlink" title="后话"></a>后话</h2><p>此外还有Apple Collection（Github有），Plane Fighter Remake的介绍。敬请期待（咕咕咕）。</p>
 
       
     </div>
@@ -285,7 +301,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2020-04-10 10:06:19 / 修改时间：10:11:49" itemprop="dateCreated datePublished" datetime="2020-04-10T10:06:19+08:00">2020-04-10</time>
+              <time title="创建时间：2020-04-10 10:06:19 / 修改时间：10:11:48" itemprop="dateCreated datePublished" datetime="2020-04-10T10:06:19+08:00">2020-04-10</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -314,89 +330,6 @@
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2020/04/10/%E8%91%B5%E6%98%AF%E5%A4%A9%E4%BD%BF%E5%95%8Asuki/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <div>
-      
-    </div>
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://xzdxrz.github.io/2020/03/08/%E6%8B%93%E5%B1%95%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/me.png">
-      <meta itemprop="name" content="兄主的仙人掌">
-      <meta itemprop="description" content="一个憨憨的博客">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="兄主的仙人掌的个人博客">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/03/08/%E6%8B%93%E5%B1%95%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="post-title-link" itemprop="url">拓展欧几里得算法学习笔记</a>
-        </h1>
-
-        <div class="post-meta">
-
-          
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2020-03-08 13:49:55 / 修改时间：13:51:09" itemprop="dateCreated datePublished" datetime="2020-03-08T13:49:55+08:00">2020-03-08</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" itemprop="url" rel="index">
-                    <span itemprop="name">学习笔记</span>
-                  </a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="欧几里得算法及其拓展"><a href="#欧几里得算法及其拓展" class="headerlink" title="欧几里得算法及其拓展"></a>欧几里得算法及其拓展</h1>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2020/03/08/%E6%8B%93%E5%B1%95%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -457,7 +390,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-03-08 13:47:13" itemprop="dateModified" datetime="2020-03-08T13:47:13+08:00">2020-03-08</time>
+                <time title="修改时间：2020-03-08 13:47:12" itemprop="dateModified" datetime="2020-03-08T13:47:12+08:00">2020-03-08</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -546,7 +479,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-03-08 13:40:43" itemprop="dateModified" datetime="2020-03-08T13:40:43+08:00">2020-03-08</time>
+                <time title="修改时间：2020-03-08 13:40:42" itemprop="dateModified" datetime="2020-03-08T13:40:42+08:00">2020-03-08</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -602,6 +535,75 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://xzdxrz.github.io/2020/02/29/%E5%85%B3%E4%BA%8E%E9%BB%91%E5%8E%86%E5%8F%B2/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/me.png">
+      <meta itemprop="name" content="兄主的仙人掌">
+      <meta itemprop="description" content="一个憨憨的博客">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="兄主的仙人掌的个人博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/02/29/%E5%85%B3%E4%BA%8E%E9%BB%91%E5%8E%86%E5%8F%B2/" class="post-title-link" itemprop="url">公告：关于黑历史</a>
+        </h1>
+
+        <div class="post-meta">
+
+          
+            <i class="fa fa-thumb-tack"></i>
+            <font color=FF0000>置顶</font>
+            <span class="post-meta-divider">|</span>
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-02-29 05:50:09 / 修改时间：05:54:16" itemprop="dateCreated datePublished" datetime="2020-02-29T05:50:09+08:00">2020-02-29</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>我博客的黑历史已经被我隐藏了一部分，具体文件可以在<a href="/files/Black_History.zip">这里</a>下载</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <div>
+      
+    </div>
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://xzdxrz.github.io/2020/02/28/PyGame%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E4%B9%8B%E5%A3%B9/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -635,7 +637,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-03-08 13:40:49" itemprop="dateModified" datetime="2020-03-08T13:40:49+08:00">2020-03-08</time>
+                <time title="修改时间：2020-03-08 13:40:48" itemprop="dateModified" datetime="2020-03-08T13:40:48+08:00">2020-03-08</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -813,7 +815,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-03-08 13:41:13" itemprop="dateModified" datetime="2020-03-08T13:41:13+08:00">2020-03-08</time>
+                <time title="修改时间：2020-03-08 13:41:12" itemprop="dateModified" datetime="2020-03-08T13:41:12+08:00">2020-03-08</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -902,7 +904,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-04-10 09:22:47" itemprop="dateModified" datetime="2020-04-10T09:22:47+08:00">2020-04-10</time>
+                <time title="修改时间：2020-04-10 09:22:46" itemprop="dateModified" datetime="2020-04-10T09:22:46+08:00">2020-04-10</time>
               </span>
 
           
@@ -974,7 +976,7 @@
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-03-01 20:34:29" itemprop="dateModified" datetime="2020-03-01T20:34:29+08:00">2020-03-01</time>
+                <time title="修改时间：2020-03-01 20:34:28" itemprop="dateModified" datetime="2020-03-01T20:34:28+08:00">2020-03-01</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -1105,13 +1107,13 @@
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-count">5</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">14</span>
+        <span class="site-state-item-count">15</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>

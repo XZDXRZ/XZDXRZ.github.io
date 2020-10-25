@@ -1,126 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>葵是天使啊suki</title>
-    <url>/2020/04/10/%E8%91%B5%E6%98%AF%E5%A4%A9%E4%BD%BF%E5%95%8Asuki/</url>
-    <content><![CDATA[<p>斯~哈~斯~哈~</p>
-<a id="more"></a>
-<p><strong>转载自<a href="https://space.bilibili.com/403928672" target="_blank" rel="noopener">本田向日葵Official</a></strong></p>
-<h1 id="最近做的loading画面-・ワ・-）-本田向日葵Official"><a href="#最近做的loading画面-・ワ・-）-本田向日葵Official" class="headerlink" title="最近做的loading画面(・ワ・????） - 本田向日葵Official"></a><a href="https://www.bilibili.com/video/BV1jc411h7xq" target="_blank" rel="noopener">最近做的loading画面(・ワ・????） - 本田向日葵Official</a></h1><iframe src="//player.bilibili.com/player.html?aid=285057557&bvid=BV1jc411h7xq&cid=173577067&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
-      <categories>
-        <category>其它</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>拓展欧几里得算法学习笔记</title>
-    <url>/2020/03/08/%E6%8B%93%E5%B1%95%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="欧几里得算法及其拓展"><a href="#欧几里得算法及其拓展" class="headerlink" title="欧几里得算法及其拓展"></a>欧几里得算法及其拓展</h1><a id="more"></a>
-<h2 id="欧几里得算法"><a href="#欧几里得算法" class="headerlink" title="欧几里得算法"></a>欧几里得算法</h2><h3 id="欧几里得算法的内容"><a href="#欧几里得算法的内容" class="headerlink" title="欧几里得算法的内容"></a>欧几里得算法的内容</h3><p>欧几里得算法由于求解正整数$a,b$的最大公约数（即$\gcd$），公式为$\gcd(a,b)=\gcd(b,a \mod b)$</p>
-<h3 id="欧几里得算法证明"><a href="#欧几里得算法证明" class="headerlink" title="欧几里得算法证明"></a>欧几里得算法证明</h3><p>我们设</p>
+    <title>Plane Fighter 简介</title>
+    <url>/2020/10/25/Plane-Fighter-%E7%AE%80%E4%BB%8B/</url>
+    <content><![CDATA[<h1 id="Plane-Fighter"><a href="#Plane-Fighter" class="headerlink" title="Plane Fighter"></a>Plane Fighter</h1><h2 id="游戏简介"><a href="#游戏简介" class="headerlink" title="游戏简介"></a>游戏简介</h2><p>一款普通得不能再普通的弹幕游戏。</p>
+<h2 id="游戏截图"><a href="#游戏截图" class="headerlink" title="游戏截图"></a>游戏截图</h2><p><img src="/images/Plane Fighter/Screenshot from 2020-10-25 20-10-05.png" alt="开始界面"></p>
+<p><img src="/images/Plane Fighter/Screenshot from 2020-10-25 20-07-18.png" alt="游戏界面"></p>
+<h2 id="游戏玩法"><a href="#游戏玩法" class="headerlink" title="游戏玩法"></a>游戏玩法</h2><p>拖动鼠标，移动自机。</p>
+<p>自机弹幕自动发射，敌机弹道随机（具体看代码）。</p>
+<h2 id="游戏常数"><a href="#游戏常数" class="headerlink" title="游戏常数"></a>游戏常数</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">MAXENERMY &#x3D; 3</span><br><span class="line">MAXSPEED &#x3D; 3</span><br><span class="line">MAXPLAYERBULLET &#x3D; 40</span><br><span class="line">PLAYERBULLETDELAY &#x3D; 400</span><br><span class="line">MAXENERMYBULLET &#x3D; 7</span><br><span class="line">ENERMYBULLETDELAY &#x3D; 300</span><br></pre></td></tr></table></figure>
+<h2 id="游戏所需库"><a href="#游戏所需库" class="headerlink" title="游戏所需库"></a>游戏所需库</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">import pygame, sys, random, time, threading</span><br></pre></td></tr></table></figure>
+<h2 id="游戏下载"><a href="#游戏下载" class="headerlink" title="游戏下载"></a>游戏下载</h2><p><a href="https://github.com/XZDXRZ/Plane-Fighter" target="_blank" rel="noopener">Github链接</a></p>
+<p><a href="/files/Plane_Fighter.zip">Zip下载</a></p>
+<h2 id="后话"><a href="#后话" class="headerlink" title="后话"></a>后话</h2><p>此外还有Apple Collection（Github有），Plane Fighter Remake的介绍。敬请期待（咕咕咕）。</p>
 ]]></content>
       <categories>
-        <category>学习笔记</category>
+        <category>作品介绍</category>
       </categories>
       <tags>
-        <tag>数论</tag>
+        <tag>Python3</tag>
+        <tag>Pygame</tag>
+        <tag>游戏编程</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>裴蜀定理学习笔记</title>
-    <url>/2020/03/07/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="裴蜀定理"><a href="#裴蜀定理" class="headerlink" title="裴蜀定理"></a>裴蜀定理</h1><a id="more"></a>
-<h2 id="裴蜀定理的内容"><a href="#裴蜀定理的内容" class="headerlink" title="裴蜀定理的内容"></a>裴蜀定理的内容</h2><h3 id="定理1"><a href="#定理1" class="headerlink" title="定理1"></a>定理1</h3><blockquote>
-<p>若$a,b$是整数,且$\gcd(a,b)=d$，那么对于任意的整数$x,y,ax+by$都一定是$d$的倍数，特别地，一定存在整数$x,y$，使$ax+by=d$成立。</p>
-</blockquote>
-<h3 id="定理2"><a href="#定理2" class="headerlink" title="定理2"></a>定理2</h3><blockquote>
-<p>对于方程$ax+by=1$，只有当整数$a,b$互质时，方程才有整数解。</p>
-</blockquote>
-<p>以上内容摘自<a href="https://baike.baidu.com/item/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86/5186593" target="_blank" rel="noopener">百度百科</a>。</p>
-<h2 id="裴蜀定理的证明"><a href="#裴蜀定理的证明" class="headerlink" title="裴蜀定理的证明"></a>裴蜀定理的证明</h2><p><strong>特此说明：以下证明纯属我自己yy，如有错误请联系我指正。</strong></p>
-<h3 id="定理1证明"><a href="#定理1证明" class="headerlink" title="定理1证明"></a>定理1证明</h3><p>我们设$ d=\gcd(a,b) $，则显而易见，$d \mid a$，且$d \mid b$。</p>
-<p>根据整除的性质，我们得出$ d \mid ax+by ( x,y \in Z ) $。······（式1.2.1.1）</p>
-<p>所以根据（式1.2.1.1）以及整除的意义得出$ ax+by=dk ( k \in Z^+ ) $。</p>
-<p>当$k=1$时，则$ax+by=d$。</p>
-<p>根据（式1.2.1.1），我们还可以得出$d \mid x$，且$d \mid y$。</p>
-<p>至此，定理1证毕。</p>
-<h3 id="定理2证明"><a href="#定理2证明" class="headerlink" title="定理2证明"></a>定理2证明</h3><p>我们可以看出，定理2就是定理1的特殊情况，即$d=1$时的情况。</p>
-<p>我们可以利用反证法证明。</p>
-<p>首先我们假设$a,b$不互质，即$\gcd(a,b) \not = 1$。······（命题1.2.2.1）</p>
-<p>也就是$d \not = 1$。······（式1.2.2.2）</p>
-<p>根据定理1，$ax+by=d$。</p>
-<p>在定理2中，这个式子是$ax+by=1$。</p>
-<p>可得$d=1$。······（式1.2.2.3）</p>
-<p>所以，（式1.2.2.2）与（式1.2.2.3）矛盾，所以（命题1.2.2.1）为伪命题。</p>
-<p>至此，定理2证毕。</p>
-<h2 id="裴蜀定理的应用"><a href="#裴蜀定理的应用" class="headerlink" title="裴蜀定理的应用"></a>裴蜀定理的应用</h2><ol>
-<li>拓展欧几里得算法</li>
-</ol>
-<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ol>
-<li><p><a href="https://baike.baidu.com/item/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86/5186593" target="_blank" rel="noopener">裴蜀定理_百度百科</a></p>
-</li>
-<li><p><a href="https://blog.csdn.net/a_forever_dream/article/details/83859354" target="_blank" rel="noopener">裴蜀定理_C/C++_a_forever_dream的博客-CSDN博客</a></p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>数论</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>树旋转学习笔记</title>
-    <url>/2020/03/01/%E6%A0%91%E6%97%8B%E8%BD%AC%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="平衡树树旋转"><a href="#平衡树树旋转" class="headerlink" title="平衡树树旋转"></a>平衡树树旋转</h1><a id="more"></a>
-<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">left_rotate</span><span class="params">(<span class="keyword">int</span> &amp;node)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> r=tree[node].r;</span><br><span class="line">    tree[node].r=tree[r].l;</span><br><span class="line">    tree[r].l=node;</span><br><span class="line">    node=r;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">right_rotate</span><span class="params">(<span class="keyword">int</span> &amp;node)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> l=tree[node].l;</span><br><span class="line">    tree[node].l=tree[l].r;</span><br><span class="line">    tree[l].r=node;</span><br><span class="line">    node=l;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><p>先上一张树旋转的示意图</p>
-<p><img src="/images/树旋转学习笔记/rotate.png" alt="树旋转"></p>
-<p><strong>图片来自《算法导论》 $\text{P176 13.2}$ 旋转</strong></p>
-<h3 id="树旋转的作用"><a href="#树旋转的作用" class="headerlink" title="树旋转的作用"></a>树旋转的作用</h3><p>树旋转是平衡树上用于维护平衡树平衡的基本操作，有左旋和右旋两种操作</p>
-<h3 id="旋转过程分析"><a href="#旋转过程分析" class="headerlink" title="旋转过程分析"></a>旋转过程分析</h3><p>在进行树旋转时需要维护好二叉搜索树的性质，即</p>
-<p>对于每棵子树，都有：</p>
-<blockquote>
-<p>左 &lt; 根 &lt; 右</p>
-</blockquote>
-<p>再看《算法导论》中描述旋转的图片。</p>
-<p>以右旋为例，旋转后$\text{x}$代替$\text{y}$作为子树的根节点，由于原来$\text{x}$在$\text{y}$的左子树上，所以旋转最后$\text{y}$在$\text{x}$的右子树上；</p>
-<p>而旋转前$\text{x}$的左子树$\alpha$的根节点则一定小于$\text{x}$和$\text{y}$,所以旋转后$\alpha$仍在$\text{x}$的左子树上；</p>
-<p>而$\text{x}$的右子树$\beta$的根节点则可以看出来是$\text{x} &lt; \beta &lt; \text{y}$的一种关系，所以旋转后在$\text{y}$的左子树上；</p>
-<p>至于$\text{y}$的右子树$\gamma$则与$\text{x}$的左子树$\alpha$类似，这里不再阐述。</p>
-<h3 id="代码分析"><a href="#代码分析" class="headerlink" title="代码分析"></a>代码分析</h3><p>以左旋为例：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> r=tree[node].r;</span><br></pre></td></tr></table></figure>
-<p>先将<code>node</code>节点的右子树另外保存，同<code>swap</code>函数的<code>t</code>变量类似。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">tree[node].r=tree[r].l;</span><br></pre></td></tr></table></figure>
-<p>将图中$\text{x}$节点的右子树$\text{y}$节点改为$\text{y}$节点的左子树$\beta$</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">tree[r].l=node;</span><br></pre></td></tr></table></figure>
-<p>将图中$\text{y}$节点的左子树改为$\text{x}$节点</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">node=r;</span><br></pre></td></tr></table></figure>
-<p>最后把正在旋转的子树的根节点改为$\text{y}$</p>
-<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ol>
-<li><p><a href="https://www.bilibili.com/video/av60770002" target="_blank" rel="noopener">【AgOHの数据结构】平衡树专题之叁 树旋转与AVL树</a></p>
-</li>
-<li><p>《算法导论》 $\text{P176 13.2}$ 旋转</p>
-</li>
-<li><p><a href="https://github.com/StableAgOH/Codebase-for-AgOH/blob/master/Code/%E5%B9%B3%E8%A1%A1%E6%A0%91%E7%B3%BB%E5%88%97/AVL%E6%A0%91/AVL.cpp" target="_blank" rel="noopener">Github/StableAgOH/Codebase-for-AgOH</a></p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>数据结构</tag>
-        <tag>OI</tag>
-        <tag>C++</tag>
-        <tag>平衡树</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>公告：关于黑历史</title>
-    <url>/2020/02/29/%E5%85%B3%E4%BA%8E%E9%BB%91%E5%8E%86%E5%8F%B2/</url>
-    <content><![CDATA[<p>我博客的黑历史已经被我隐藏了一部分，具体文件可以在<a href="/files/Black_History.zip">这里</a>下载</p>
-]]></content>
   </entry>
   <entry>
     <title>PyGame学习笔记之壹</title>
@@ -149,117 +50,15 @@
       </categories>
       <tags>
         <tag>Python3</tag>
-        <tag>PyGame</tag>
         <tag>游戏编程</tag>
+        <tag>PyGame</tag>
       </tags>
   </entry>
   <entry>
-    <title>欧拉筛学习笔记</title>
-    <url>/2020/02/26/%E6%AC%A7%E6%8B%89%E7%AD%9B%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="线性筛质数"><a href="#线性筛质数" class="headerlink" title="线性筛质数"></a>线性筛质数</h1><a id="more"></a>
-<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> prime[MAXN],tot;</span><br><span class="line"><span class="keyword">bool</span> is_prime[MAXN];</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">choose</span><span class="params">(<span class="keyword">int</span> n)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">memset</span>(is_prime,<span class="number">1</span>,<span class="keyword">sizeof</span>(is_prime));</span><br><span class="line">    is_prime[<span class="number">1</span>]=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">2</span>;i&lt;=n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(is_prime[i])</span><br><span class="line">            prime[++tot]=i;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=tot&amp;&amp;i*prime[j]&lt;=n;j++)</span><br><span class="line">        &#123;</span><br><span class="line">            is_prime[i*prime[j]]=<span class="number">0</span>;</span><br><span class="line">            <span class="keyword">if</span>(i%prime[j]==<span class="number">0</span>)</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><h3 id="算法分析"><a href="#算法分析" class="headerlink" title="算法分析"></a>算法分析</h3><p>考虑你在设计一个线性筛质数算法</p>
-<p>你想，既然要做到“线性”，那么每个数必须只能被筛一次</p>
-<p>所以我们猜想，<strong>一个合数只会被它的最小素因数筛去</strong></p>
-<h3 id="代码分析"><a href="#代码分析" class="headerlink" title="代码分析"></a>代码分析</h3><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="built_in">memset</span>(is_prime,<span class="number">1</span>,<span class="keyword">sizeof</span>(is_prime));</span><br></pre></td></tr></table></figure>
-<p>首先假设所有数都是素数</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">is_prime[<span class="number">1</span>]=<span class="number">0</span>;</span><br></pre></td></tr></table></figure>
-<p>确定$1$不是素数</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">2</span>;i&lt;=n;i++)</span><br></pre></td></tr></table></figure>
-<p>枚举所有$[1,N]$区间内的数</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span>(is_prime[i])</span><br><span class="line">    prime[++tot]=i;</span><br></pre></td></tr></table></figure>
-<p>如果它在之前的筛选中“存活”下来，那么它一定是个素数，把它加入素数列表</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=tot&amp;&amp;i*prime[j]&lt;=n;j++)</span><br></pre></td></tr></table></figure>
-<p>枚举<code>i</code>与一个素数能组成的所有合数，注意不要让它们超过<code>n</code></p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">is_prime[i*prime[j]]=<span class="number">0</span>;</span><br></pre></td></tr></table></figure>
-<p>标记为合数</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span>(i%prime[j]==<span class="number">0</span>)</span><br><span class="line">    <span class="keyword">break</span>;</span><br></pre></td></tr></table></figure>
-<p><strong>关键一步</strong></p>
-<p>如果<code>i</code>可以有一个素数因子，就跳出循环</p>
-<p><strong>为什么呢？</strong></p>
-<p>我们先来看线性筛质数的规则：</p>
-<p><strong>一个合数只会被它的最小素因数筛去</strong></p>
-<p>如果<code>i</code>有别的素因数了，那么<del><text style="color:green">坚强</text></del>证明它不是接下来的合数的最小素因数</p>
-<p>所以为了保证运行效率，要跳出循环</p>
-<h2 id="时间复杂度"><a href="#时间复杂度" class="headerlink" title="时间复杂度"></a>时间复杂度</h2><script type="math/tex; mode=display">T(N) = O(N)</script><h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ol>
-<li><a href="https://www.luogu.com.cn/blog/cicos/notprime" target="_blank" rel="noopener">欧拉筛筛素数 - 学委的博客</a></li>
-</ol>
+    <title>公告：关于黑历史</title>
+    <url>/2020/02/29/%E5%85%B3%E4%BA%8E%E9%BB%91%E5%8E%86%E5%8F%B2/</url>
+    <content><![CDATA[<p>我博客的黑历史已经被我隐藏了一部分，具体文件可以在<a href="/files/Black_History.zip">这里</a>下载</p>
 ]]></content>
-      <categories>
-        <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>OI</tag>
-        <tag>C++</tag>
-        <tag>算法</tag>
-        <tag>数论</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>快速幂学习笔记</title>
-    <url>/2020/02/24/%E5%BF%AB%E9%80%9F%E5%B9%82%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="快速幂-取余运算"><a href="#快速幂-取余运算" class="headerlink" title="快速幂||取余运算"></a>快速幂||取余运算</h1><a id="more"></a>
-<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>代码（C++）：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">quick_pow</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> n<span class="comment">/*,int p*/</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">long</span> <span class="keyword">long</span> base=a;</span><br><span class="line">    <span class="keyword">int</span> ans=<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">while</span>(n)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(n&amp;<span class="number">1</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            ans*=base;</span><br><span class="line">            <span class="comment">//ans%=p;</span></span><br><span class="line">        &#125;</span><br><span class="line">        n&gt;&gt;=<span class="number">1</span>;</span><br><span class="line">        base*=base;</span><br><span class="line">        <span class="comment">//base%=p;</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><p>本题计算：</p>
-<p>$ a^n \mod p $</p>
-<p>首先观察$2^5=32$这个式子。</p>
-<p>我们知道$5$的二进制为$101$。</p>
-<p>我们还知道$32=2^4 \times 2^1$</p>
-<p>再来看$2^7=128$，</p>
-<p>我们知道$7$的二进制为$111$，</p>
-<p>我们还知道$128=2^4 \times 2^2 \times 2^1$</p>
-<p>以此类推，我们发现：</p>
-<div class="table-container">
-<table>
-<thead>
-<tr>
-<th>二进制</th>
-<th>6</th>
-<th>5</th>
-<th>4</th>
-<th>3</th>
-<th>2</th>
-<th>1</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>幂</td>
-<td>$a^{32}$</td>
-<td>$a^{16}$</td>
-<td>$a^8$</td>
-<td>$a^4$</td>
-<td>$a^2$</td>
-<td>$a^1$</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>所以：</p>
-<p>假如我们要计算$a^n$，只需要把$n$分解成二进制，将“$1$”位对应的$a^k$相乘即可</p>
-<p>我们发现表格中$a^k=( a^{(k-1)} ) ^2$</p>
-<p>所以表格中第$k$位的幂为$a^{2^{ ( k-1 ) }}$</p>
-<p>再来看代码：</p>
-<p>其中<code>n&amp;1</code>代表检查<code>n</code>二进制最后一位是不是$1$；</p>
-<p><code>n&gt;&gt;=1</code>代表将<code>n</code>右移一位（等效于<code>n/=2</code>），用于检查下一位是不是$1$</p>
-<p>如果最后一位是$1$，那么答案乘上<code>base</code>。</p>
-<p>其中<code>base</code>记录了表格第二行的数据，以每次自乘一次更新</p>
-<p>如果要取模，则再<code>base</code>和<code>ans</code>每次进行运算时$\mod p$。</p>
-<p>最后，在<code>n==0</code>，也就是<code>n</code>的每一位都检查完毕后跳出循环，返回答案。</p>
-<h2 id="时间复杂度"><a href="#时间复杂度" class="headerlink" title="时间复杂度"></a>时间复杂度</h2><script type="math/tex; mode=display">T(N) = O(\log N)</script><h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ol>
-<li><a href="https://www.luogu.com.cn/blog/cicos/quickpow" target="_blank" rel="noopener">快速幂和取余运算 - 学委的博客</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-      </categories>
-      <tags>
-        <tag>OI</tag>
-        <tag>C++</tag>
-        <tag>算法</tag>
-        <tag>数论</tag>
-      </tags>
   </entry>
   <entry>
     <title>博客一周年纪念</title>
@@ -267,250 +66,6 @@
     <content><![CDATA[<h1 id="一周年纪念日！"><a href="#一周年纪念日！" class="headerlink" title="一周年纪念日！"></a>一周年纪念日！</h1><p>本 Blog 于 2019/01/26 日建成，历经 365 天，终于迎来了一周年！这中间我的 Blog 换过 7 种风格，2 种域名，也有 3 次死亡，但她还是挺过了 365 天，迎来了新的一岁。</p>
 <p>最后，祝我的博客做到越来越好！</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>题解 P1002 【过河卒】</title>
-    <url>/2019/10/27/%E9%A2%98%E8%A7%A3-P1002-%E3%80%90%E8%BF%87%E6%B2%B3%E5%8D%92%E3%80%91/</url>
-    <content><![CDATA[<p>百忙之下抽空写题解，先贴一下代码：</p>
-<a id="more"></a>
-<h3 id="解法1"><a href="#解法1" class="headerlink" title="解法1"></a>解法1</h3><h4 id="代码（C-）"><a href="#代码（C-）" class="headerlink" title="代码（C++）"></a>代码（C++）</h4><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> ull unsigned long long</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> horse[<span class="number">8</span>][<span class="number">2</span>]=&#123;&#123;<span class="number">-2</span>,<span class="number">-1</span>&#125;,&#123;<span class="number">-1</span>,<span class="number">-2</span>&#125;,&#123;<span class="number">-2</span>,<span class="number">1</span>&#125;,&#123;<span class="number">-1</span>,<span class="number">2</span>&#125;,&#123;<span class="number">1</span>,<span class="number">-2</span>&#125;,&#123;<span class="number">2</span>,<span class="number">-1</span>&#125;,&#123;<span class="number">2</span>,<span class="number">1</span>&#125;,&#123;<span class="number">1</span>,<span class="number">2</span>&#125;&#125;;</span><br><span class="line">ull dp[<span class="number">30</span>][<span class="number">30</span>],book[<span class="number">30</span>][<span class="number">30</span>];;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> bx,by,px,py;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">"%d%d%d%d"</span>,&amp;bx,&amp;by,&amp;px,&amp;py);</span><br><span class="line">    bx++;by++;px++;py++;                <span class="comment">//初始点是A(0,0)</span></span><br><span class="line">    book[px][py]=<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;<span class="number">8</span>;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        book[px+horse[i][<span class="number">0</span>]][py+horse[i][<span class="number">1</span>]]=<span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    dp[<span class="number">0</span>][<span class="number">1</span>]=<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=bx;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=by;j++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span> (book[i][j])</span><br><span class="line">                <span class="keyword">continue</span>;</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">                dp[i][j]=max(dp[i<span class="number">-1</span>][j]+dp[i][j<span class="number">-1</span>],dp[i][j]);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%lld"</span>,dp[bx][by]);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h4 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h4><p>这题表面上像是搜索的题目，但是仔细想想，搜索一定会死（<del>不要问我为什么，问就是布吉岛</del>）</p>
-<p>主要是怕栈溢出，而且我也不擅长搜索（<del>逃</del></p>
-<p>所以应该用DP做，状态很好找，我们用<code>dp[i][j]</code>表示到$(i,j)$这个点的总路径数，状态转移方程如下：</p>
-<script type="math/tex; mode=display">dp[i][j]=\max\{dp[i-1][j]+dp[i][j-1],dp[i][j]\}</script><p>貌似</p>
-<script type="math/tex; mode=display">dp[i][j]=dp[i-1][j]+dp[i][j-1]</script><p>也可以，但我代码里写的是第一种。</p>
-<p>还有应该坑点，如果初始化是<code>dp[1][1]=1</code>的话，循环时<code>dp[1][1]</code>就会等于<code>dp[0][1]+dp[1][0]</code>等于0，然后<del>死</del></p>
-<p>所以初始化应该是<code>dp[1][0]=1</code></p>
-<p>还有就是初始点是$A(0,0)$，所以应该加上</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">bx++;by++;px++;py++;</span><br></pre></td></tr></table></figure>
-<p>这一句</p>
-<p>所以代码就显而易见了（<del>原谅我用这种恶劣的词汇</del>）</p>
-<h3 id="解法2"><a href="#解法2" class="headerlink" title="解法2"></a>解法2</h3><p>（待填坑）</p>
-]]></content>
-      <categories>
-        <category>题解</category>
-      </categories>
-      <tags>
-        <tag>OI</tag>
-        <tag>C++</tag>
-        <tag>题解</tag>
-        <tag>DP</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>题解 AT2465 【平均点 (Average Score)】</title>
-    <url>/2019/10/04/%E9%A2%98%E8%A7%A3-AT2465-%E3%80%90%E5%B9%B3%E5%9D%87%E7%82%B9-Average-Score-%E3%80%91/</url>
-    <content><![CDATA[<p>在POJ上做题做到自闭:(</p>
-<a id="more"></a>
-<p>想回洛谷做道AT结果又被打脸:(</p>
-<p><del>嘤嘤嘤</del></p>
-<h3 id="解法1"><a href="#解法1" class="headerlink" title="解法1"></a>解法1</h3><h4 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h4><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> For(k) for (int i=0;i&lt;k;i++)</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> cnt;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    For(<span class="number">5</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">int</span> x;</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;x);</span><br><span class="line">        <span class="keyword">if</span> (x&lt;<span class="number">40</span>) x=<span class="number">40</span>;</span><br><span class="line">        cnt+=x;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d"</span>,cnt/<span class="number">5</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>看上去没问题吧，错的！</p>
-<p><strong>日本的题输出要换行！！！</strong></p>
-<p>下面附上AC代码：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> For(k) for (int i=0;i&lt;k;i++)</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> cnt;                    <span class="comment">//cnt表示总和</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    For(<span class="number">5</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">int</span> x;</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;x);</span><br><span class="line">        <span class="keyword">if</span> (x&lt;<span class="number">40</span>) x=<span class="number">40</span>;     <span class="comment">//补分</span></span><br><span class="line">        cnt+=x;             <span class="comment">//算出总和</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d\n"</span>,cnt/<span class="number">5</span>);   <span class="comment">//求平均</span></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h4 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h4><p><del>瞎分析</del></p>
-<p>本题是求平均数，公式如下：</p>
-<script type="math/tex; mode=display">\overline{x}=\frac{\sum^{n}_{i=1}a_i}{n}</script><p>还有就是40分以下要补到40分（<del>真好</del>）</p>
-<p>即：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> (x&lt;<span class="number">40</span>) x=<span class="number">40</span>;</span><br></pre></td></tr></table></figure>
-<p>题目说了一定是5的倍数，所以没什么好担心的</p>
-<h3 id="解法2"><a href="#解法2" class="headerlink" title="解法2"></a>解法2</h3><p>树状数组解法（<del>树状数组大法好</del>）</p>
-<h4 id="代码-1"><a href="#代码-1" class="headerlink" title="代码"></a>代码</h4><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAXN 20</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> lowbit(i) (i&amp;-i)</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> n=<span class="number">5</span>,t[MAXN];</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">add</span><span class="params">(<span class="keyword">int</span> x,<span class="keyword">int</span> k)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (;x&lt;=n;x+=lowbit(x))</span><br><span class="line">        t[x]+=k;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">query</span><span class="params">(<span class="keyword">int</span> x)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> ans=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (;x;x-=lowbit(x))</span><br><span class="line">        ans+=t[x];</span><br><span class="line">    <span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">int</span> x;</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;x);</span><br><span class="line">        <span class="keyword">if</span> (x&lt;<span class="number">40</span>) x=<span class="number">40</span>;</span><br><span class="line">        add(i+<span class="number">1</span>,x);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">int</span> ans=query(n);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d\n"</span>,ans/<span class="number">5</span>);    <span class="comment">//注意换行</span></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h4 id="分析-1"><a href="#分析-1" class="headerlink" title="分析"></a>分析</h4><p><del>没分析</del></p>
-<h3 id="解法3"><a href="#解法3" class="headerlink" title="解法3"></a>解法3</h3><h4 id="代码-2"><a href="#代码-2" class="headerlink" title="代码"></a>代码</h4><p>线段树解法</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAXN 10</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> LE(i) (i&lt;&lt;1)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> RT(i) ((i&lt;&lt;1)|1)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MID(l,r) ((l+r)&gt;&gt;1)</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> tree[MAXN*<span class="number">4</span>],a[MAXN],n;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">build</span><span class="params">(<span class="keyword">int</span> node,<span class="keyword">int</span> l,<span class="keyword">int</span> r)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (l==r)</span><br><span class="line">    &#123;</span><br><span class="line">        tree[node]=a[l];</span><br><span class="line">        <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">int</span> mid=MID(l,r);</span><br><span class="line">    build(LE(node),l,mid);</span><br><span class="line">    build(RT(node),mid+<span class="number">1</span>,r);</span><br><span class="line">    tree[node]=tree[LE(node)]+tree[RT(node)];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> _query(<span class="keyword">int</span> node,<span class="keyword">int</span> l,<span class="keyword">int</span> r,<span class="keyword">int</span> indl,<span class="keyword">int</span> indr)</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">if</span>(indr&lt;l||indl&gt;r) <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">if</span>(indl&lt;=l&amp;&amp;indr&gt;=r) <span class="keyword">return</span> tree[node];</span><br><span class="line">    <span class="keyword">int</span> mid=MID(l,r);</span><br><span class="line">    <span class="keyword">return</span> _query(LE(node),l,mid,indl,indr)+_query(RT(node),mid+<span class="number">1</span>,r,indl,indr);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    n=<span class="number">5</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;a[i]);</span><br><span class="line">        <span class="keyword">if</span> (a[i]&lt;<span class="number">40</span>) a[i]=<span class="number">40</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    build(<span class="number">1</span>,<span class="number">1</span>,n);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d\n"</span>,_query(<span class="number">1</span>,<span class="number">1</span>,n,<span class="number">1</span>,n)/n);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h4 id="分析-2"><a href="#分析-2" class="headerlink" title="分析"></a>分析</h4><p><del>还是没有</del></p>
-<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>我太闲了</p>
-]]></content>
-      <categories>
-        <category>题解</category>
-      </categories>
-      <tags>
-        <tag>OI</tag>
-        <tag>C++</tag>
-        <tag>题解</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>题解 P1181 【数列分段Section I】</title>
-    <url>/2019/08/18/%E9%A2%98%E8%A7%A3-P1181-%E3%80%90%E6%95%B0%E5%88%97%E5%88%86%E6%AE%B5Section-I%E3%80%91/</url>
-    <content><![CDATA[<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><a id="more"></a>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> sum,ans,a[<span class="number">100002</span>];</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n,m;</span><br><span class="line">    <span class="built_in">cin</span> &gt;&gt; n &gt;&gt; m;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">        <span class="built_in">cin</span> &gt;&gt; a[i];</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++) &#123;</span><br><span class="line">        ans+=a[i];</span><br><span class="line">        <span class="keyword">if</span>(ans&gt;m) &#123;</span><br><span class="line">            sum++;</span><br><span class="line">            ans=<span class="number">0</span>;</span><br><span class="line">            i--;</span><br><span class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> (ans==m) &#123;</span><br><span class="line">            sum++;</span><br><span class="line">            ans=<span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (ans!=<span class="number">0</span>)</span><br><span class="line">        sum++;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; sum;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h1><p>题目很简单，没学过OI的人应该也能想出来，说的放肆点，就连<del>驴</del>阿米娅也能做出来</p>
-<p><img src="https://cdn.luogu.com.cn/upload/pic/73150.png" alt=""></p>
-<p>说的简单，但是不好好做绝对会WA，<del>比如我</del></p>
-<p>瞧瞧我第一次提交的代码，看上去还OK，一交上去全WA：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> sum,ans,a[<span class="number">100002</span>];</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n,m;</span><br><span class="line">    <span class="built_in">cin</span> &gt;&gt; n &gt;&gt; m;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">        <span class="built_in">cin</span> &gt;&gt; a[i];</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++) &#123;</span><br><span class="line">        ans+=a[i];</span><br><span class="line">        <span class="keyword">if</span>(ans+a[i]&gt;=m) &#123;</span><br><span class="line">            sum++;</span><br><span class="line">            ans=<span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; sum;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>总结一些这里的注意事项：</p>
-<h2 id="ans-gt-m和ans-m是两种情况！"><a href="#ans-gt-m和ans-m是两种情况！" class="headerlink" title="ans&gt;m和ans==m是两种情况！"></a><code>ans&gt;m</code>和<code>ans==m</code>是两种情况！</h2><p>当<code>ans&gt;m</code>时，<code>a[i]</code>其实是不能算在前一个分段里的，所以i需要回退1</p>
-<h2 id="当ans-0时，ans存储的其实是最后一个分段"><a href="#当ans-0时，ans存储的其实是最后一个分段" class="headerlink" title="当ans!=0时，ans存储的其实是最后一个分段"></a>当<code>ans!=0</code>时，<code>ans</code>存储的其实是最后一个分段</h2><p>当<code>ans!=0</code>时，<code>ans</code>存储的其实是最后一个分段，所以<code>sum</code>还需要+1</p>
-<p><del>没了</del></p>
-]]></content>
-      <categories>
-        <category>题解</category>
-      </categories>
-      <tags>
-        <tag>OI</tag>
-        <tag>C++</tag>
-        <tag>题解</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>题解 P3370 【【模板】字符串哈希】</title>
-    <url>/2019/08/13/%E9%A2%98%E8%A7%A3-P3370-%E3%80%90%E3%80%90%E6%A8%A1%E6%9D%BF%E3%80%91%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%93%88%E5%B8%8C%E3%80%91/</url>
-    <content><![CDATA[<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><a id="more"></a>
-<p>C++ STL做法：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="built_in">vector</span> &lt;<span class="built_in">string</span>&gt; linker[<span class="number">1502</span>];</span><br><span class="line"><span class="keyword">int</span> ans;                                 <span class="comment">//用于记录字符串的数量</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">ins</span><span class="params">(<span class="built_in">string</span> s)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> v=s.length();                    <span class="comment">//以长度分类</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;linker[v].size();i++) <span class="comment">//从容器的头遍历到尾</span></span><br><span class="line">       <span class="keyword">if</span> (linker[v][i]==s)              <span class="comment">//如果已经出现过，则直接返回</span></span><br><span class="line">            <span class="keyword">return</span>;</span><br><span class="line">    linker[v].push_back(s);              <span class="comment">//否则追加到末尾</span></span><br><span class="line">    ans++;                               <span class="comment">//数量++</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n;</span><br><span class="line">    <span class="built_in">string</span> x;</span><br><span class="line">    <span class="built_in">cin</span> &gt;&gt; n;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;n;i++) &#123;</span><br><span class="line">        <span class="built_in">cin</span> &gt;&gt; x;</span><br><span class="line">        ins(x);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; ans;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>满分AC</p>
-<h1 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h1><p>我看到题解区里的人好像都是用标准做法<del>To Be Continued</del>也就是把字符串里的每一个字符balabala……<del>为什么省略，因为我不会做</del></p>
-<p>而我的做法，则是按照字符串的长度来进行hash，详见注释</p>
-<p>当然可以用map做，不过没有挑战性，<del>我们一般称这种人为挂B</del></p>
-]]></content>
-      <categories>
-        <category>题解</category>
-      </categories>
-      <tags>
-        <tag>OI</tag>
-        <tag>C++</tag>
-        <tag>题解</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>题解 P1276 【校门外的树（增强版）】</title>
-    <url>/2019/08/12/%E9%A2%98%E8%A7%A3-P1276-%E3%80%90%E6%A0%A1%E9%97%A8%E5%A4%96%E7%9A%84%E6%A0%91%EF%BC%88%E5%A2%9E%E5%BC%BA%E7%89%88%EF%BC%89%E3%80%91/</url>
-    <content><![CDATA[<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><a id="more"></a>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> r[<span class="number">10002</span>];                     <span class="comment">//这个数组里的每一个数只有三态，0表示被砍掉，1表示大树，2表示树苗</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n,l,a,b,x;</span><br><span class="line">    <span class="keyword">int</span> sum=<span class="number">0</span>;                    <span class="comment">//sum变量用于存储种上又被拔掉的树苗数目</span></span><br><span class="line">    <span class="built_in">cin</span> &gt;&gt; l &gt;&gt; n;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;=l;i++)</span><br><span class="line">        r[i]=<span class="number">1</span>;                   <span class="comment">//植树</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;n;i++) &#123;</span><br><span class="line">        <span class="built_in">cin</span> &gt;&gt; x &gt;&gt; a &gt;&gt; b;</span><br><span class="line">        <span class="keyword">if</span> (x==<span class="number">0</span>)                 <span class="comment">//如果是砍树</span></span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j=a;j&lt;=b;j++) &#123;</span><br><span class="line">                <span class="keyword">if</span> (r[j]==<span class="number">2</span>)      <span class="comment">//如果砍的是树苗</span></span><br><span class="line">                    sum++;</span><br><span class="line">                r[j]=<span class="number">0</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span> (x==<span class="number">1</span>)</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j=a;j&lt;=b;j++)</span><br><span class="line">                <span class="keyword">if</span> (r[j]==<span class="number">0</span>)      <span class="comment">//如果被砍掉了</span></span><br><span class="line">                    r[j]=<span class="number">2</span>;       <span class="comment">//记！住！种！的！是！树！苗！</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">int</span> count=<span class="number">0</span>;                  <span class="comment">//count变量用于存储剩下的树苗</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;=l;i++) &#123;      <span class="comment">//统计</span></span><br><span class="line">        <span class="keyword">if</span> (r[i]==<span class="number">2</span>)              <span class="comment">//如果是树苗</span></span><br><span class="line">            count++;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d\n%d"</span>,count,sum);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h1><p>如题，这题很坑</p>
-<h2 id="一号坑"><a href="#一号坑" class="headerlink" title="一号坑"></a>一号坑</h2><p>$L$是从0开始而不是1，<del>这个坑能摔死人</del></p>
-<h2 id="二号坑"><a href="#二号坑" class="headerlink" title="二号坑"></a>二号坑</h2><p>种下去的是树苗，永远不会长成大树</p>
-<p>其他好像就没有了</p>
-]]></content>
-      <categories>
-        <category>题解</category>
-      </categories>
-      <tags>
-        <tag>OI</tag>
-        <tag>C++</tag>
-        <tag>题解</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>题解 P1996 【约瑟夫问题】</title>
-    <url>/2019/08/12/%E9%A2%98%E8%A7%A3-P1996-%E3%80%90%E7%BA%A6%E7%91%9F%E5%A4%AB%E9%97%AE%E9%A2%98%E3%80%91/</url>
-    <content><![CDATA[<p>约瑟夫问题（✘）</p>
-<p>枪毙小朋友（✔）</p>
-<a id="more"></a>
-<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><p>用队列做，STL做法如下：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;queue&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="built_in">queue</span> &lt;<span class="keyword">int</span>&gt; q;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n,k;</span><br><span class="line">    <span class="built_in">cin</span> &gt;&gt; n &gt;&gt; k;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">        q.push(i);</span><br><span class="line">    <span class="keyword">while</span>(q.size()&gt;<span class="number">1</span>) &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;k<span class="number">-1</span>;i++) &#123;</span><br><span class="line">            <span class="keyword">int</span> x=q.front();</span><br><span class="line">            q.pop();</span><br><span class="line">            q.push(x);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"%d "</span>,q.front());</span><br><span class="line">        q.pop();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d"</span>,q.front());</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>你以为这样就结束了？</p>
-<p>天真，只有80分，因为有一个测试点的数据是</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">0 0</span><br></pre></td></tr></table></figure>
-<p>所以代码应该是这样：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;queue&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="built_in">queue</span> &lt;<span class="keyword">int</span>&gt; q;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n,k;</span><br><span class="line">    <span class="built_in">cin</span> &gt;&gt; n &gt;&gt; k;</span><br><span class="line">    <span class="keyword">if</span> (n==<span class="number">0</span>)   <span class="comment">//如果N=0就直接退出</span></span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">        q.push(i);</span><br><span class="line">    <span class="keyword">while</span>(q.size()&gt;<span class="number">1</span>) &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;k<span class="number">-1</span>;i++) &#123;</span><br><span class="line">            <span class="keyword">int</span> x=q.front();</span><br><span class="line">            q.pop();</span><br><span class="line">            q.push(x);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"%d "</span>,q.front());</span><br><span class="line">        q.pop();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d"</span>,q.front());</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h1><p>本来可以用循环链表做的，可是链表太太太太麻烦了</p>
-<p>这里用队列模拟了循环链表：先把小朋友一个一个出队，然后入队，如果这个小朋友报到了$K$，则直接<del>枪毙</del>输出，不再入队。</p>
-<p>最后队列里只剩下一个元素，这个元素就是赢家。</p>
-]]></content>
-      <categories>
-        <category>题解</category>
-      </categories>
-      <tags>
-        <tag>数据结构</tag>
-        <tag>OI</tag>
-        <tag>C++</tag>
-        <tag>题解</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>沙雕代码</title>
-    <url>/2019/07/01/%E6%B2%99%E9%9B%95%E4%BB%A3%E7%A0%81/</url>
-    <content><![CDATA[<h1 id="源代码（Python3）"><a href="#源代码（Python3）" class="headerlink" title="源代码（Python3）"></a>源代码（Python3）</h1><p><strong>需要requests，BeautifulSoup库</strong></p>
-<a id="more"></a>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># -*- coding: cp936 -*-</span></span><br><span class="line"><span class="string">"""</span></span><br><span class="line"><span class="string">Created on Sat Jun 29 13:04:06 2019</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">@author: 兄主的仙人掌</span></span><br><span class="line"><span class="string">"""</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#输出：兄主的仙人掌是沙雕</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> requests <span class="keyword">as</span> rq</span><br><span class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</span><br><span class="line"></span><br><span class="line">url = <span class="string">'https://xzdxrz.github.io/'</span></span><br><span class="line"></span><br><span class="line">res = rq.get(url)</span><br><span class="line"></span><br><span class="line"><span class="comment">#print(res.text)</span></span><br><span class="line"></span><br><span class="line">bs = BeautifulSoup(res.text,<span class="string">'lxml'</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">#print(type(bs.title))</span></span><br><span class="line"></span><br><span class="line">name = str(bs.title)[<span class="number">7</span>:<span class="number">13</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment">#print(name)</span></span><br><span class="line"></span><br><span class="line">url = <span class="string">'https://translate.google.cn/translate_a/single?client=webapp&amp;sl=en&amp;tl=zh-CN&amp;hl=zh-CN&amp;dt=at&amp;dt=bd&amp;dt=ex&amp;dt=ld&amp;dt=md&amp;dt=qca&amp;dt=rw&amp;dt=rm&amp;dt=ss&amp;dt=t&amp;source=bh&amp;ssel=0&amp;tsel=0&amp;kc=1&amp;tk=903126.743789&amp;q=is'</span></span><br><span class="line"></span><br><span class="line">res = rq.get(url)</span><br><span class="line"></span><br><span class="line"><span class="comment">#print(res.text)</span></span><br><span class="line"></span><br><span class="line">ls = list(res.text)</span><br><span class="line"></span><br><span class="line"><span class="comment">#print(ls[4])</span></span><br><span class="line"></span><br><span class="line">_is = ls[<span class="number">4</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment">#shadiao</span></span><br><span class="line"></span><br><span class="line">url_fake = <span class="string">'https://translate.google.cn/translate_a/single?client=webapp&amp;sl=en&amp;tl=zh-CN&amp;hl=zh-CN&amp;dt=at&amp;dt=bd&amp;dt=ex&amp;dt=ld&amp;dt=md&amp;dt=qca&amp;dt=rw&amp;dt=rm&amp;dt=ss&amp;dt=t&amp;source=bh&amp;ssel=0&amp;tsel=0&amp;kc=1&amp;tk=964014.535317&amp;q='</span></span><br><span class="line"></span><br><span class="line">sha = <span class="string">'Sand'</span></span><br><span class="line"></span><br><span class="line">diao = <span class="string">'sculpture'</span></span><br><span class="line"></span><br><span class="line">shadiao = sha + <span class="string">'%20'</span> + diao</span><br><span class="line"></span><br><span class="line">url_real = url_fake + shadiao</span><br><span class="line"></span><br><span class="line">res = rq.get(url_real)</span><br><span class="line"></span><br><span class="line"><span class="comment">#print(str(res.text)[4:6])</span></span><br><span class="line"></span><br><span class="line">chinese_shadiao = str(res.text)[<span class="number">4</span>:<span class="number">6</span>]</span><br><span class="line"></span><br><span class="line">print(name + _is + chinese_shadiao)</span><br></pre></td></tr></table></figure>
-<h1 id="两行版（Python3）"><a href="#两行版（Python3）" class="headerlink" title="两行版（Python3）"></a>两行版（Python3）</h1><p>同样需要requests，BeautifulSoup库<br><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests,bs4</span><br><span class="line">print(str(bs4.BeautifulSoup(requests.get(<span class="string">'https://xzdxrz.github.io/'</span>).text,<span class="string">'lxml'</span>).title)[<span class="number">7</span>:<span class="number">13</span>] + list(requests.get(<span class="string">'https://translate.google.cn/translate_a/single?client=webapp&amp;sl=en&amp;tl=zh-CN&amp;hl=zh-CN&amp;dt=at&amp;dt=bd&amp;dt=ex&amp;dt=ld&amp;dt=md&amp;dt=qca&amp;dt=rw&amp;dt=rm&amp;dt=ss&amp;dt=t&amp;source=bh&amp;ssel=0&amp;tsel=0&amp;kc=1&amp;tk=903126.743789&amp;q=is'</span>).text)[<span class="number">4</span>] + str(requests.get(<span class="string">'https://translate.google.cn/translate_a/single?client=webapp&amp;sl=en&amp;tl=zh-CN&amp;hl=zh-CN&amp;dt=at&amp;dt=bd&amp;dt=ex&amp;dt=ld&amp;dt=md&amp;dt=qca&amp;dt=rw&amp;dt=rm&amp;dt=ss&amp;dt=t&amp;source=bh&amp;ssel=0&amp;tsel=0&amp;kc=1&amp;tk=964014.535317&amp;q='</span> + <span class="string">'Sand'</span> + <span class="string">'%20'</span> + <span class="string">'sculpture'</span>).text)[<span class="number">4</span>:<span class="number">6</span>])</span><br></pre></td></tr></table></figure></p>
-<h1 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h1><p><del>没有</del></p>
-]]></content>
-      <categories>
-        <category>其它</category>
-      </categories>
-      <tags>
-        <tag>Python3</tag>
-        <tag>Requests库</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>星空特效</title>
-    <url>/2019/06/20/%E6%98%9F%E7%A9%BA%E7%89%B9%E6%95%88/</url>
-    <content><![CDATA[<h1 id="源代码："><a href="#源代码：" class="headerlink" title="源代码："></a>源代码：</h1><a id="more"></a>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;graphics.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;time.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;conio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAXSTAR 700</span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">STAR</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="keyword">double</span> x;</span><br><span class="line">	<span class="keyword">int</span> y;</span><br><span class="line">	<span class="keyword">double</span> step;</span><br><span class="line">	<span class="keyword">int</span> color;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">STAR star[MAXSTAR];</span><br><span class="line"></span><br><span class="line"><span class="keyword">bool</span> quilkly = <span class="literal">false</span>,slowly=<span class="literal">false</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">InitStar</span><span class="params">(<span class="keyword">int</span> i)</span> </span>&#123;</span><br><span class="line">	star[i].x = <span class="number">0</span>;</span><br><span class="line">	star[i].y = rand() % <span class="number">480</span>;</span><br><span class="line">	star[i].step = (rand() % <span class="number">5000</span>) / <span class="number">1000.0</span> + <span class="number">1</span>;</span><br><span class="line">	star[i].color = (<span class="keyword">int</span>)(star[i].step * <span class="number">255</span> / <span class="number">6.0</span> + <span class="number">0.5</span>);</span><br><span class="line">	star[i].color = RGB(star[i].color, star[i].color, star[i].color);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">MoveStar</span><span class="params">(<span class="keyword">int</span> i)</span> </span>&#123;</span><br><span class="line">	putpixel((<span class="keyword">int</span>)star[i].x, star[i].y, <span class="number">0</span>);</span><br><span class="line">	quilkly?star[i].x = star[i].x+star[i].step+<span class="number">5</span>: slowly? star[i].x = star[i].x + star[i].step <span class="number">-2</span> :star[i].x+= star[i].step;</span><br><span class="line">	<span class="keyword">if</span> (star[i].x &gt; <span class="number">640</span>)</span><br><span class="line">		InitStar(i);</span><br><span class="line">	putpixel((<span class="keyword">int</span>)star[i].x, star[i].y, star[i].color);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 主函数</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	MOUSEMSG m;</span><br><span class="line"></span><br><span class="line">	srand((<span class="keyword">unsigned</span>)time(<span class="literal">NULL</span>));</span><br><span class="line">	initgraph(<span class="number">640</span>, <span class="number">480</span>);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; MAXSTAR; i++) 	&#123;</span><br><span class="line">		InitStar(i);</span><br><span class="line">		star[i].x = rand() % <span class="number">640</span>;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">while</span> (!_kbhit()) &#123;</span><br><span class="line">		m = GetMouseMsg();</span><br><span class="line">		<span class="keyword">if</span> (m.uMsg == WM_LBUTTONDOWN)</span><br><span class="line">			quilkly = !quilkly;</span><br><span class="line">		<span class="keyword">if</span> (m.uMsg == WM_RBUTTONDOWN)</span><br><span class="line">			slowly = !slowly;</span><br><span class="line">		<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; MAXSTAR; i+=<span class="number">2</span>)</span><br><span class="line">			MoveStar(i);</span><br><span class="line">		Sleep(<span class="number">20</span>);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	closegraph();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="EXE文件："><a href="#EXE文件：" class="headerlink" title="EXE文件："></a>EXE文件：</h1><p><a href="/files/Stars.exe">Stars.exe</a></p>
-<h2 id="全屏版："><a href="#全屏版：" class="headerlink" title="全屏版："></a>全屏版：</h2><p><a href="/files/FullScreenStars.exe">FullScreenStars.exe</a><br><del>特别卡，别用了</del></p>
-<h2 id="仅旋转版："><a href="#仅旋转版：" class="headerlink" title="仅旋转版："></a>仅旋转版：</h2><p><a href="/files/TurningStars.exe">TurningStars.exe</a></p>
-<h1 id="README文件："><a href="#README文件：" class="headerlink" title="README文件："></a>README文件：</h1><h2 id="Stars"><a href="#Stars" class="headerlink" title="Stars"></a>Stars</h2><p><strong>by 兄主的仙人掌</strong></p>
-<p>星空效果，修改自示例程序。</p>
-<h3 id="新增效果"><a href="#新增效果" class="headerlink" title="新增效果"></a>新增效果</h3><ol>
-<li>左键星空快速移动，再左键取消</li>
-<li>右键有环绕效果，再右键取消</li>
-</ol>
-<p><strong>注意：鼠标一定要不停移动，否则会卡</strong></p>
-<p><img src="/images/星空特效/1.png" alt="MarkDown文件截图"></p>
-<h1 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h1><h2 id="小窗口："><a href="#小窗口：" class="headerlink" title="小窗口："></a>小窗口：</h2><p><img src="/images/星空特效/2.gif" alt="小窗口效果"></p>
-<h2 id="全屏（部分）："><a href="#全屏（部分）：" class="headerlink" title="全屏（部分）："></a>全屏（部分）：</h2><p><img src="/images/星空特效/3.gif" alt="全屏效果"></p>
-]]></content>
-      <categories>
-        <category>其它</category>
-      </categories>
-      <tags>
-        <tag>C++</tag>
-        <tag>EasyX</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>红枣女孩</title>
-    <url>/2019/06/09/%E7%BA%A2%E6%9E%A3%E5%A5%B3%E5%AD%A9/</url>
-    <content><![CDATA[<center><b>原作者：郑渊洁</b></center>
-
-<a id="more"></a>
-<p>当女孩儿第一次睁开眼睛看世界时，她发现自己的妈妈是一颗枣树。女孩儿看到了自己的姊妹和她一样牵挂在妈妈身上，每位女孩儿都是一朵小小的枣花，在蓝天下用笑容彰显美丽。妈妈对自己的每个孩子都悉心呵护，她不遗余力地从贫瘠的土地汲取营养，再通过自己的躯干将营养传输给每一个女儿，促使她们女大十八变。妈妈有时力不从心，她每天只能给孩子们吃两顿饭。</p>
-<p>一天，女孩儿问妈妈：“世界上的生命都是我这个样子吗？”</p>
-<p>妈妈说：“不都是你这个样子。还有很多种，比如有的生命会飞，刚才落在你身边的叫鸟。”</p>
-<p>女孩儿：“我为什么不会飞？”</p>
-<p>妈妈：“如果所有生命都会飞，世界就乱了。坚守同样光荣。”</p>
-<p>女孩儿：“还有别的生命吗？”</p>
-<p>妈妈：“有的生命会造汽车。”</p>
-<p>女孩儿：“什么是汽车？”</p>
-<p>妈妈：“现在从远处开过来那东西就是汽车。”</p>
-<p>女孩儿：“能造汽车的生命很了不起吧？”</p>
-<p>妈妈：“所有生命都了不起。咱们不会造汽车，但他们不会开花。”</p>
-<p>女孩儿：“我想坐汽车。”</p>
-<p>妈妈：“那你就要克服很多困难，坚持成长。等你成为果实时，就会坐上汽车周游世界。”</p>
-<p>妈妈所说的困难，女孩儿很快就领教了。烈日当头，女孩儿无处藏身，她咬牙坚持，就为了坐汽车的愿望能实现。没有一滴水，没洗过一次澡，女孩儿每天风浴，灵魂一尘不染。</p>
-<p>一些姊妹坚持不住，从妈妈身上逃脱，女孩儿目睹她们化为腐朽。</p>
-<p>女孩儿在贫困、干旱和酷日下凝聚生命，由青变红，成为一颗魅力四射的红枣女孩儿。</p>
-<p>这天，一辆汽车开到枣树下。</p>
-<p>妈妈对女孩儿说：“祝贺你，你坐汽车的时候到了。”</p>
-<p>女孩儿说：“您怎么知道？”</p>
-<p>妈妈说：“因为你红了。”</p>
-<p>女孩儿说：“我的红皮肤很好看吧？”</p>
-<p>妈妈：“那是血的颜色。”</p>
-<p>女孩儿：“血是什么？”</p>
-<p>妈妈：“造汽车的生命离不开血。如果没有血，他们就造不出汽车了。”</p>
-<p>女孩儿急了：“他们会缺血吗？”</p>
-<p>妈妈：“会。”</p>
-<p>女孩儿：“那怎么办？”</p>
-<p>妈妈：“你可以为他们补血，你是红枣女孩儿，你的颜色就是血的颜色。你愿意吗？”</p>
-<p>女孩儿：“我愿意。”</p>
-<p>妈妈：“会造汽车的生命中也有女孩儿，她们会失血，她们最需要你的帮助。”</p>
-<p>女孩儿：“我要去帮助她们，为她们补血。”</p>
-<p>女孩儿坐着汽车离开了贫瘠的土地，用自己的生命去给别的生命补充血液。</p>
-]]></content>
-      <categories>
-        <category>小说</category>
-      </categories>
-      <tags>
-        <tag>小说</tag>
-      </tags>
   </entry>
   <entry>
     <title>归并排序学习笔记</title>
@@ -611,6 +166,72 @@
       </tags>
   </entry>
   <entry>
+    <title>快速幂学习笔记</title>
+    <url>/2020/02/24/%E5%BF%AB%E9%80%9F%E5%B9%82%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="快速幂-取余运算"><a href="#快速幂-取余运算" class="headerlink" title="快速幂||取余运算"></a>快速幂||取余运算</h1><a id="more"></a>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>代码（C++）：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">quick_pow</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> n<span class="comment">/*,int p*/</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">long</span> <span class="keyword">long</span> base=a;</span><br><span class="line">    <span class="keyword">int</span> ans=<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">while</span>(n)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(n&amp;<span class="number">1</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            ans*=base;</span><br><span class="line">            <span class="comment">//ans%=p;</span></span><br><span class="line">        &#125;</span><br><span class="line">        n&gt;&gt;=<span class="number">1</span>;</span><br><span class="line">        base*=base;</span><br><span class="line">        <span class="comment">//base%=p;</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><p>本题计算：</p>
+<p>$ a^n \mod p $</p>
+<p>首先观察$2^5=32$这个式子。</p>
+<p>我们知道$5$的二进制为$101$。</p>
+<p>我们还知道$32=2^4 \times 2^1$</p>
+<p>再来看$2^7=128$，</p>
+<p>我们知道$7$的二进制为$111$，</p>
+<p>我们还知道$128=2^4 \times 2^2 \times 2^1$</p>
+<p>以此类推，我们发现：</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>二进制</th>
+<th>6</th>
+<th>5</th>
+<th>4</th>
+<th>3</th>
+<th>2</th>
+<th>1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>幂</td>
+<td>$a^{32}$</td>
+<td>$a^{16}$</td>
+<td>$a^8$</td>
+<td>$a^4$</td>
+<td>$a^2$</td>
+<td>$a^1$</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>所以：</p>
+<p>假如我们要计算$a^n$，只需要把$n$分解成二进制，将“$1$”位对应的$a^k$相乘即可</p>
+<p>我们发现表格中$a^k=( a^{(k-1)} ) ^2$</p>
+<p>所以表格中第$k$位的幂为$a^{2^{ ( k-1 ) }}$</p>
+<p>再来看代码：</p>
+<p>其中<code>n&amp;1</code>代表检查<code>n</code>二进制最后一位是不是$1$；</p>
+<p><code>n&gt;&gt;=1</code>代表将<code>n</code>右移一位（等效于<code>n/=2</code>），用于检查下一位是不是$1$</p>
+<p>如果最后一位是$1$，那么答案乘上<code>base</code>。</p>
+<p>其中<code>base</code>记录了表格第二行的数据，以每次自乘一次更新</p>
+<p>如果要取模，则再<code>base</code>和<code>ans</code>每次进行运算时$\mod p$。</p>
+<p>最后，在<code>n==0</code>，也就是<code>n</code>的每一位都检查完毕后跳出循环，返回答案。</p>
+<h2 id="时间复杂度"><a href="#时间复杂度" class="headerlink" title="时间复杂度"></a>时间复杂度</h2><script type="math/tex; mode=display">T(N) = O(\log N)</script><h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ol>
+<li><a href="https://www.luogu.com.cn/blog/cicos/quickpow" target="_blank" rel="noopener">快速幂和取余运算 - 学委的博客</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>OI</tag>
+        <tag>C++</tag>
+        <tag>算法</tag>
+        <tag>数论</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>插入排序学习笔记</title>
     <url>/2019/05/12/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F/</url>
     <content><![CDATA[<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><p>第一个算法就是“插入排序”。伪代码如下：</p>
@@ -630,6 +251,394 @@
       <tags>
         <tag>C++</tag>
         <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>星空特效</title>
+    <url>/2019/06/20/%E6%98%9F%E7%A9%BA%E7%89%B9%E6%95%88/</url>
+    <content><![CDATA[<h1 id="源代码："><a href="#源代码：" class="headerlink" title="源代码："></a>源代码：</h1><a id="more"></a>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;graphics.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;time.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;conio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAXSTAR 700</span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">STAR</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">	<span class="keyword">double</span> x;</span><br><span class="line">	<span class="keyword">int</span> y;</span><br><span class="line">	<span class="keyword">double</span> step;</span><br><span class="line">	<span class="keyword">int</span> color;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">STAR star[MAXSTAR];</span><br><span class="line"></span><br><span class="line"><span class="keyword">bool</span> quilkly = <span class="literal">false</span>,slowly=<span class="literal">false</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">InitStar</span><span class="params">(<span class="keyword">int</span> i)</span> </span>&#123;</span><br><span class="line">	star[i].x = <span class="number">0</span>;</span><br><span class="line">	star[i].y = rand() % <span class="number">480</span>;</span><br><span class="line">	star[i].step = (rand() % <span class="number">5000</span>) / <span class="number">1000.0</span> + <span class="number">1</span>;</span><br><span class="line">	star[i].color = (<span class="keyword">int</span>)(star[i].step * <span class="number">255</span> / <span class="number">6.0</span> + <span class="number">0.5</span>);</span><br><span class="line">	star[i].color = RGB(star[i].color, star[i].color, star[i].color);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">MoveStar</span><span class="params">(<span class="keyword">int</span> i)</span> </span>&#123;</span><br><span class="line">	putpixel((<span class="keyword">int</span>)star[i].x, star[i].y, <span class="number">0</span>);</span><br><span class="line">	quilkly?star[i].x = star[i].x+star[i].step+<span class="number">5</span>: slowly? star[i].x = star[i].x + star[i].step <span class="number">-2</span> :star[i].x+= star[i].step;</span><br><span class="line">	<span class="keyword">if</span> (star[i].x &gt; <span class="number">640</span>)</span><br><span class="line">		InitStar(i);</span><br><span class="line">	putpixel((<span class="keyword">int</span>)star[i].x, star[i].y, star[i].color);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 主函数</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	MOUSEMSG m;</span><br><span class="line"></span><br><span class="line">	srand((<span class="keyword">unsigned</span>)time(<span class="literal">NULL</span>));</span><br><span class="line">	initgraph(<span class="number">640</span>, <span class="number">480</span>);</span><br><span class="line"></span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; MAXSTAR; i++) 	&#123;</span><br><span class="line">		InitStar(i);</span><br><span class="line">		star[i].x = rand() % <span class="number">640</span>;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">while</span> (!_kbhit()) &#123;</span><br><span class="line">		m = GetMouseMsg();</span><br><span class="line">		<span class="keyword">if</span> (m.uMsg == WM_LBUTTONDOWN)</span><br><span class="line">			quilkly = !quilkly;</span><br><span class="line">		<span class="keyword">if</span> (m.uMsg == WM_RBUTTONDOWN)</span><br><span class="line">			slowly = !slowly;</span><br><span class="line">		<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; MAXSTAR; i+=<span class="number">2</span>)</span><br><span class="line">			MoveStar(i);</span><br><span class="line">		Sleep(<span class="number">20</span>);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	closegraph();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="EXE文件："><a href="#EXE文件：" class="headerlink" title="EXE文件："></a>EXE文件：</h1><p><a href="/files/Stars.exe">Stars.exe</a></p>
+<h2 id="全屏版："><a href="#全屏版：" class="headerlink" title="全屏版："></a>全屏版：</h2><p><a href="/files/FullScreenStars.exe">FullScreenStars.exe</a><br><del>特别卡，别用了</del></p>
+<h2 id="仅旋转版："><a href="#仅旋转版：" class="headerlink" title="仅旋转版："></a>仅旋转版：</h2><p><a href="/files/TurningStars.exe">TurningStars.exe</a></p>
+<h1 id="README文件："><a href="#README文件：" class="headerlink" title="README文件："></a>README文件：</h1><h2 id="Stars"><a href="#Stars" class="headerlink" title="Stars"></a>Stars</h2><p><strong>by 兄主的仙人掌</strong></p>
+<p>星空效果，修改自示例程序。</p>
+<h3 id="新增效果"><a href="#新增效果" class="headerlink" title="新增效果"></a>新增效果</h3><ol>
+<li>左键星空快速移动，再左键取消</li>
+<li>右键有环绕效果，再右键取消</li>
+</ol>
+<p><strong>注意：鼠标一定要不停移动，否则会卡</strong></p>
+<p><img src="/images/星空特效/1.png" alt="MarkDown文件截图"></p>
+<h1 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h1><h2 id="小窗口："><a href="#小窗口：" class="headerlink" title="小窗口："></a>小窗口：</h2><p><img src="/images/星空特效/2.gif" alt="小窗口效果"></p>
+<h2 id="全屏（部分）："><a href="#全屏（部分）：" class="headerlink" title="全屏（部分）："></a>全屏（部分）：</h2><p><img src="/images/星空特效/3.gif" alt="全屏效果"></p>
+]]></content>
+      <categories>
+        <category>其它</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+        <tag>EasyX</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>树旋转学习笔记</title>
+    <url>/2020/03/01/%E6%A0%91%E6%97%8B%E8%BD%AC%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="平衡树树旋转"><a href="#平衡树树旋转" class="headerlink" title="平衡树树旋转"></a>平衡树树旋转</h1><a id="more"></a>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">left_rotate</span><span class="params">(<span class="keyword">int</span> &amp;node)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> r=tree[node].r;</span><br><span class="line">    tree[node].r=tree[r].l;</span><br><span class="line">    tree[r].l=node;</span><br><span class="line">    node=r;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">right_rotate</span><span class="params">(<span class="keyword">int</span> &amp;node)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> l=tree[node].l;</span><br><span class="line">    tree[node].l=tree[l].r;</span><br><span class="line">    tree[l].r=node;</span><br><span class="line">    node=l;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><p>先上一张树旋转的示意图</p>
+<p><img src="/images/树旋转学习笔记/rotate.png" alt="树旋转"></p>
+<p><strong>图片来自《算法导论》 $\text{P176 13.2}$ 旋转</strong></p>
+<h3 id="树旋转的作用"><a href="#树旋转的作用" class="headerlink" title="树旋转的作用"></a>树旋转的作用</h3><p>树旋转是平衡树上用于维护平衡树平衡的基本操作，有左旋和右旋两种操作</p>
+<h3 id="旋转过程分析"><a href="#旋转过程分析" class="headerlink" title="旋转过程分析"></a>旋转过程分析</h3><p>在进行树旋转时需要维护好二叉搜索树的性质，即</p>
+<p>对于每棵子树，都有：</p>
+<blockquote>
+<p>左 &lt; 根 &lt; 右</p>
+</blockquote>
+<p>再看《算法导论》中描述旋转的图片。</p>
+<p>以右旋为例，旋转后$\text{x}$代替$\text{y}$作为子树的根节点，由于原来$\text{x}$在$\text{y}$的左子树上，所以旋转最后$\text{y}$在$\text{x}$的右子树上；</p>
+<p>而旋转前$\text{x}$的左子树$\alpha$的根节点则一定小于$\text{x}$和$\text{y}$,所以旋转后$\alpha$仍在$\text{x}$的左子树上；</p>
+<p>而$\text{x}$的右子树$\beta$的根节点则可以看出来是$\text{x} &lt; \beta &lt; \text{y}$的一种关系，所以旋转后在$\text{y}$的左子树上；</p>
+<p>至于$\text{y}$的右子树$\gamma$则与$\text{x}$的左子树$\alpha$类似，这里不再阐述。</p>
+<h3 id="代码分析"><a href="#代码分析" class="headerlink" title="代码分析"></a>代码分析</h3><p>以左旋为例：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> r=tree[node].r;</span><br></pre></td></tr></table></figure>
+<p>先将<code>node</code>节点的右子树另外保存，同<code>swap</code>函数的<code>t</code>变量类似。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">tree[node].r=tree[r].l;</span><br></pre></td></tr></table></figure>
+<p>将图中$\text{x}$节点的右子树$\text{y}$节点改为$\text{y}$节点的左子树$\beta$</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">tree[r].l=node;</span><br></pre></td></tr></table></figure>
+<p>将图中$\text{y}$节点的左子树改为$\text{x}$节点</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">node=r;</span><br></pre></td></tr></table></figure>
+<p>最后把正在旋转的子树的根节点改为$\text{y}$</p>
+<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ol>
+<li><p><a href="https://www.bilibili.com/video/av60770002" target="_blank" rel="noopener">【AgOHの数据结构】平衡树专题之叁 树旋转与AVL树</a></p>
+</li>
+<li><p>《算法导论》 $\text{P176 13.2}$ 旋转</p>
+</li>
+<li><p><a href="https://github.com/StableAgOH/Codebase-for-AgOH/blob/master/Code/%E5%B9%B3%E8%A1%A1%E6%A0%91%E7%B3%BB%E5%88%97/AVL%E6%A0%91/AVL.cpp" target="_blank" rel="noopener">Github/StableAgOH/Codebase-for-AgOH</a></p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>OI</tag>
+        <tag>C++</tag>
+        <tag>平衡树</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>欧拉筛学习笔记</title>
+    <url>/2020/02/26/%E6%AC%A7%E6%8B%89%E7%AD%9B%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="线性筛质数"><a href="#线性筛质数" class="headerlink" title="线性筛质数"></a>线性筛质数</h1><a id="more"></a>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> prime[MAXN],tot;</span><br><span class="line"><span class="keyword">bool</span> is_prime[MAXN];</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">choose</span><span class="params">(<span class="keyword">int</span> n)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">memset</span>(is_prime,<span class="number">1</span>,<span class="keyword">sizeof</span>(is_prime));</span><br><span class="line">    is_prime[<span class="number">1</span>]=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">2</span>;i&lt;=n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(is_prime[i])</span><br><span class="line">            prime[++tot]=i;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=tot&amp;&amp;i*prime[j]&lt;=n;j++)</span><br><span class="line">        &#123;</span><br><span class="line">            is_prime[i*prime[j]]=<span class="number">0</span>;</span><br><span class="line">            <span class="keyword">if</span>(i%prime[j]==<span class="number">0</span>)</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><h3 id="算法分析"><a href="#算法分析" class="headerlink" title="算法分析"></a>算法分析</h3><p>考虑你在设计一个线性筛质数算法</p>
+<p>你想，既然要做到“线性”，那么每个数必须只能被筛一次</p>
+<p>所以我们猜想，<strong>一个合数只会被它的最小素因数筛去</strong></p>
+<h3 id="代码分析"><a href="#代码分析" class="headerlink" title="代码分析"></a>代码分析</h3><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="built_in">memset</span>(is_prime,<span class="number">1</span>,<span class="keyword">sizeof</span>(is_prime));</span><br></pre></td></tr></table></figure>
+<p>首先假设所有数都是素数</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">is_prime[<span class="number">1</span>]=<span class="number">0</span>;</span><br></pre></td></tr></table></figure>
+<p>确定$1$不是素数</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">2</span>;i&lt;=n;i++)</span><br></pre></td></tr></table></figure>
+<p>枚举所有$[1,N]$区间内的数</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span>(is_prime[i])</span><br><span class="line">    prime[++tot]=i;</span><br></pre></td></tr></table></figure>
+<p>如果它在之前的筛选中“存活”下来，那么它一定是个素数，把它加入素数列表</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=tot&amp;&amp;i*prime[j]&lt;=n;j++)</span><br></pre></td></tr></table></figure>
+<p>枚举<code>i</code>与一个素数能组成的所有合数，注意不要让它们超过<code>n</code></p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">is_prime[i*prime[j]]=<span class="number">0</span>;</span><br></pre></td></tr></table></figure>
+<p>标记为合数</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span>(i%prime[j]==<span class="number">0</span>)</span><br><span class="line">    <span class="keyword">break</span>;</span><br></pre></td></tr></table></figure>
+<p><strong>关键一步</strong></p>
+<p>如果<code>i</code>可以有一个素数因子，就跳出循环</p>
+<p><strong>为什么呢？</strong></p>
+<p>我们先来看线性筛质数的规则：</p>
+<p><strong>一个合数只会被它的最小素因数筛去</strong></p>
+<p>如果<code>i</code>有别的素因数了，那么<del><text style="color:green">坚强</text></del>证明它不是接下来的合数的最小素因数</p>
+<p>所以为了保证运行效率，要跳出循环</p>
+<h2 id="时间复杂度"><a href="#时间复杂度" class="headerlink" title="时间复杂度"></a>时间复杂度</h2><script type="math/tex; mode=display">T(N) = O(N)</script><h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ol>
+<li><a href="https://www.luogu.com.cn/blog/cicos/notprime" target="_blank" rel="noopener">欧拉筛筛素数 - 学委的博客</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>OI</tag>
+        <tag>C++</tag>
+        <tag>算法</tag>
+        <tag>数论</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>沙雕代码</title>
+    <url>/2019/07/01/%E6%B2%99%E9%9B%95%E4%BB%A3%E7%A0%81/</url>
+    <content><![CDATA[<h1 id="源代码（Python3）"><a href="#源代码（Python3）" class="headerlink" title="源代码（Python3）"></a>源代码（Python3）</h1><p><strong>需要requests，BeautifulSoup库</strong></p>
+<a id="more"></a>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># -*- coding: cp936 -*-</span></span><br><span class="line"><span class="string">"""</span></span><br><span class="line"><span class="string">Created on Sat Jun 29 13:04:06 2019</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">@author: 兄主的仙人掌</span></span><br><span class="line"><span class="string">"""</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#输出：兄主的仙人掌是沙雕</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> requests <span class="keyword">as</span> rq</span><br><span class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</span><br><span class="line"></span><br><span class="line">url = <span class="string">'https://xzdxrz.github.io/'</span></span><br><span class="line"></span><br><span class="line">res = rq.get(url)</span><br><span class="line"></span><br><span class="line"><span class="comment">#print(res.text)</span></span><br><span class="line"></span><br><span class="line">bs = BeautifulSoup(res.text,<span class="string">'lxml'</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">#print(type(bs.title))</span></span><br><span class="line"></span><br><span class="line">name = str(bs.title)[<span class="number">7</span>:<span class="number">13</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment">#print(name)</span></span><br><span class="line"></span><br><span class="line">url = <span class="string">'https://translate.google.cn/translate_a/single?client=webapp&amp;sl=en&amp;tl=zh-CN&amp;hl=zh-CN&amp;dt=at&amp;dt=bd&amp;dt=ex&amp;dt=ld&amp;dt=md&amp;dt=qca&amp;dt=rw&amp;dt=rm&amp;dt=ss&amp;dt=t&amp;source=bh&amp;ssel=0&amp;tsel=0&amp;kc=1&amp;tk=903126.743789&amp;q=is'</span></span><br><span class="line"></span><br><span class="line">res = rq.get(url)</span><br><span class="line"></span><br><span class="line"><span class="comment">#print(res.text)</span></span><br><span class="line"></span><br><span class="line">ls = list(res.text)</span><br><span class="line"></span><br><span class="line"><span class="comment">#print(ls[4])</span></span><br><span class="line"></span><br><span class="line">_is = ls[<span class="number">4</span>]</span><br><span class="line"></span><br><span class="line"><span class="comment">#shadiao</span></span><br><span class="line"></span><br><span class="line">url_fake = <span class="string">'https://translate.google.cn/translate_a/single?client=webapp&amp;sl=en&amp;tl=zh-CN&amp;hl=zh-CN&amp;dt=at&amp;dt=bd&amp;dt=ex&amp;dt=ld&amp;dt=md&amp;dt=qca&amp;dt=rw&amp;dt=rm&amp;dt=ss&amp;dt=t&amp;source=bh&amp;ssel=0&amp;tsel=0&amp;kc=1&amp;tk=964014.535317&amp;q='</span></span><br><span class="line"></span><br><span class="line">sha = <span class="string">'Sand'</span></span><br><span class="line"></span><br><span class="line">diao = <span class="string">'sculpture'</span></span><br><span class="line"></span><br><span class="line">shadiao = sha + <span class="string">'%20'</span> + diao</span><br><span class="line"></span><br><span class="line">url_real = url_fake + shadiao</span><br><span class="line"></span><br><span class="line">res = rq.get(url_real)</span><br><span class="line"></span><br><span class="line"><span class="comment">#print(str(res.text)[4:6])</span></span><br><span class="line"></span><br><span class="line">chinese_shadiao = str(res.text)[<span class="number">4</span>:<span class="number">6</span>]</span><br><span class="line"></span><br><span class="line">print(name + _is + chinese_shadiao)</span><br></pre></td></tr></table></figure>
+<h1 id="两行版（Python3）"><a href="#两行版（Python3）" class="headerlink" title="两行版（Python3）"></a>两行版（Python3）</h1><p>同样需要requests，BeautifulSoup库<br><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests,bs4</span><br><span class="line">print(str(bs4.BeautifulSoup(requests.get(<span class="string">'https://xzdxrz.github.io/'</span>).text,<span class="string">'lxml'</span>).title)[<span class="number">7</span>:<span class="number">13</span>] + list(requests.get(<span class="string">'https://translate.google.cn/translate_a/single?client=webapp&amp;sl=en&amp;tl=zh-CN&amp;hl=zh-CN&amp;dt=at&amp;dt=bd&amp;dt=ex&amp;dt=ld&amp;dt=md&amp;dt=qca&amp;dt=rw&amp;dt=rm&amp;dt=ss&amp;dt=t&amp;source=bh&amp;ssel=0&amp;tsel=0&amp;kc=1&amp;tk=903126.743789&amp;q=is'</span>).text)[<span class="number">4</span>] + str(requests.get(<span class="string">'https://translate.google.cn/translate_a/single?client=webapp&amp;sl=en&amp;tl=zh-CN&amp;hl=zh-CN&amp;dt=at&amp;dt=bd&amp;dt=ex&amp;dt=ld&amp;dt=md&amp;dt=qca&amp;dt=rw&amp;dt=rm&amp;dt=ss&amp;dt=t&amp;source=bh&amp;ssel=0&amp;tsel=0&amp;kc=1&amp;tk=964014.535317&amp;q='</span> + <span class="string">'Sand'</span> + <span class="string">'%20'</span> + <span class="string">'sculpture'</span>).text)[<span class="number">4</span>:<span class="number">6</span>])</span><br></pre></td></tr></table></figure></p>
+<h1 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h1><p><del>没有</del></p>
+]]></content>
+      <categories>
+        <category>其它</category>
+      </categories>
+      <tags>
+        <tag>Python3</tag>
+        <tag>Requests库</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>红枣女孩</title>
+    <url>/2019/06/09/%E7%BA%A2%E6%9E%A3%E5%A5%B3%E5%AD%A9/</url>
+    <content><![CDATA[<center><b>原作者：郑渊洁</b></center>
+
+<a id="more"></a>
+<p>当女孩儿第一次睁开眼睛看世界时，她发现自己的妈妈是一颗枣树。女孩儿看到了自己的姊妹和她一样牵挂在妈妈身上，每位女孩儿都是一朵小小的枣花，在蓝天下用笑容彰显美丽。妈妈对自己的每个孩子都悉心呵护，她不遗余力地从贫瘠的土地汲取营养，再通过自己的躯干将营养传输给每一个女儿，促使她们女大十八变。妈妈有时力不从心，她每天只能给孩子们吃两顿饭。</p>
+<p>一天，女孩儿问妈妈：“世界上的生命都是我这个样子吗？”</p>
+<p>妈妈说：“不都是你这个样子。还有很多种，比如有的生命会飞，刚才落在你身边的叫鸟。”</p>
+<p>女孩儿：“我为什么不会飞？”</p>
+<p>妈妈：“如果所有生命都会飞，世界就乱了。坚守同样光荣。”</p>
+<p>女孩儿：“还有别的生命吗？”</p>
+<p>妈妈：“有的生命会造汽车。”</p>
+<p>女孩儿：“什么是汽车？”</p>
+<p>妈妈：“现在从远处开过来那东西就是汽车。”</p>
+<p>女孩儿：“能造汽车的生命很了不起吧？”</p>
+<p>妈妈：“所有生命都了不起。咱们不会造汽车，但他们不会开花。”</p>
+<p>女孩儿：“我想坐汽车。”</p>
+<p>妈妈：“那你就要克服很多困难，坚持成长。等你成为果实时，就会坐上汽车周游世界。”</p>
+<p>妈妈所说的困难，女孩儿很快就领教了。烈日当头，女孩儿无处藏身，她咬牙坚持，就为了坐汽车的愿望能实现。没有一滴水，没洗过一次澡，女孩儿每天风浴，灵魂一尘不染。</p>
+<p>一些姊妹坚持不住，从妈妈身上逃脱，女孩儿目睹她们化为腐朽。</p>
+<p>女孩儿在贫困、干旱和酷日下凝聚生命，由青变红，成为一颗魅力四射的红枣女孩儿。</p>
+<p>这天，一辆汽车开到枣树下。</p>
+<p>妈妈对女孩儿说：“祝贺你，你坐汽车的时候到了。”</p>
+<p>女孩儿说：“您怎么知道？”</p>
+<p>妈妈说：“因为你红了。”</p>
+<p>女孩儿说：“我的红皮肤很好看吧？”</p>
+<p>妈妈：“那是血的颜色。”</p>
+<p>女孩儿：“血是什么？”</p>
+<p>妈妈：“造汽车的生命离不开血。如果没有血，他们就造不出汽车了。”</p>
+<p>女孩儿急了：“他们会缺血吗？”</p>
+<p>妈妈：“会。”</p>
+<p>女孩儿：“那怎么办？”</p>
+<p>妈妈：“你可以为他们补血，你是红枣女孩儿，你的颜色就是血的颜色。你愿意吗？”</p>
+<p>女孩儿：“我愿意。”</p>
+<p>妈妈：“会造汽车的生命中也有女孩儿，她们会失血，她们最需要你的帮助。”</p>
+<p>女孩儿：“我要去帮助她们，为她们补血。”</p>
+<p>女孩儿坐着汽车离开了贫瘠的土地，用自己的生命去给别的生命补充血液。</p>
+]]></content>
+      <categories>
+        <category>小说</category>
+      </categories>
+      <tags>
+        <tag>小说</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>葵是天使啊suki</title>
+    <url>/2020/04/10/%E8%91%B5%E6%98%AF%E5%A4%A9%E4%BD%BF%E5%95%8Asuki/</url>
+    <content><![CDATA[<p>斯~哈~斯~哈~</p>
+<a id="more"></a>
+<p><strong>转载自<a href="https://space.bilibili.com/403928672" target="_blank" rel="noopener">本田向日葵Official</a></strong></p>
+<h1 id="最近做的loading画面-・ワ・-）-本田向日葵Official"><a href="#最近做的loading画面-・ワ・-）-本田向日葵Official" class="headerlink" title="最近做的loading画面(・ワ・????） - 本田向日葵Official"></a><a href="https://www.bilibili.com/video/BV1jc411h7xq" target="_blank" rel="noopener">最近做的loading画面(・ワ・????） - 本田向日葵Official</a></h1><iframe src="//player.bilibili.com/player.html?aid=285057557&bvid=BV1jc411h7xq&cid=173577067&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>]]></content>
+      <categories>
+        <category>其它</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>裴蜀定理学习笔记</title>
+    <url>/2020/03/07/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<h1 id="裴蜀定理"><a href="#裴蜀定理" class="headerlink" title="裴蜀定理"></a>裴蜀定理</h1><a id="more"></a>
+<h2 id="裴蜀定理的内容"><a href="#裴蜀定理的内容" class="headerlink" title="裴蜀定理的内容"></a>裴蜀定理的内容</h2><h3 id="定理1"><a href="#定理1" class="headerlink" title="定理1"></a>定理1</h3><blockquote>
+<p>若$a,b$是整数,且$\gcd(a,b)=d$，那么对于任意的整数$x,y,ax+by$都一定是$d$的倍数，特别地，一定存在整数$x,y$，使$ax+by=d$成立。</p>
+</blockquote>
+<h3 id="定理2"><a href="#定理2" class="headerlink" title="定理2"></a>定理2</h3><blockquote>
+<p>对于方程$ax+by=1$，只有当整数$a,b$互质时，方程才有整数解。</p>
+</blockquote>
+<p>以上内容摘自<a href="https://baike.baidu.com/item/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86/5186593" target="_blank" rel="noopener">百度百科</a>。</p>
+<h2 id="裴蜀定理的证明"><a href="#裴蜀定理的证明" class="headerlink" title="裴蜀定理的证明"></a>裴蜀定理的证明</h2><p><strong>特此说明：以下证明纯属我自己yy，如有错误请联系我指正。</strong></p>
+<h3 id="定理1证明"><a href="#定理1证明" class="headerlink" title="定理1证明"></a>定理1证明</h3><p>我们设$ d=\gcd(a,b) $，则显而易见，$d \mid a$，且$d \mid b$。</p>
+<p>根据整除的性质，我们得出$ d \mid ax+by ( x,y \in Z ) $。······（式1.2.1.1）</p>
+<p>所以根据（式1.2.1.1）以及整除的意义得出$ ax+by=dk ( k \in Z^+ ) $。</p>
+<p>当$k=1$时，则$ax+by=d$。</p>
+<p>根据（式1.2.1.1），我们还可以得出$d \mid x$，且$d \mid y$。</p>
+<p>至此，定理1证毕。</p>
+<h3 id="定理2证明"><a href="#定理2证明" class="headerlink" title="定理2证明"></a>定理2证明</h3><p>我们可以看出，定理2就是定理1的特殊情况，即$d=1$时的情况。</p>
+<p>我们可以利用反证法证明。</p>
+<p>首先我们假设$a,b$不互质，即$\gcd(a,b) \not = 1$。······（命题1.2.2.1）</p>
+<p>也就是$d \not = 1$。······（式1.2.2.2）</p>
+<p>根据定理1，$ax+by=d$。</p>
+<p>在定理2中，这个式子是$ax+by=1$。</p>
+<p>可得$d=1$。······（式1.2.2.3）</p>
+<p>所以，（式1.2.2.2）与（式1.2.2.3）矛盾，所以（命题1.2.2.1）为伪命题。</p>
+<p>至此，定理2证毕。</p>
+<h2 id="裴蜀定理的应用"><a href="#裴蜀定理的应用" class="headerlink" title="裴蜀定理的应用"></a>裴蜀定理的应用</h2><ol>
+<li>拓展欧几里得算法</li>
+</ol>
+<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ol>
+<li><p><a href="https://baike.baidu.com/item/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86/5186593" target="_blank" rel="noopener">裴蜀定理_百度百科</a></p>
+</li>
+<li><p><a href="https://blog.csdn.net/a_forever_dream/article/details/83859354" target="_blank" rel="noopener">裴蜀定理_C/C++_a_forever_dream的博客-CSDN博客</a></p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>数论</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>题解 AT2465 【平均点 (Average Score)】</title>
+    <url>/2019/10/04/%E9%A2%98%E8%A7%A3-AT2465-%E3%80%90%E5%B9%B3%E5%9D%87%E7%82%B9-Average-Score-%E3%80%91/</url>
+    <content><![CDATA[<p>在POJ上做题做到自闭:(</p>
+<a id="more"></a>
+<p>想回洛谷做道AT结果又被打脸:(</p>
+<p><del>嘤嘤嘤</del></p>
+<h3 id="解法1"><a href="#解法1" class="headerlink" title="解法1"></a>解法1</h3><h4 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h4><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> For(k) for (int i=0;i&lt;k;i++)</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> cnt;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    For(<span class="number">5</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">int</span> x;</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;x);</span><br><span class="line">        <span class="keyword">if</span> (x&lt;<span class="number">40</span>) x=<span class="number">40</span>;</span><br><span class="line">        cnt+=x;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d"</span>,cnt/<span class="number">5</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>看上去没问题吧，错的！</p>
+<p><strong>日本的题输出要换行！！！</strong></p>
+<p>下面附上AC代码：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> For(k) for (int i=0;i&lt;k;i++)</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> cnt;                    <span class="comment">//cnt表示总和</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    For(<span class="number">5</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">int</span> x;</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;x);</span><br><span class="line">        <span class="keyword">if</span> (x&lt;<span class="number">40</span>) x=<span class="number">40</span>;     <span class="comment">//补分</span></span><br><span class="line">        cnt+=x;             <span class="comment">//算出总和</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d\n"</span>,cnt/<span class="number">5</span>);   <span class="comment">//求平均</span></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h4><p><del>瞎分析</del></p>
+<p>本题是求平均数，公式如下：</p>
+<script type="math/tex; mode=display">\overline{x}=\frac{\sum^{n}_{i=1}a_i}{n}</script><p>还有就是40分以下要补到40分（<del>真好</del>）</p>
+<p>即：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> (x&lt;<span class="number">40</span>) x=<span class="number">40</span>;</span><br></pre></td></tr></table></figure>
+<p>题目说了一定是5的倍数，所以没什么好担心的</p>
+<h3 id="解法2"><a href="#解法2" class="headerlink" title="解法2"></a>解法2</h3><p>树状数组解法（<del>树状数组大法好</del>）</p>
+<h4 id="代码-1"><a href="#代码-1" class="headerlink" title="代码"></a>代码</h4><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAXN 20</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> lowbit(i) (i&amp;-i)</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> n=<span class="number">5</span>,t[MAXN];</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">add</span><span class="params">(<span class="keyword">int</span> x,<span class="keyword">int</span> k)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (;x&lt;=n;x+=lowbit(x))</span><br><span class="line">        t[x]+=k;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">query</span><span class="params">(<span class="keyword">int</span> x)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> ans=<span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (;x;x-=lowbit(x))</span><br><span class="line">        ans+=t[x];</span><br><span class="line">    <span class="keyword">return</span> ans;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">int</span> x;</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;x);</span><br><span class="line">        <span class="keyword">if</span> (x&lt;<span class="number">40</span>) x=<span class="number">40</span>;</span><br><span class="line">        add(i+<span class="number">1</span>,x);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">int</span> ans=query(n);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d\n"</span>,ans/<span class="number">5</span>);    <span class="comment">//注意换行</span></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="分析-1"><a href="#分析-1" class="headerlink" title="分析"></a>分析</h4><p><del>没分析</del></p>
+<h3 id="解法3"><a href="#解法3" class="headerlink" title="解法3"></a>解法3</h3><h4 id="代码-2"><a href="#代码-2" class="headerlink" title="代码"></a>代码</h4><p>线段树解法</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAXN 10</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> LE(i) (i&lt;&lt;1)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> RT(i) ((i&lt;&lt;1)|1)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MID(l,r) ((l+r)&gt;&gt;1)</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> tree[MAXN*<span class="number">4</span>],a[MAXN],n;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">build</span><span class="params">(<span class="keyword">int</span> node,<span class="keyword">int</span> l,<span class="keyword">int</span> r)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (l==r)</span><br><span class="line">    &#123;</span><br><span class="line">        tree[node]=a[l];</span><br><span class="line">        <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">int</span> mid=MID(l,r);</span><br><span class="line">    build(LE(node),l,mid);</span><br><span class="line">    build(RT(node),mid+<span class="number">1</span>,r);</span><br><span class="line">    tree[node]=tree[LE(node)]+tree[RT(node)];</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> _query(<span class="keyword">int</span> node,<span class="keyword">int</span> l,<span class="keyword">int</span> r,<span class="keyword">int</span> indl,<span class="keyword">int</span> indr)</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">if</span>(indr&lt;l||indl&gt;r) <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">if</span>(indl&lt;=l&amp;&amp;indr&gt;=r) <span class="keyword">return</span> tree[node];</span><br><span class="line">    <span class="keyword">int</span> mid=MID(l,r);</span><br><span class="line">    <span class="keyword">return</span> _query(LE(node),l,mid,indl,indr)+_query(RT(node),mid+<span class="number">1</span>,r,indl,indr);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    n=<span class="number">5</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">scanf</span>(<span class="string">"%d"</span>,&amp;a[i]);</span><br><span class="line">        <span class="keyword">if</span> (a[i]&lt;<span class="number">40</span>) a[i]=<span class="number">40</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    build(<span class="number">1</span>,<span class="number">1</span>,n);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d\n"</span>,_query(<span class="number">1</span>,<span class="number">1</span>,n,<span class="number">1</span>,n)/n);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="分析-2"><a href="#分析-2" class="headerlink" title="分析"></a>分析</h4><p><del>还是没有</del></p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>我太闲了</p>
+]]></content>
+      <categories>
+        <category>题解</category>
+      </categories>
+      <tags>
+        <tag>OI</tag>
+        <tag>C++</tag>
+        <tag>题解</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>题解 P1002 【过河卒】</title>
+    <url>/2019/10/27/%E9%A2%98%E8%A7%A3-P1002-%E3%80%90%E8%BF%87%E6%B2%B3%E5%8D%92%E3%80%91/</url>
+    <content><![CDATA[<p>百忙之下抽空写题解，先贴一下代码：</p>
+<a id="more"></a>
+<h3 id="解法1"><a href="#解法1" class="headerlink" title="解法1"></a>解法1</h3><h4 id="代码（C-）"><a href="#代码（C-）" class="headerlink" title="代码（C++）"></a>代码（C++）</h4><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> ull unsigned long long</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> horse[<span class="number">8</span>][<span class="number">2</span>]=&#123;&#123;<span class="number">-2</span>,<span class="number">-1</span>&#125;,&#123;<span class="number">-1</span>,<span class="number">-2</span>&#125;,&#123;<span class="number">-2</span>,<span class="number">1</span>&#125;,&#123;<span class="number">-1</span>,<span class="number">2</span>&#125;,&#123;<span class="number">1</span>,<span class="number">-2</span>&#125;,&#123;<span class="number">2</span>,<span class="number">-1</span>&#125;,&#123;<span class="number">2</span>,<span class="number">1</span>&#125;,&#123;<span class="number">1</span>,<span class="number">2</span>&#125;&#125;;</span><br><span class="line">ull dp[<span class="number">30</span>][<span class="number">30</span>],book[<span class="number">30</span>][<span class="number">30</span>];;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> bx,by,px,py;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">"%d%d%d%d"</span>,&amp;bx,&amp;by,&amp;px,&amp;py);</span><br><span class="line">    bx++;by++;px++;py++;                <span class="comment">//初始点是A(0,0)</span></span><br><span class="line">    book[px][py]=<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;<span class="number">8</span>;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        book[px+horse[i][<span class="number">0</span>]][py+horse[i][<span class="number">1</span>]]=<span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    dp[<span class="number">0</span>][<span class="number">1</span>]=<span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=bx;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> j=<span class="number">1</span>;j&lt;=by;j++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span> (book[i][j])</span><br><span class="line">                <span class="keyword">continue</span>;</span><br><span class="line">            <span class="keyword">else</span></span><br><span class="line">                dp[i][j]=max(dp[i<span class="number">-1</span>][j]+dp[i][j<span class="number">-1</span>],dp[i][j]);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%lld"</span>,dp[bx][by]);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h4><p>这题表面上像是搜索的题目，但是仔细想想，搜索一定会死（<del>不要问我为什么，问就是布吉岛</del>）</p>
+<p>主要是怕栈溢出，而且我也不擅长搜索（<del>逃</del></p>
+<p>所以应该用DP做，状态很好找，我们用<code>dp[i][j]</code>表示到$(i,j)$这个点的总路径数，状态转移方程如下：</p>
+<script type="math/tex; mode=display">dp[i][j]=\max\{dp[i-1][j]+dp[i][j-1],dp[i][j]\}</script><p>貌似</p>
+<script type="math/tex; mode=display">dp[i][j]=dp[i-1][j]+dp[i][j-1]</script><p>也可以，但我代码里写的是第一种。</p>
+<p>还有应该坑点，如果初始化是<code>dp[1][1]=1</code>的话，循环时<code>dp[1][1]</code>就会等于<code>dp[0][1]+dp[1][0]</code>等于0，然后<del>死</del></p>
+<p>所以初始化应该是<code>dp[1][0]=1</code></p>
+<p>还有就是初始点是$A(0,0)$，所以应该加上</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">bx++;by++;px++;py++;</span><br></pre></td></tr></table></figure>
+<p>这一句</p>
+<p>所以代码就显而易见了（<del>原谅我用这种恶劣的词汇</del>）</p>
+<h3 id="解法2"><a href="#解法2" class="headerlink" title="解法2"></a>解法2</h3><p>（待填坑）</p>
+]]></content>
+      <categories>
+        <category>题解</category>
+      </categories>
+      <tags>
+        <tag>OI</tag>
+        <tag>C++</tag>
+        <tag>题解</tag>
+        <tag>DP</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>题解 P1181 【数列分段Section I】</title>
+    <url>/2019/08/18/%E9%A2%98%E8%A7%A3-P1181-%E3%80%90%E6%95%B0%E5%88%97%E5%88%86%E6%AE%B5Section-I%E3%80%91/</url>
+    <content><![CDATA[<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><a id="more"></a>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> sum,ans,a[<span class="number">100002</span>];</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n,m;</span><br><span class="line">    <span class="built_in">cin</span> &gt;&gt; n &gt;&gt; m;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">        <span class="built_in">cin</span> &gt;&gt; a[i];</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++) &#123;</span><br><span class="line">        ans+=a[i];</span><br><span class="line">        <span class="keyword">if</span>(ans&gt;m) &#123;</span><br><span class="line">            sum++;</span><br><span class="line">            ans=<span class="number">0</span>;</span><br><span class="line">            i--;</span><br><span class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> (ans==m) &#123;</span><br><span class="line">            sum++;</span><br><span class="line">            ans=<span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (ans!=<span class="number">0</span>)</span><br><span class="line">        sum++;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; sum;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h1><p>题目很简单，没学过OI的人应该也能想出来，说的放肆点，就连<del>驴</del>阿米娅也能做出来</p>
+<p><img src="https://cdn.luogu.com.cn/upload/pic/73150.png" alt=""></p>
+<p>说的简单，但是不好好做绝对会WA，<del>比如我</del></p>
+<p>瞧瞧我第一次提交的代码，看上去还OK，一交上去全WA：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> sum,ans,a[<span class="number">100002</span>];</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n,m;</span><br><span class="line">    <span class="built_in">cin</span> &gt;&gt; n &gt;&gt; m;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">        <span class="built_in">cin</span> &gt;&gt; a[i];</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++) &#123;</span><br><span class="line">        ans+=a[i];</span><br><span class="line">        <span class="keyword">if</span>(ans+a[i]&gt;=m) &#123;</span><br><span class="line">            sum++;</span><br><span class="line">            ans=<span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; sum;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>总结一些这里的注意事项：</p>
+<h2 id="ans-gt-m和ans-m是两种情况！"><a href="#ans-gt-m和ans-m是两种情况！" class="headerlink" title="ans&gt;m和ans==m是两种情况！"></a><code>ans&gt;m</code>和<code>ans==m</code>是两种情况！</h2><p>当<code>ans&gt;m</code>时，<code>a[i]</code>其实是不能算在前一个分段里的，所以i需要回退1</p>
+<h2 id="当ans-0时，ans存储的其实是最后一个分段"><a href="#当ans-0时，ans存储的其实是最后一个分段" class="headerlink" title="当ans!=0时，ans存储的其实是最后一个分段"></a>当<code>ans!=0</code>时，<code>ans</code>存储的其实是最后一个分段</h2><p>当<code>ans!=0</code>时，<code>ans</code>存储的其实是最后一个分段，所以<code>sum</code>还需要+1</p>
+<p><del>没了</del></p>
+]]></content>
+      <categories>
+        <category>题解</category>
+      </categories>
+      <tags>
+        <tag>OI</tag>
+        <tag>C++</tag>
+        <tag>题解</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>题解 P1276 【校门外的树（增强版）】</title>
+    <url>/2019/08/12/%E9%A2%98%E8%A7%A3-P1276-%E3%80%90%E6%A0%A1%E9%97%A8%E5%A4%96%E7%9A%84%E6%A0%91%EF%BC%88%E5%A2%9E%E5%BC%BA%E7%89%88%EF%BC%89%E3%80%91/</url>
+    <content><![CDATA[<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><a id="more"></a>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> r[<span class="number">10002</span>];                     <span class="comment">//这个数组里的每一个数只有三态，0表示被砍掉，1表示大树，2表示树苗</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n,l,a,b,x;</span><br><span class="line">    <span class="keyword">int</span> sum=<span class="number">0</span>;                    <span class="comment">//sum变量用于存储种上又被拔掉的树苗数目</span></span><br><span class="line">    <span class="built_in">cin</span> &gt;&gt; l &gt;&gt; n;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;=l;i++)</span><br><span class="line">        r[i]=<span class="number">1</span>;                   <span class="comment">//植树</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;n;i++) &#123;</span><br><span class="line">        <span class="built_in">cin</span> &gt;&gt; x &gt;&gt; a &gt;&gt; b;</span><br><span class="line">        <span class="keyword">if</span> (x==<span class="number">0</span>)                 <span class="comment">//如果是砍树</span></span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j=a;j&lt;=b;j++) &#123;</span><br><span class="line">                <span class="keyword">if</span> (r[j]==<span class="number">2</span>)      <span class="comment">//如果砍的是树苗</span></span><br><span class="line">                    sum++;</span><br><span class="line">                r[j]=<span class="number">0</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span> (x==<span class="number">1</span>)</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> j=a;j&lt;=b;j++)</span><br><span class="line">                <span class="keyword">if</span> (r[j]==<span class="number">0</span>)      <span class="comment">//如果被砍掉了</span></span><br><span class="line">                    r[j]=<span class="number">2</span>;       <span class="comment">//记！住！种！的！是！树！苗！</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">int</span> count=<span class="number">0</span>;                  <span class="comment">//count变量用于存储剩下的树苗</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;=l;i++) &#123;      <span class="comment">//统计</span></span><br><span class="line">        <span class="keyword">if</span> (r[i]==<span class="number">2</span>)              <span class="comment">//如果是树苗</span></span><br><span class="line">            count++;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d\n%d"</span>,count,sum);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h1><p>如题，这题很坑</p>
+<h2 id="一号坑"><a href="#一号坑" class="headerlink" title="一号坑"></a>一号坑</h2><p>$L$是从0开始而不是1，<del>这个坑能摔死人</del></p>
+<h2 id="二号坑"><a href="#二号坑" class="headerlink" title="二号坑"></a>二号坑</h2><p>种下去的是树苗，永远不会长成大树</p>
+<p>其他好像就没有了</p>
+]]></content>
+      <categories>
+        <category>题解</category>
+      </categories>
+      <tags>
+        <tag>OI</tag>
+        <tag>C++</tag>
+        <tag>题解</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>题解 P1996 【约瑟夫问题】</title>
+    <url>/2019/08/12/%E9%A2%98%E8%A7%A3-P1996-%E3%80%90%E7%BA%A6%E7%91%9F%E5%A4%AB%E9%97%AE%E9%A2%98%E3%80%91/</url>
+    <content><![CDATA[<p>约瑟夫问题（✘）</p>
+<p>枪毙小朋友（✔）</p>
+<a id="more"></a>
+<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><p>用队列做，STL做法如下：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;queue&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="built_in">queue</span> &lt;<span class="keyword">int</span>&gt; q;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n,k;</span><br><span class="line">    <span class="built_in">cin</span> &gt;&gt; n &gt;&gt; k;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">        q.push(i);</span><br><span class="line">    <span class="keyword">while</span>(q.size()&gt;<span class="number">1</span>) &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;k<span class="number">-1</span>;i++) &#123;</span><br><span class="line">            <span class="keyword">int</span> x=q.front();</span><br><span class="line">            q.pop();</span><br><span class="line">            q.push(x);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"%d "</span>,q.front());</span><br><span class="line">        q.pop();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d"</span>,q.front());</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>你以为这样就结束了？</p>
+<p>天真，只有80分，因为有一个测试点的数据是</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">0 0</span><br></pre></td></tr></table></figure>
+<p>所以代码应该是这样：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;queue&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="built_in">queue</span> &lt;<span class="keyword">int</span>&gt; q;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n,k;</span><br><span class="line">    <span class="built_in">cin</span> &gt;&gt; n &gt;&gt; k;</span><br><span class="line">    <span class="keyword">if</span> (n==<span class="number">0</span>)   <span class="comment">//如果N=0就直接退出</span></span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)</span><br><span class="line">        q.push(i);</span><br><span class="line">    <span class="keyword">while</span>(q.size()&gt;<span class="number">1</span>) &#123;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;k<span class="number">-1</span>;i++) &#123;</span><br><span class="line">            <span class="keyword">int</span> x=q.front();</span><br><span class="line">            q.pop();</span><br><span class="line">            q.push(x);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"%d "</span>,q.front());</span><br><span class="line">        q.pop();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"%d"</span>,q.front());</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h1><p>本来可以用循环链表做的，可是链表太太太太麻烦了</p>
+<p>这里用队列模拟了循环链表：先把小朋友一个一个出队，然后入队，如果这个小朋友报到了$K$，则直接<del>枪毙</del>输出，不再入队。</p>
+<p>最后队列里只剩下一个元素，这个元素就是赢家。</p>
+]]></content>
+      <categories>
+        <category>题解</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>OI</tag>
+        <tag>C++</tag>
+        <tag>题解</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>题解 P3370 【【模板】字符串哈希】</title>
+    <url>/2019/08/13/%E9%A2%98%E8%A7%A3-P3370-%E3%80%90%E3%80%90%E6%A8%A1%E6%9D%BF%E3%80%91%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%93%88%E5%B8%8C%E3%80%91/</url>
+    <content><![CDATA[<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><a id="more"></a>
+<p>C++ STL做法：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="built_in">vector</span> &lt;<span class="built_in">string</span>&gt; linker[<span class="number">1502</span>];</span><br><span class="line"><span class="keyword">int</span> ans;                                 <span class="comment">//用于记录字符串的数量</span></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">ins</span><span class="params">(<span class="built_in">string</span> s)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> v=s.length();                    <span class="comment">//以长度分类</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;linker[v].size();i++) <span class="comment">//从容器的头遍历到尾</span></span><br><span class="line">       <span class="keyword">if</span> (linker[v][i]==s)              <span class="comment">//如果已经出现过，则直接返回</span></span><br><span class="line">            <span class="keyword">return</span>;</span><br><span class="line">    linker[v].push_back(s);              <span class="comment">//否则追加到末尾</span></span><br><span class="line">    ans++;                               <span class="comment">//数量++</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> n;</span><br><span class="line">    <span class="built_in">string</span> x;</span><br><span class="line">    <span class="built_in">cin</span> &gt;&gt; n;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;n;i++) &#123;</span><br><span class="line">        <span class="built_in">cin</span> &gt;&gt; x;</span><br><span class="line">        ins(x);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; ans;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>满分AC</p>
+<h1 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h1><p>我看到题解区里的人好像都是用标准做法<del>To Be Continued</del>也就是把字符串里的每一个字符balabala……<del>为什么省略，因为我不会做</del></p>
+<p>而我的做法，则是按照字符串的长度来进行hash，详见注释</p>
+<p>当然可以用map做，不过没有挑战性，<del>我们一般称这种人为挂B</del></p>
+]]></content>
+      <categories>
+        <category>题解</category>
+      </categories>
+      <tags>
+        <tag>OI</tag>
+        <tag>C++</tag>
+        <tag>题解</tag>
       </tags>
   </entry>
 </search>
