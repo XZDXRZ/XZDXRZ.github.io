@@ -6,10 +6,23 @@
     <content><![CDATA[<h1 id="《关于我转生成为U艇上的TDC这件事》"><a href="#《关于我转生成为U艇上的TDC这件事》" class="headerlink" title="《关于我转生成为U艇上的TDC这件事》"></a>《关于我转生成为U艇上的TDC这件事》</h1><a id="more"></a>
 <h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>假如你是一艘德国U艇上的TDC，而你们面前有一艘英国V级驱逐舰，如果继续航行，那么这艘U艇将被驱逐舰发现并被深水炸弹击沉，你现在需要计算鱼雷偏转角，击沉这艘驱逐舰，鱼雷定深、引信类型都已经设置好了。</p>
 <h2 id="题面"><a href="#题面" class="headerlink" title="题面"></a>题面</h2><p><img src="/images/假如你是一艘U艇的TDC/海图.png" alt="示意图"></p>
-<p>如图，你现在的航向是$0^{\circ}$，而驱逐舰的航向是$90^{\circ}$，匀速直线运动；你的航速是$0$节，驱逐舰的航速是$10$节，鱼雷航速为$44$节，蒸汽推进，磁引信；当前舰艏角为右弦$150^{\circ}$（即$\theta$角），驱逐舰到达正前方时舰艏角为右弦$90^{\circ}$（即$\alpha$角）；当前驱逐舰距潜艇$3$海里；艇长希望驱逐舰到达潜艇左弦$20^{\circ}$时发射鱼雷（即$\beta$角），而且艇长会在驱逐舰舰体正中经过$340^{\circ}$（即潜艇左弦$20^{\circ}$）时发射鱼雷。</p>
+<p>如图，你现在的航向是$0^{\circ}$，而驱逐舰的航向是$90^{\circ}$，匀速直线运动；你的航速是$0$节，驱逐舰的航速是$10$节，鱼雷航速为$44$节，蒸汽推进，磁引信；当前舰艏角为右弦$30^{\circ}$（即$\theta$角），驱逐舰到达正前方时舰艏角为右弦$90^{\circ}$（即$\alpha$角）；当前驱逐舰距潜艇$3$海里；艇长希望驱逐舰到达潜艇左弦$20^{\circ}$时发射鱼雷（即$\beta$角），而且艇长会在驱逐舰舰体正中经过$340^{\circ}$（即潜艇左弦$20^{\circ}$）时发射鱼雷。</p>
 <p>你现在需要计算鱼雷的偏转角（即左弦$n^{\circ}$或右弦$n^{\circ}$），确保鱼雷恰好命中驱逐舰正中并通过磁引信炸断DD的龙骨。</p>
 <h2 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h2><p>$1$节 $=$ $1$海里$/$小时</p>
-<h2 id="解"><a href="#解" class="headerlink" title="解"></a>解</h2><p>有心情再写（咕咕咕……）</p>
+<h2 id="解"><a href="#解" class="headerlink" title="解"></a>解</h2><p>假设潜艇舰艏朝向为$20^{\circ}$，这样可以方便考虑问题。</p>
+<p>假设鱼雷需要向右弦偏转$n^{\circ}$（在图上我们用一个新的$\beta_2$角表示）。</p>
+<p>同时根据三角形内角和为$180^{\circ}$得到驱逐舰到达发射点时舰艏角为$70^{\circ}$。</p>
+<script type="math/tex; mode=display">180^{\circ} - \angle\alpha - \angle\beta = 70^{\circ}</script><p>然后从鱼雷航线与驱逐舰航线的交点向左弦$20^{\circ}$引一条垂线。（即图中1红色线段）</p>
+<p>因为$\angle\theta=30^{\circ}$，所以驱逐舰行驶到潜艇正前方时距离潜艇$1.5$海里。</p>
+<script type="math/tex; mode=display">3 \cdot \sin\theta = 3 \cdot \sin30^{\circ} = 3 \times 0.5 = 1.5</script><p>由$\angle\gamma = 70^{\circ}$得，驱逐舰到达发射位置时距离潜艇$$海里。</p>
+<script type="math/tex; mode=display">\frac{1.5}{\sin\gamma} = \frac{1.5}{\sin70^{\circ}} = \approx 1.395</script><p>设线段$AH = x$，则线段$HO = 1.395 - x$。</p>
+<p>所以$AB = \frac{x}{\cos\gamma}$，而$OB = \frac{1.395-x}{\cos\beta_2}$</p>
+<p>根据简单的 速度$\times$时间$=$距离 公式得</p>
+<script type="math/tex; mode=display">AB \times 10kts = OB \times 44kts</script><p>建立方程：</p>
+<script type="math/tex; mode=display">\frac{x}{\cos\gamma} \cdot 10 = \frac{1.395-x}{\cos\beta_2} \cdot 44</script><p>解方程，得到</p>
+<script type="math/tex; mode=display">(5 \cdot \cos\beta_2 + 7.524)x = 10.496</script><p>接下来我们需要知道$x$的值……</p>
+<p>好吧，其实我到这里卡住了，明天再想吧（明天？我可没说是哪天的明天）。 [UTC+8:00 0:29 6/10]</p>
+<p><img src="/images/假如你是一艘U艇的TDC/解海图.png" alt="示意图"></p>
 ]]></content>
       <categories>
         <category>数学</category>
