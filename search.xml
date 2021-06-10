@@ -18,9 +18,9 @@
 <script type="math/tex; mode=display">\frac{1.5}{\sin\gamma} = \frac{1.5}{\sin70^{\circ}} = \approx 1.395</script><p>设线段$AH = x$，则线段$HO = 1.395 - x$。</p>
 <p>所以$AB = \frac{x}{\cos\gamma}$，而$OB = \frac{1.395-x}{\cos\beta_2}$</p>
 <p>根据简单的 速度$\times$时间$=$距离 公式得</p>
-<script type="math/tex; mode=display">AB \times 10kts = OB \times 44kts</script><p>建立方程：</p>
-<script type="math/tex; mode=display">\frac{x}{\cos\gamma} \cdot 10 = \frac{1.395-x}{\cos\beta_2} \cdot 44</script><p>解方程，得到</p>
-<script type="math/tex; mode=display">(5 \cdot \cos\beta_2 + 7.524)x = 10.496</script><p>接下来我们需要知道$x$的值……</p>
+<script type="math/tex; mode=display">\frac{AB}{10kts} = \frac{OB}{44kts}</script><p>建立方程：</p>
+<script type="math/tex; mode=display">\frac{\frac{x}{\cos\gamma}}{10} = \frac{\frac{1.395-x}{\cos\beta_2}}{44}</script><p>解方程，得到</p>
+<script type="math/tex; mode=display">(11\cos\beta_2 + 0.855)x = 1.192</script><p>接下来我们需要知道$x$的值……</p>
 <p>好吧，其实我到这里卡住了，明天再想吧（明天？我可没说是哪天的明天）。 [UTC+8:00 0:29 6/10]</p>
 <p><img src="/images/假如你是一艘U艇的TDC/解海图.png" alt="示意图"></p>
 ]]></content>
