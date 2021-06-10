@@ -14,7 +14,7 @@
 <p>同时根据三角形内角和为$180^{\circ}$得到驱逐舰到达发射点时舰艏角为$70^{\circ}$。</p>
 <script type="math/tex; mode=display">180^{\circ} - \angle\alpha - \angle\beta = 70^{\circ}</script><p>然后从鱼雷航线与驱逐舰航线的交点向左弦$20^{\circ}$引一条垂线。（即图中1红色线段）</p>
 <p>因为$\angle\theta=30^{\circ}$，所以驱逐舰行驶到潜艇正前方时距离潜艇$1.5$海里。</p>
-<script type="math/tex; mode=display">3 \cdot \sin\theta = 3 \cdot \sin30^{\circ} = 3 \times 0.5 = 1.5</script><p>由$\angle\gamma = 70^{\circ}$得，驱逐舰到达发射位置时距离潜艇$$海里。</p>
+<script type="math/tex; mode=display">3 \cdot \sin\theta = 3 \cdot \sin30^{\circ} = 3 \times 0.5 = 1.5</script><p>由$\angle\gamma = 70^{\circ}$得，驱逐舰到达发射位置时距离潜艇$1.395$海里。</p>
 <script type="math/tex; mode=display">\frac{1.5}{\sin\gamma} = \frac{1.5}{\sin70^{\circ}} = \approx 1.395</script><p>设线段$AH = x$，则线段$HO = 1.395 - x$。</p>
 <p>所以$AB = \frac{x}{\cos\gamma}$，而$OB = \frac{1.395-x}{\cos\beta_2}$</p>
 <p>根据简单的 速度$\times$时间$=$距离 公式得</p>
