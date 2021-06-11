@@ -173,13 +173,13 @@
       <category term="学习笔记" scheme="https://xzdxrz.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
+      <category term="数论" scheme="https://xzdxrz.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
+    
       <category term="OI" scheme="https://xzdxrz.github.io/tags/OI/"/>
     
       <category term="C++" scheme="https://xzdxrz.github.io/tags/C/"/>
     
       <category term="算法" scheme="https://xzdxrz.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="数论" scheme="https://xzdxrz.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
     
   </entry>
   
@@ -200,13 +200,13 @@
       <category term="学习笔记" scheme="https://xzdxrz.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
+      <category term="数论" scheme="https://xzdxrz.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
+    
       <category term="OI" scheme="https://xzdxrz.github.io/tags/OI/"/>
     
       <category term="C++" scheme="https://xzdxrz.github.io/tags/C/"/>
     
       <category term="算法" scheme="https://xzdxrz.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-      <category term="数论" scheme="https://xzdxrz.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
     
   </entry>
   
@@ -336,31 +336,6 @@
   </entry>
   
   <entry>
-    <title>题解 P1276 【校门外的树（增强版）】</title>
-    <link href="https://xzdxrz.github.io/2019/08/12/%E9%A2%98%E8%A7%A3-P1276-%E3%80%90%E6%A0%A1%E9%97%A8%E5%A4%96%E7%9A%84%E6%A0%91%EF%BC%88%E5%A2%9E%E5%BC%BA%E7%89%88%EF%BC%89%E3%80%91/"/>
-    <id>https://xzdxrz.github.io/2019/08/12/%E9%A2%98%E8%A7%A3-P1276-%E3%80%90%E6%A0%A1%E9%97%A8%E5%A4%96%E7%9A%84%E6%A0%91%EF%BC%88%E5%A2%9E%E5%BC%BA%E7%89%88%EF%BC%89%E3%80%91/</id>
-    <published>2019-08-11T16:00:00.000Z</published>
-    <updated>2020-03-07T21:43:24.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;代码&quot;&gt;&lt;a href=&quot;#代码&quot; class=&quot;headerlink&quot; title=&quot;代码&quot;&gt;&lt;/a&gt;代码&lt;/h1&gt;
-    
-    </summary>
-    
-    
-      <category term="题解" scheme="https://xzdxrz.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
-    
-    
-      <category term="OI" scheme="https://xzdxrz.github.io/tags/OI/"/>
-    
-      <category term="C++" scheme="https://xzdxrz.github.io/tags/C/"/>
-    
-      <category term="题解" scheme="https://xzdxrz.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
-    
-  </entry>
-  
-  <entry>
     <title>题解 P1996 【约瑟夫问题】</title>
     <link href="https://xzdxrz.github.io/2019/08/12/%E9%A2%98%E8%A7%A3-P1996-%E3%80%90%E7%BA%A6%E7%91%9F%E5%A4%AB%E9%97%AE%E9%A2%98%E3%80%91/"/>
     <id>https://xzdxrz.github.io/2019/08/12/%E9%A2%98%E8%A7%A3-P1996-%E3%80%90%E7%BA%A6%E7%91%9F%E5%A4%AB%E9%97%AE%E9%A2%98%E3%80%91/</id>
@@ -379,6 +354,31 @@
     
     
       <category term="数据结构" scheme="https://xzdxrz.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+      <category term="OI" scheme="https://xzdxrz.github.io/tags/OI/"/>
+    
+      <category term="C++" scheme="https://xzdxrz.github.io/tags/C/"/>
+    
+      <category term="题解" scheme="https://xzdxrz.github.io/tags/%E9%A2%98%E8%A7%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>题解 P1276 【校门外的树（增强版）】</title>
+    <link href="https://xzdxrz.github.io/2019/08/12/%E9%A2%98%E8%A7%A3-P1276-%E3%80%90%E6%A0%A1%E9%97%A8%E5%A4%96%E7%9A%84%E6%A0%91%EF%BC%88%E5%A2%9E%E5%BC%BA%E7%89%88%EF%BC%89%E3%80%91/"/>
+    <id>https://xzdxrz.github.io/2019/08/12/%E9%A2%98%E8%A7%A3-P1276-%E3%80%90%E6%A0%A1%E9%97%A8%E5%A4%96%E7%9A%84%E6%A0%91%EF%BC%88%E5%A2%9E%E5%BC%BA%E7%89%88%EF%BC%89%E3%80%91/</id>
+    <published>2019-08-11T16:00:00.000Z</published>
+    <updated>2020-03-07T21:43:24.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;代码&quot;&gt;&lt;a href=&quot;#代码&quot; class=&quot;headerlink&quot; title=&quot;代码&quot;&gt;&lt;/a&gt;代码&lt;/h1&gt;
+    
+    </summary>
+    
+    
+      <category term="题解" scheme="https://xzdxrz.github.io/categories/%E9%A2%98%E8%A7%A3/"/>
+    
     
       <category term="OI" scheme="https://xzdxrz.github.io/tags/OI/"/>
     
