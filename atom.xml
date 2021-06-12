@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xzdxrz.github.io/"/>
-  <updated>2021-06-10T13:38:02.000Z</updated>
+  <updated>2021-06-12T08:07:44.000Z</updated>
   <id>https://xzdxrz.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>合理</title>
+    <link href="https://xzdxrz.github.io/2021/06/12/%E5%90%88%E7%90%86/"/>
+    <id>https://xzdxrz.github.io/2021/06/12/%E5%90%88%E7%90%86/</id>
+    <published>2021-06-12T08:03:47.000Z</published>
+    <updated>2021-06-12T08:07:44.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;这很合理&quot;&gt;&lt;a href=&quot;#这很合理&quot; class=&quot;headerlink&quot; title=&quot;这很合理&quot;&gt;&lt;/a&gt;这很合理&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;/images/合理/合理.png&quot; alt=&quot;合理&quot;&gt;&lt;/p&gt;
+&lt;p&gt;原图：&lt;/p&gt;
+&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>假如你是一艘U艇的TDC</title>
@@ -173,11 +198,11 @@
       <category term="学习笔记" scheme="https://xzdxrz.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
+      <category term="数论" scheme="https://xzdxrz.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
+    
       <category term="OI" scheme="https://xzdxrz.github.io/tags/OI/"/>
     
       <category term="C++" scheme="https://xzdxrz.github.io/tags/C/"/>
-    
-      <category term="数论" scheme="https://xzdxrz.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
     
       <category term="算法" scheme="https://xzdxrz.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
@@ -200,11 +225,11 @@
       <category term="学习笔记" scheme="https://xzdxrz.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
+      <category term="数论" scheme="https://xzdxrz.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
+    
       <category term="OI" scheme="https://xzdxrz.github.io/tags/OI/"/>
     
       <category term="C++" scheme="https://xzdxrz.github.io/tags/C/"/>
-    
-      <category term="数论" scheme="https://xzdxrz.github.io/tags/%E6%95%B0%E8%AE%BA/"/>
     
       <category term="算法" scheme="https://xzdxrz.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
@@ -465,29 +490,6 @@
     <summary type="html">
     
       &lt;h1 id=&quot;代码&quot;&gt;&lt;a href=&quot;#代码&quot; class=&quot;headerlink&quot; title=&quot;代码&quot;&gt;&lt;/a&gt;代码&lt;/h1&gt;&lt;p&gt;先上伪代码：&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="学习笔记" scheme="https://xzdxrz.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    
-      <category term="C++" scheme="https://xzdxrz.github.io/tags/C/"/>
-    
-      <category term="算法" scheme="https://xzdxrz.github.io/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>插入排序学习笔记</title>
-    <link href="https://xzdxrz.github.io/2019/05/12/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F/"/>
-    <id>https://xzdxrz.github.io/2019/05/12/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F/</id>
-    <published>2019-05-11T16:00:00.000Z</published>
-    <updated>2020-03-07T21:41:00.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;代码&quot;&gt;&lt;a href=&quot;#代码&quot; class=&quot;headerlink&quot; title=&quot;代码&quot;&gt;&lt;/a&gt;代码&lt;/h1&gt;&lt;p&gt;第一个算法就是“插入排序”。伪代码如下：&lt;/p&gt;
     
     </summary>
     

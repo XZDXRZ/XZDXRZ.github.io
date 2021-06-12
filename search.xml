@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>合理</title>
+    <url>/2021/06/12/%E5%90%88%E7%90%86/</url>
+    <content><![CDATA[<h1 id="这很合理"><a href="#这很合理" class="headerlink" title="这很合理"></a>这很合理</h1><p><img src="/images/合理/合理.png" alt="合理"></p>
+<p>原图：</p>
+<p><img src="/images/合理/原图.jpg" alt="原图"></p>
+]]></content>
+  </entry>
+  <entry>
     <title>假如你是一艘U艇的TDC</title>
     <url>/2021/06/08/%E5%81%87%E5%A6%82%E4%BD%A0%E6%98%AF%E4%B8%80%E8%89%98U%E8%89%87%E7%9A%84TDC/</url>
     <content><![CDATA[<h1 id="《关于我转生成为U艇上的TDC这件事》"><a href="#《关于我转生成为U艇上的TDC这件事》" class="headerlink" title="《关于我转生成为U艇上的TDC这件事》"></a>《关于我转生成为U艇上的TDC这件事》</h1><a id="more"></a>
@@ -232,9 +240,9 @@
         <category>学习笔记</category>
       </categories>
       <tags>
+        <tag>数论</tag>
         <tag>OI</tag>
         <tag>C++</tag>
-        <tag>数论</tag>
         <tag>算法</tag>
       </tags>
   </entry>
@@ -298,9 +306,9 @@
         <category>学习笔记</category>
       </categories>
       <tags>
+        <tag>数论</tag>
         <tag>OI</tag>
         <tag>C++</tag>
-        <tag>数论</tag>
         <tag>算法</tag>
       </tags>
   </entry>
