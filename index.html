@@ -1,707 +1,253 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
-  
-  <title>XZDXRZ&#39;s Blog</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="欢迎来到我的小窝，我会在这里分享一些学习笔记">
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>XZDXRZ's Blog</title><meta name="author" content="Bromaster's Cactus"><meta name="copyright" content="Bromaster's Cactus"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="欢迎来到我的小窝，我会在这里分享一些学习笔记">
 <meta property="og:type" content="website">
 <meta property="og:title" content="XZDXRZ&#39;s Blog">
 <meta property="og:url" content="http://xzdxrz.github.io/index.html">
 <meta property="og:site_name" content="XZDXRZ&#39;s Blog">
 <meta property="og:description" content="欢迎来到我的小窝，我会在这里分享一些学习笔记">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://xzdxrz.github.io/images/favicon/avatar.png">
 <meta property="article:author" content="Bromaster&#39;s Cactus">
 <meta property="article:tag" content="Algorithmic">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://xzdxrz.github.io/images/favicon/avatar.png"><link rel="shortcut icon" href="/images/favicon/512.png"><link rel="canonical" href="http://xzdxrz.github.io/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'XZDXRZ\'s Blog',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '24-07-2023 21:00:50'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
   
-    <link rel="alternate" href="/atom.xml" title="XZDXRZ's Blog" type="application/atom+xml">
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
   
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
   
-    <link rel="shortcut icon" href="/favicon.png">
-  
-  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
     
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
-
-  
-  
-<link rel="stylesheet" href="/css/style.css">
-
-  
-    
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
-
-  
-  
-<meta name="generator" content="Hexo 6.3.0"></head>
-
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">XZDXRZ&#39;s Blog</a>
-      </h1>
-      
-        <h2 id="subtitle-wrap">
-          <a href="/" id="subtitle">God&#39;s Blessing on This Wonderful World!</a>
-        </h2>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
         
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-        
-          <a class="nav-icon" href="/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
-        
-        <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://xzdxrz.github.io"></form>
-      </div>
-    </div>
-  </div>
-</header>
-
-      <div class="outer">
-        <section id="main">
-  
-    <article id="post-Blog-Remake" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2023/07/24/Blog-Remake/" class="article-date">
-  <time class="dt-published" datetime="2023-07-24T09:25:33.000Z" itemprop="datePublished">24-07-2023</time>
-</a>
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
     
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2023/07/24/Blog-Remake/">Blog Remake</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <p>Since the structure and context of the old blog is messy and chaotic, the blogger, me, is going to remake the entire blog.</p>
-<p>Some articles that I feel pleasant with will be transfered into this new one.</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://xzdxrz.github.io/2023/07/24/Blog-Remake/" data-id="clkgoyd1q00004c2s04evga3y" data-title="Blog Remake" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-整除与同余" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2022/05/09/%E6%95%B4%E9%99%A4%E4%B8%8E%E5%90%8C%E4%BD%99/" class="article-date">
-  <time class="dt-published" datetime="2022-05-09T11:15:13.000Z" itemprop="datePublished">09-05-2022</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2022/05/09/%E6%95%B4%E9%99%A4%E4%B8%8E%E5%90%8C%E4%BD%99/">整除与同余</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1 id="整除与同余"><a href="#整除与同余" class="headerlink" title="整除与同余"></a>整除与同余</h1><h2 id="整除"><a href="#整除" class="headerlink" title="整除"></a>整除</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>$\exists q \in \mathbb{Z}$ 使得 $b &#x3D; a \cdot q$ 则$a \mid b$，其中$a$是$b$的因数，$b$是$a$的倍数</p>
-<h3 id="性质"><a href="#性质" class="headerlink" title="性质"></a>性质</h3><ol>
-<li>$a\mid b$ 且 $a\mid c$，则$a\mid (b\pm c)$</li>
-<li>$a\mid b$，若$c\neq 0$，则$a\mid b\cdot c$</li>
-<li>若$ a\mid b $ 且 $b\mid c$，则$a\mid c$</li>
-<li>若 $a\mid b$ 且 $a\mid c$，$\forall x,y \in \mathbb{Z}\setminus{0}$，存在$a\mid (b\cdot x+c\cdot y)$</li>
-<li>若 $a\mid b$，$\forall m\neq 0$，有$(m\cdot a)\mid (m\cdot b)$</li>
-<li>若 $a\mid n$ 且 $b\mid n$ ，$ \exists x,y \in \mathbb{Z}$ ，满足 $a\cdot x+b\cdot y&#x3D;1$ 时，有 $(a\cdot b)\mid n$</li>
-</ol>
-<h3 id="证明"><a href="#证明" class="headerlink" title="证明"></a>证明</h3><ol>
-<li><p>$a\mid b$ 且 $a\mid c$，则$a\mid (b\pm c)$  </p>
-<blockquote>
-<p>设$b &#x3D; qa$ 且 $c&#x3D;pa$<br>$\therefore b\pm c &#x3D; qa\pm pa &#x3D; (p+q)\cdot a$<br>$\therefore a\mid b\pm c$</p>
-</blockquote>
-</li>
-<li><p>$a\mid b$，若$c\neq 0$，则$a\mid b\cdot c$</p>
-<blockquote>
-<p>设$b &#x3D; qa$<br>$\therefore b\cdot c &#x3D; q\cdot a\cdot c$<br>$\therefore a\mid b\cdot c$</p>
-</blockquote>
-</li>
-<li><p>若$ a\mid b $ 且 $b\mid c$，则$a\mid c$</p>
-<blockquote>
-<p>设$b &#x3D; qa$ 且 $c&#x3D;pb$<br>则$c&#x3D;pb&#x3D;p\cdot q\cdot a$<br>$\therefore a\mid c$</p>
-</blockquote>
-</li>
-<li><p>若 $a\mid b$ 且 $a\mid c$，$\forall x,y \in \mathbb{Z}\setminus{0}$，存在$a\mid (b\cdot x+c\cdot y)$</p>
-<blockquote>
-<p>参考1与2的证明</p>
-</blockquote>
-</li>
-<li><p>若 $a\mid b$，$\forall m\neq 0$，有$(m\cdot a)\mid (m\cdot b)$</p>
-<blockquote>
-<p>设$b &#x3D; qa$<br>则$mb&#x3D;m\cdot a\cdot q$<br>$\therefore (m\cdot a)\mid (m\cdot b)$</p>
-</blockquote>
-</li>
-<li><p>若 $a\mid n$ 且 $b\mid n$ ，$ \exists x,y \in \mathbb{Z}$ ，满足 $a\cdot x+b\cdot y&#x3D;1$ 时，有 $(a\cdot b)\mid n$</p>
-<blockquote>
-<p>由题意得：$ab\mid bn$，$ab\mid an$<br>$\therefore ab\mid an\cdot x+bn\cdot y$（由4得）<br>$\therefore ab\mid (ax+by)\cdot n$<br>$\because ax+by&#x3D;0$<br>$\therefore ab\mid n$</p>
-</blockquote>
-</li>
-</ol>
-<h2 id="同余"><a href="#同余" class="headerlink" title="同余"></a>同余</h2><h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ul>
-<li><p>整除及其性质 2018, China, viewed 3 May 2022, <a target="_blank" rel="noopener" href="https://blog.csdn.net/blaze003003/article/details/82261485">https://blog.csdn.net/blaze003003/article/details/82261485</a>.</p>
-</li>
-<li><p>数论 —— 整除与同余 2018, China, viewed 3 May 2022, <a target="_blank" rel="noopener" href="https://blog.csdn.net/u011815404/article/details/81280625">https://blog.csdn.net/u011815404/article/details/81280625</a>.</p>
-</li>
-<li><p>Modular arithmetic&#x2F;Introduction n.d., viewed 9 May 2022, <a target="_blank" rel="noopener" href="https://artofproblemsolving.com/wiki/index.php/Modular_arithmetic/Introduction">https://artofproblemsolving.com/wiki/index.php/Modular_arithmetic/Introduction</a>.</p>
-</li>
-</ul>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://xzdxrz.github.io/2022/05/09/%E6%95%B4%E9%99%A4%E4%B8%8E%E5%90%8C%E4%BD%99/" data-id="clkgoyd1z00074c2s394z76in" data-title="整除与同余" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%95%B0%E5%AD%A6/" rel="tag">数学</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%95%B0%E8%AE%BA/" rel="tag">数论</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-位运算版快读简析" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2021/07/27/%E4%BD%8D%E8%BF%90%E7%AE%97%E7%89%88%E5%BF%AB%E8%AF%BB%E7%AE%80%E6%9E%90/" class="article-date">
-  <time class="dt-published" datetime="2021-07-27T05:32:26.000Z" itemprop="datePublished">27-07-2021</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2021/07/27/%E4%BD%8D%E8%BF%90%E7%AE%97%E7%89%88%E5%BF%AB%E8%AF%BB%E7%AE%80%E6%9E%90/">位运算版快读简析</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1 id="快读中位运算部分简析"><a href="#快读中位运算部分简析" class="headerlink" title="快读中位运算部分简析"></a>快读中位运算部分简析</h1>
-        
-          <p class="article-more-link">
-            <a href="/2021/07/27/%E4%BD%8D%E8%BF%90%E7%AE%97%E7%89%88%E5%BF%AB%E8%AF%BB%E7%AE%80%E6%9E%90/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://xzdxrz.github.io/2021/07/27/%E4%BD%8D%E8%BF%90%E7%AE%97%E7%89%88%E5%BF%AB%E8%AF%BB%E7%AE%80%E6%9E%90/" data-id="clkgoyd1v00024c2s7dldhvfq" data-title="位运算版快读简析" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/" rel="tag">C++</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-裴蜀定理学习笔记" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2020/03/07/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="article-date">
-  <time class="dt-published" datetime="2020-03-07T10:16:11.000Z" itemprop="datePublished">07-03-2020</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2020/03/07/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">裴蜀定理学习笔记</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1 id="裴蜀定理"><a href="#裴蜀定理" class="headerlink" title="裴蜀定理"></a>裴蜀定理</h1><!--more--->
-
-<h2 id="裴蜀定理的内容"><a href="#裴蜀定理的内容" class="headerlink" title="裴蜀定理的内容"></a>裴蜀定理的内容</h2><h3 id="定理1"><a href="#定理1" class="headerlink" title="定理1"></a>定理1</h3><blockquote>
-<p>若$a,b$是整数,且$\gcd(a,b)&#x3D;d$，那么对于任意的整数$x,y,ax+by$都一定是$d$的倍数，特别地，一定存在整数$x,y$，使$ax+by&#x3D;d$成立。</p>
-</blockquote>
-<h3 id="定理2"><a href="#定理2" class="headerlink" title="定理2"></a>定理2</h3><blockquote>
-<p>对于方程$ax+by&#x3D;1$，只有当整数$a,b$互质时，方程才有整数解。</p>
-</blockquote>
-<p>以上内容摘自<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86/5186593">百度百科</a>。</p>
-<h2 id="裴蜀定理的证明"><a href="#裴蜀定理的证明" class="headerlink" title="裴蜀定理的证明"></a>裴蜀定理的证明</h2><p><strong>特此说明：以下证明纯属我自己yy，如有错误请联系我指正。</strong></p>
-<h3 id="定理1证明"><a href="#定理1证明" class="headerlink" title="定理1证明"></a>定理1证明</h3><p>我们设$ d&#x3D;\gcd(a,b) $，则显而易见，$d \mid a$，且$d \mid b$。</p>
-<p>根据整除的性质，我们得出$ d \mid ax+by ( x,y \in Z ) $。······（式1.2.1.1）</p>
-<p>所以根据（式1.2.1.1）以及整除的意义得出$ ax+by&#x3D;dk ( k \in Z^+ ) $。</p>
-<p>当$k&#x3D;1$时，则$ax+by&#x3D;d$。</p>
-<p>根据（式1.2.1.1），我们还可以得出$d \mid x$，且$d \mid y$。</p>
-<p>至此，定理1证毕。</p>
-<h3 id="定理2证明"><a href="#定理2证明" class="headerlink" title="定理2证明"></a>定理2证明</h3><p>我们可以看出，定理2就是定理1的特殊情况，即$d&#x3D;1$时的情况。</p>
-<p>我们可以利用反证法证明。</p>
-<p>首先我们假设$a,b$不互质，即$\gcd(a,b) \not &#x3D; 1$。······（命题1.2.2.1）</p>
-<p>也就是$d \not &#x3D; 1$。······（式1.2.2.2）</p>
-<p>根据定理1，$ax+by&#x3D;d$。</p>
-<p>在定理2中，这个式子是$ax+by&#x3D;1$。</p>
-<p>可得$d&#x3D;1$。······（式1.2.2.3）</p>
-<p>所以，（式1.2.2.2）与（式1.2.2.3）矛盾，所以（命题1.2.2.1）为伪命题。</p>
-<p>至此，定理2证毕。</p>
-<h2 id="裴蜀定理的应用"><a href="#裴蜀定理的应用" class="headerlink" title="裴蜀定理的应用"></a>裴蜀定理的应用</h2><ol>
-<li>拓展欧几里得算法</li>
-</ol>
-<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ol>
-<li><p><a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86/5186593">裴蜀定理_百度百科</a></p>
-</li>
-<li><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/a_forever_dream/article/details/83859354">裴蜀定理_C&#x2F;C++_a_forever_dream的博客-CSDN博客</a></p>
-</li>
-</ol>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://xzdxrz.github.io/2020/03/07/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" data-id="clkgoyd2700104c2s0upy2pm4" data-title="裴蜀定理学习笔记" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%95%B0%E5%AD%A6/" rel="tag">数学</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-树旋转学习笔记" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2020/03/01/%E6%A0%91%E6%97%8B%E8%BD%AC%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="article-date">
-  <time class="dt-published" datetime="2020-03-01T04:51:35.000Z" itemprop="datePublished">01-03-2020</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2020/03/01/%E6%A0%91%E6%97%8B%E8%BD%AC%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">树旋转学习笔记</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1 id="平衡树树旋转"><a href="#平衡树树旋转" class="headerlink" title="平衡树树旋转"></a>平衡树树旋转</h1>
-        
-          <p class="article-more-link">
-            <a href="/2020/03/01/%E6%A0%91%E6%97%8B%E8%BD%AC%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://xzdxrz.github.io/2020/03/01/%E6%A0%91%E6%97%8B%E8%BD%AC%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" data-id="clkgoyd25000x4c2s3ybqdqhq" data-title="树旋转学习笔记" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/" rel="tag">C++</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%B9%B3%E8%A1%A1%E6%A0%91/" rel="tag">平衡树</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" rel="tag">数据结构</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-欧拉筛学习笔记" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2020/02/26/%E6%AC%A7%E6%8B%89%E7%AD%9B%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="article-date">
-  <time class="dt-published" datetime="2020-02-26T08:54:54.000Z" itemprop="datePublished">26-02-2020</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2020/02/26/%E6%AC%A7%E6%8B%89%E7%AD%9B%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">欧拉筛学习笔记</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1 id="线性筛质数"><a href="#线性筛质数" class="headerlink" title="线性筛质数"></a>线性筛质数</h1>
-        
-          <p class="article-more-link">
-            <a href="/2020/02/26/%E6%AC%A7%E6%8B%89%E7%AD%9B%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://xzdxrz.github.io/2020/02/26/%E6%AC%A7%E6%8B%89%E7%AD%9B%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" data-id="clkgoyd26000y4c2s2ezagvi5" data-title="欧拉筛学习笔记" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/" rel="tag">C++</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%95%B0%E5%AD%A6/" rel="tag">数学</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%AE%97%E6%B3%95/" rel="tag">算法</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-快速幂学习笔记" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2020/02/24/%E5%BF%AB%E9%80%9F%E5%B9%82%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="article-date">
-  <time class="dt-published" datetime="2020-02-23T17:49:14.000Z" itemprop="datePublished">24-02-2020</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2020/02/24/%E5%BF%AB%E9%80%9F%E5%B9%82%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">快速幂学习笔记</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1 id="快速幂-取余运算"><a href="#快速幂-取余运算" class="headerlink" title="快速幂||取余运算"></a>快速幂||取余运算</h1>
-        
-          <p class="article-more-link">
-            <a href="/2020/02/24/%E5%BF%AB%E9%80%9F%E5%B9%82%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://xzdxrz.github.io/2020/02/24/%E5%BF%AB%E9%80%9F%E5%B9%82%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" data-id="clkgoyd1y00064c2s0or71a4c" data-title="快速幂学习笔记" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/" rel="tag">C++</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%95%B0%E8%AE%BA/" rel="tag">数论</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%AE%97%E6%B3%95/" rel="tag">算法</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-归并排序" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2019/05/26/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/" class="article-date">
-  <time class="dt-published" datetime="2019-05-25T14:00:00.000Z" itemprop="datePublished">26-05-2019</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2019/05/26/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/">归并排序学习笔记</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><p>先上伪代码：</p>
-        
-          <p class="article-more-link">
-            <a href="/2019/05/26/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://xzdxrz.github.io/2019/05/26/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/" data-id="clkgoyd1u00014c2s0w3idoy6" data-title="归并排序学习笔记" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/" rel="tag">C++</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%AE%97%E6%B3%95/" rel="tag">算法</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-    <article id="post-插入排序" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2019/05/12/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F/" class="article-date">
-  <time class="dt-published" datetime="2019-05-11T14:00:00.000Z" itemprop="datePublished">12-05-2019</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="p-name article-title" href="/2019/05/12/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F/">插入排序学习笔记</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><p>第一个算法就是“插入排序”。伪代码如下：</p>
-        
-          <p class="article-more-link">
-            <a href="/2019/05/12/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F/#more">Read More</a>
-          </p>
-        
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://xzdxrz.github.io/2019/05/12/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F/" data-id="clkgoyd1y00054c2s7k38dj3x" data-title="插入排序学习笔记" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/" rel="tag">C++</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%AE%97%E6%B3%95/" rel="tag">算法</a></li></ul>
-
-    </footer>
-  </div>
-  
-</article>
-
-
-
-  
-
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Categories</h3>
-    <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/C/" rel="tag">C++</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%B9%B3%E8%A1%A1%E6%A0%91/" rel="tag">平衡树</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%B0%E5%AD%A6/" rel="tag">数学</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" rel="tag">数据结构</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%B0%E8%AE%BA/" rel="tag">数论</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AE%97%E6%B3%95/" rel="tag">算法</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/C/" style="font-size: 20px;">C++</a> <a href="/tags/%E5%B9%B3%E8%A1%A1%E6%A0%91/" style="font-size: 10px;">平衡树</a> <a href="/tags/%E6%95%B0%E5%AD%A6/" style="font-size: 15px;">数学</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 10px;">数据结构</a> <a href="/tags/%E6%95%B0%E8%AE%BA/" style="font-size: 12.5px;">数论</a> <a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 17.5px;">算法</a>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/07/">July 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/05/">May 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/07/">July 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">March 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/">February 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/05/">May 2019</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2023/07/24/Blog-Remake/">Blog Remake</a>
-          </li>
-        
-          <li>
-            <a href="/2022/05/09/%E6%95%B4%E9%99%A4%E4%B8%8E%E5%90%8C%E4%BD%99/">整除与同余</a>
-          </li>
-        
-          <li>
-            <a href="/2021/07/27/%E4%BD%8D%E8%BF%90%E7%AE%97%E7%89%88%E5%BF%AB%E8%AF%BB%E7%AE%80%E6%9E%90/">位运算版快读简析</a>
-          </li>
-        
-          <li>
-            <a href="/2020/03/07/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">裴蜀定理学习笔记</a>
-          </li>
-        
-          <li>
-            <a href="/2020/03/01/%E6%A0%91%E6%97%8B%E8%BD%AC%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">树旋转学习笔记</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      
-      &copy; 2023 Bromaster&#39;s Cactus<br>
-      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-
-<script src="/js/jquery-3.6.4.min.js"></script>
-
-
-
-  
-<script src="/fancybox/jquery.fancybox.min.js"></script>
-
-
-
-
-<script src="/js/script.js"></script>
-
-
-
-
-
-  </div>
-</body>
-</html>
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/images/favicon/avatar.png" onerror="onerror=null;src='/images/favicon/404_flink.jpg'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">9</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">1</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/images/top_img/index_img.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="XZDXRZ's Blog"><span class="site-name">XZDXRZ's Blog</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">XZDXRZ's Blog</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left"><a href="/2023/07/24/Blog-Remake/" title="Blog Remake"><img class="post-bg" src="/images/cover_img/0.jpg" onerror="this.onerror=null;this.src='/images/favicon/404.jpg'" alt="Blog Remake"></a></div><div class="recent-post-info"><a class="article-title" href="/2023/07/24/Blog-Remake/" title="Blog Remake">Blog Remake</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2023-07-24T09:25:33.000Z" title="Created 24-07-2023 19:25:33">24-07-2023</time></span></div><div class="content">Since the structure and context of the old blog is messy and chaotic, the blogger, me, is going to remake the entire blog.
+Some articles that I feel pleasant with will be transfered into this new one.
+</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2022/05/09/%E6%95%B4%E9%99%A4%E4%B8%8E%E5%90%8C%E4%BD%99/" title="整除与同余"><img class="post-bg" src="/images/cover_img/8.jpg" onerror="this.onerror=null;this.src='/images/favicon/404.jpg'" alt="整除与同余"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/05/09/%E6%95%B4%E9%99%A4%E4%B8%8E%E5%90%8C%E4%BD%99/" title="整除与同余">整除与同余</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2022-05-09T11:15:13.000Z" title="Created 09-05-2022 21:15:13">09-05-2022</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></span></div><div class="content">整除与同余整除定义$\exists q \in \mathbb{Z}$ 使得 $b &#x3D; a \cdot q$ 则$a \mid b$，其中$a$是$b$的因数，$b$是$a$的倍数
+性质
+$a\mid b$ 且 $a\mid c$，则$a\mid (b\pm c)$
+$a\mid b$，若$c\neq 0$，则$a\mid b\cdot c$
+若$ a\mid b $ 且 $b\mid c$，则$a\mid c$
+若 $a\mid b$ 且 $a\mid c$，$\forall x,y \in \mathbb{Z}\setminus{0}$，存在$a\mid (b\cdot x+c\cdot y)$
+若 $a\mid b$，$\forall m\neq 0$，有$(m\cdot a)\mid (m\cdot b)$
+若 $a\mid n$ 且 $b\mid n$ ，$ \exists x,y \in \mathbb{Z}$ ，满足 $a\cdot x+b\cdot y&#x3D;1$ 时，有 $(a\cdot b)\mid n$
+
+证明
+$a\mid b$ 且 $a\mid  ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2021/07/27/%E4%BD%8D%E8%BF%90%E7%AE%97%E7%89%88%E5%BF%AB%E8%AF%BB%E7%AE%80%E6%9E%90/" title="位运算版快读简析"><img class="post-bg" src="/images/cover_img/7.jpg" onerror="this.onerror=null;this.src='/images/favicon/404.jpg'" alt="位运算版快读简析"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/07/27/%E4%BD%8D%E8%BF%90%E7%AE%97%E7%89%88%E5%BF%AB%E8%AF%BB%E7%AE%80%E6%9E%90/" title="位运算版快读简析">位运算版快读简析</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2021-07-27T05:32:26.000Z" title="Created 27-07-2021 15:32:26">27-07-2021</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></span></div><div class="content">快读中位运算部分简析
+
+代码1234567891011inline int read() &#123;    short int v=1;    int s=0;    char ch=getchar();    for (;ch&lt;&#x27;0&#x27;||ch&gt;&#x27;9&#x27;;ch=getchar())        if (ch==&#x27;-&#x27;) v=-1;    for (;ch&gt;=&#x27;0&#x27;&amp;&amp;ch&lt;=&#x27;9&#x27;;ch=getchar())        s = (s&lt;&lt;1)+(s&lt;&lt;3)+(ch^&#x27;0&#x27;);    return s*v;&#125;
+
+简析1s = (s&lt;&lt;1)+(s&lt;&lt;3)+(ch^&#x27;0&#x27;);
+
+显然上面那句代码可以加速。
+所以这篇博客我将讨论这行位运算的原理。
+解析1s = s*10 + ch - &#x27;0&#x27;;
+
+上面这行是不用位运算的版本。
+显然，经过 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2020/03/07/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="裴蜀定理学习笔记"><img class="post-bg" src="/images/cover_img/6.jpg" onerror="this.onerror=null;this.src='/images/favicon/404.jpg'" alt="裴蜀定理学习笔记"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/03/07/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="裴蜀定理学习笔记">裴蜀定理学习笔记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2020-03-07T10:16:11.000Z" title="Created 07-03-2020 21:16:11">07-03-2020</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></span></div><div class="content">裴蜀定理
+
+裴蜀定理的内容定理1
+若$a,b$是整数,且$\gcd(a,b)&#x3D;d$，那么对于任意的整数$x,y,ax+by$都一定是$d$的倍数，特别地，一定存在整数$x,y$，使$ax+by&#x3D;d$成立。
+
+定理2
+对于方程$ax+by&#x3D;1$，只有当整数$a,b$互质时，方程才有整数解。
+
+以上内容摘自百度百科。
+裴蜀定理的证明特此说明：以下证明纯属我自己yy，如有错误请联系我指正。
+定理1证明我们设$ d&#x3D;\gcd(a,b) $，则显而易见，$d \mid a$，且$d \mid b$。
+根据整除的性质，我们得出$ d \mid ax+by ( x,y \in Z ) $。······（式1.2.1.1）
+所以根据（式1.2.1.1）以及整除的意义得出$ ax+by&#x3D;dk ( k \in Z^+ ) $。
+当$k&#x3D;1$时，则$ax+by&#x3D;d$。
+根据（式1.2.1.1），我们还可以得出$d \mid x$，且$d \mid y$。
+至此，定理1证毕。
+定理2证明我们可以看出，定理2就是定理1的特殊情况，即$d&#x ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2020/03/01/%E6%A0%91%E6%97%8B%E8%BD%AC%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="树旋转学习笔记"><img class="post-bg" src="/images/cover_img/5.jpg" onerror="this.onerror=null;this.src='/images/favicon/404.jpg'" alt="树旋转学习笔记"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/03/01/%E6%A0%91%E6%97%8B%E8%BD%AC%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="树旋转学习笔记">树旋转学习笔记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2020-03-01T04:51:35.000Z" title="Created 01-03-2020 15:51:35">01-03-2020</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></span></div><div class="content">平衡树树旋转
+
+代码1234567891011121314inline void left_rotate(int &amp;node)&#123;    int r=tree[node].r;    tree[node].r=tree[r].l;    tree[r].l=node;    node=r;&#125;inline void right_rotate(int &amp;node)&#123;    int l=tree[node].l;    tree[node].l=tree[l].r;    tree[l].r=node;    node=l;&#125;
+
+分析先上一张树旋转的示意图
+
+图片来自《算法导论》 $\text{P176 13.2}$ 旋转
+树旋转的作用树旋转是平衡树上用于维护平衡树平衡的基本操作，有左旋和右旋两种操作
+旋转过程分析在进行树旋转时需要维护好二叉搜索树的性质，即
+对于每棵子树，都有：
+
+左 &lt; 根 &lt; 右
+
+再看《算法导论》中描述旋转的图片。
+以右旋为例，旋转后$\text{x}$代替$\text{y}$作为子树的根节点，由于原来 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2020/02/26/%E6%AC%A7%E6%8B%89%E7%AD%9B%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="欧拉筛学习笔记"><img class="post-bg" src="/images/cover_img/4.jpg" onerror="this.onerror=null;this.src='/images/favicon/404.jpg'" alt="欧拉筛学习笔记"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/02/26/%E6%AC%A7%E6%8B%89%E7%AD%9B%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="欧拉筛学习笔记">欧拉筛学习笔记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2020-02-26T08:54:54.000Z" title="Created 26-02-2020 19:54:54">26-02-2020</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></span></div><div class="content">线性筛质数
+
+代码123456789101112131415161718int prime[MAXN],tot;bool is_prime[MAXN];void choose(int n)&#123;    memset(is_prime,1,sizeof(is_prime));    is_prime[1]=0;    for(int i=2;i&lt;=n;i++)    &#123;        if(is_prime[i])            prime[++tot]=i;        for(int j=1;j&lt;=tot&amp;&amp;i*prime[j]&lt;=n;j++)        &#123;            is_prime[i*prime[j]]=0;            if(i%prime[j]==0)                break;        &#125;    &#125;&#125;
+
+分析算法分析考虑你在设计一个线性筛质数算法
+你想，既然要做到“线性”，那么每个数必须只能被筛一次
+所以我们猜想，一个合数只会 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2020/02/24/%E5%BF%AB%E9%80%9F%E5%B9%82%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="快速幂学习笔记"><img class="post-bg" src="/images/cover_img/3.jpg" onerror="this.onerror=null;this.src='/images/favicon/404.jpg'" alt="快速幂学习笔记"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/02/24/%E5%BF%AB%E9%80%9F%E5%B9%82%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="快速幂学习笔记">快速幂学习笔记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2020-02-23T17:49:14.000Z" title="Created 24-02-2020 04:49:14">24-02-2020</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></span></div><div class="content">快速幂||取余运算
+
+代码代码（C++）：
+1234567891011121314151617int quick_pow(int a,int n/*,int p*/)&#123;    long long base=a;    int ans=1;    while(n)    &#123;        if(n&amp;1)        &#123;            ans*=base;            //ans%=p;        &#125;        n&gt;&gt;=1;        base*=base;        //base%=p;    &#125;    return ans;&#125;
+
+分析本题计算：
+$ a^n \mod p $
+首先观察$2^5&#x3D;32$这个式子。
+我们知道$5$的二进制为$101$。
+我们还知道$32&#x3D;2^4 \times 2^1$
+再来看$2^7&#x3D;128$，
+我们知道$7$的二进制为$111$，
+我们还知道$128&#x3D;2^4 \times 2^2 \times 2^1$ ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2019/05/26/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/" title="归并排序学习笔记"><img class="post-bg" src="/images/cover_img/2.jpg" onerror="this.onerror=null;this.src='/images/favicon/404.jpg'" alt="归并排序学习笔记"></a></div><div class="recent-post-info"><a class="article-title" href="/2019/05/26/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/" title="归并排序学习笔记">归并排序学习笔记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2019-05-25T14:00:00.000Z" title="Created 26-05-2019 00:00:00">26-05-2019</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></span></div><div class="content">代码先上伪代码：
+
+
+12345678910111213141516171819202122232425262728def MERGE(A, p, q, r):    n1 = q-p+1    n2 = r-q    new L[],r[]    for i=1 to n1:        L[i] = A[p+i-1]    for j=1 to n2:        R[j] = A[q+j]    L[n1+1] = INF                   //INF即正无穷    L[n2+1] = INF    i=1    j=1    for k=p to r        if L[i]&lt;=R[j]            A[k] = L[i]            i = i + 1        else            A[k] = R[j]            j = j + 1def MERGE_SORT(A,p,r):    if p &lt; r        q = floor((p+r)/2)          //向下取整     ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2019/05/12/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F/" title="插入排序学习笔记"><img class="post-bg" src="/images/cover_img/1.jpg" onerror="this.onerror=null;this.src='/images/favicon/404.jpg'" alt="插入排序学习笔记"></a></div><div class="recent-post-info"><a class="article-title" href="/2019/05/12/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F/" title="插入排序学习笔记">插入排序学习笔记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2019-05-11T14:00:00.000Z" title="Created 12-05-2019 00:00:00">12-05-2019</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></span></div><div class="content">代码第一个算法就是“插入排序”。伪代码如下：
+
+
+123456789def INSERTION_SORT(var A[]):    var i,j,key;    for i=2 to A.length-1:         //A.length返回数列以“1”开始时的长度，我们需要-1        key = A[i];        j = i-1;        while j&gt;-1 and A[j]&gt;key:   //算法导论中原是“while i&gt;0 and A[i]&gt;key”            A[j+1]=A[j];            j-=1;        A[j+1]=key;
+转换成C++代码后是这样：
+12345678910111213141516171819202122#include&lt;iostream&gt;using namespace std;int main() &#123;    int a[10]=&#123;0&#125;;    int i,j,key;    int n;    cin &gt;&gt; ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/images/favicon/avatar.png" onerror="this.onerror=null;this.src='/images/favicon/404_flink.jpg'" alt="avatar"/></div><div class="author-info__name">Bromaster's Cactus</div><div class="author-info__description">欢迎来到我的小窝，我会在这里分享一些学习笔记</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">9</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">1</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/XZDXRZ"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">God's Blessing on This Wonderful World!</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2023/07/24/Blog-Remake/" title="Blog Remake"><img src="/images/cover_img/0.jpg" onerror="this.onerror=null;this.src='/images/favicon/404.jpg'" alt="Blog Remake"/></a><div class="content"><a class="title" href="/2023/07/24/Blog-Remake/" title="Blog Remake">Blog Remake</a><time datetime="2023-07-24T09:25:33.000Z" title="Created 24-07-2023 19:25:33">24-07-2023</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/05/09/%E6%95%B4%E9%99%A4%E4%B8%8E%E5%90%8C%E4%BD%99/" title="整除与同余"><img src="/images/cover_img/8.jpg" onerror="this.onerror=null;this.src='/images/favicon/404.jpg'" alt="整除与同余"/></a><div class="content"><a class="title" href="/2022/05/09/%E6%95%B4%E9%99%A4%E4%B8%8E%E5%90%8C%E4%BD%99/" title="整除与同余">整除与同余</a><time datetime="2022-05-09T11:15:13.000Z" title="Created 09-05-2022 21:15:13">09-05-2022</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/07/27/%E4%BD%8D%E8%BF%90%E7%AE%97%E7%89%88%E5%BF%AB%E8%AF%BB%E7%AE%80%E6%9E%90/" title="位运算版快读简析"><img src="/images/cover_img/7.jpg" onerror="this.onerror=null;this.src='/images/favicon/404.jpg'" alt="位运算版快读简析"/></a><div class="content"><a class="title" href="/2021/07/27/%E4%BD%8D%E8%BF%90%E7%AE%97%E7%89%88%E5%BF%AB%E8%AF%BB%E7%AE%80%E6%9E%90/" title="位运算版快读简析">位运算版快读简析</a><time datetime="2021-07-27T05:32:26.000Z" title="Created 27-07-2021 15:32:26">27-07-2021</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2020/03/07/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="裴蜀定理学习笔记"><img src="/images/cover_img/6.jpg" onerror="this.onerror=null;this.src='/images/favicon/404.jpg'" alt="裴蜀定理学习笔记"/></a><div class="content"><a class="title" href="/2020/03/07/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="裴蜀定理学习笔记">裴蜀定理学习笔记</a><time datetime="2020-03-07T10:16:11.000Z" title="Created 07-03-2020 21:16:11">07-03-2020</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2020/03/01/%E6%A0%91%E6%97%8B%E8%BD%AC%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="树旋转学习笔记"><img src="/images/cover_img/5.jpg" onerror="this.onerror=null;this.src='/images/favicon/404.jpg'" alt="树旋转学习笔记"/></a><div class="content"><a class="title" href="/2020/03/01/%E6%A0%91%E6%97%8B%E8%BD%AC%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="树旋转学习笔记">树旋转学习笔记</a><time datetime="2020-03-01T04:51:35.000Z" title="Created 01-03-2020 15:51:35">01-03-2020</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>Categories</span>
+            
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"><span class="card-category-list-name">学习笔记</span><span class="card-category-list-count">8</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>Tags</span></div><div class="card-tag-cloud"><a href="/tags/%E6%95%B0%E5%AD%A6/" style="font-size: 1.3em; color: #99a1ac">数学</a> <a href="/tags/%E6%95%B0%E8%AE%BA/" style="font-size: 1.2em; color: #999da3">数论</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 1.1em; color: #999">数据结构</a> <a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 1.4em; color: #99a5b6">算法</a> <a href="/tags/C/" style="font-size: 1.5em; color: #99a9bf">C++</a> <a href="/tags/%E5%B9%B3%E8%A1%A1%E6%A0%91/" style="font-size: 1.1em; color: #999">平衡树</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>Archives</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/07/"><span class="card-archive-list-date">July 2023</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/05/"><span class="card-archive-list-date">May 2022</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/07/"><span class="card-archive-list-date">July 2021</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/03/"><span class="card-archive-list-date">March 2020</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/02/"><span class="card-archive-list-date">February 2020</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2019/05/"><span class="card-archive-list-date">May 2019</span><span class="card-archive-list-count">2</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">Article :</div><div class="item-count">9</div></div><div class="webinfo-item"><div class="item-name">UV :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">PV :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">Last Push :</div><div class="item-count" id="last-push-date" data-lastPushDate="2023-07-24T11:00:50.154Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By Bromaster's Cactus</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>

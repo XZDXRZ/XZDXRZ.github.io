@@ -1,113 +1,173 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
-  
-  <title>归并排序学习笔记 | XZDXRZ&#39;s Blog</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="代码先上伪代码：">
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>归并排序学习笔记 | XZDXRZ's Blog</title><meta name="author" content="Bromaster's Cactus"><meta name="copyright" content="Bromaster's Cactus"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="代码先上伪代码：">
 <meta property="og:type" content="article">
 <meta property="og:title" content="归并排序学习笔记">
 <meta property="og:url" content="http://xzdxrz.github.io/2019/05/26/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/index.html">
 <meta property="og:site_name" content="XZDXRZ&#39;s Blog">
 <meta property="og:description" content="代码先上伪代码：">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://xzdxrz.github.io/images/cover_img/2.jpg">
 <meta property="article:published_time" content="2019-05-25T14:00:00.000Z">
 <meta property="article:modified_time" content="2023-07-24T09:41:50.000Z">
 <meta property="article:author" content="Bromaster&#39;s Cactus">
 <meta property="article:tag" content="C++">
 <meta property="article:tag" content="算法">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://xzdxrz.github.io/images/cover_img/2.jpg"><link rel="shortcut icon" href="/images/favicon/512.png"><link rel="canonical" href="http://xzdxrz.github.io/2019/05/26/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '归并排序学习笔记',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '24-07-2023 19:41:50'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
   
-    <link rel="alternate" href="/atom.xml" title="XZDXRZ's Blog" type="application/atom+xml">
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
   
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
   
-    <link rel="shortcut icon" href="/favicon.png">
-  
-  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
     
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
-
-  
-  
-<link rel="stylesheet" href="/css/style.css">
-
-  
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
     
-<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
 
-  
-  
-<meta name="generator" content="Hexo 6.3.0"></head>
-
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">XZDXRZ&#39;s Blog</a>
-      </h1>
-      
-        <h2 id="subtitle-wrap">
-          <a href="/" id="subtitle">God&#39;s Blessing on This Wonderful World!</a>
-        </h2>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-        
-          <a class="nav-icon" href="/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
-        
-        <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://xzdxrz.github.io"></form>
-      </div>
-    </div>
-  </div>
-</header>
-
-      <div class="outer">
-        <section id="main"><article id="post-归并排序" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
-  <div class="article-meta">
-    <a href="/2019/05/26/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/" class="article-date">
-  <time class="dt-published" datetime="2019-05-25T14:00:00.000Z" itemprop="datePublished">26-05-2019</time>
-</a>
-    
-  <div class="article-category">
-    <a class="article-category-link" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a>
-  </div>
-
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="p-name article-title" itemprop="headline name">
-      归并排序学习笔记
-    </h1>
-  
-
-      </header>
-    
-    <div class="e-content article-entry" itemprop="articleBody">
-      
-        <h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><p>先上伪代码：</p>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/images/favicon/avatar.png" onerror="onerror=null;src='/images/favicon/404_flink.jpg'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">9</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">1</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/images/cover_img/2.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="XZDXRZ's Blog"><span class="site-name">XZDXRZ's Blog</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">归并排序学习笔记</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2019-05-25T14:00:00.000Z" title="Created 26-05-2019 00:00:00">26-05-2019</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2023-07-24T09:41:50.000Z" title="Updated 24-07-2023 19:41:50">24-07-2023</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="归并排序学习笔记"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post View:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><p>先上伪代码：</p>
 <span id="more"></span>
 
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">def MERGE(A, p, q, r):</span><br><span class="line">    n1 = q-p+1</span><br><span class="line">    n2 = r-q</span><br><span class="line">    new L[],r[]</span><br><span class="line">    for i=1 to n1:</span><br><span class="line">        L[i] = A[p+i-1]</span><br><span class="line">    for j=1 to n2:</span><br><span class="line">        R[j] = A[q+j]</span><br><span class="line">    L[n1+1] = INF                   //INF即正无穷</span><br><span class="line">    L[n2+1] = INF</span><br><span class="line">    i=1</span><br><span class="line">    j=1</span><br><span class="line">    for k=p to r</span><br><span class="line">        if L[i]&lt;=R[j]</span><br><span class="line">            A[k] = L[i]</span><br><span class="line">            i = i + 1</span><br><span class="line">        else</span><br><span class="line">            A[k] = R[j]</span><br><span class="line">            j = j + 1</span><br><span class="line"></span><br><span class="line">def MERGE_SORT(A,p,r):</span><br><span class="line">    if p &lt; r</span><br><span class="line">        q = floor((p+r)/2)          //向下取整</span><br><span class="line">        MERGE_SORT(A, p, q)</span><br><span class="line">        MERGE_SORT(A, q+1, r)</span><br><span class="line">        MERGE(A, p, q, r)</span><br><span class="line">    else:</span><br><span class="line">        return</span><br></pre></td></tr></table></figure>
@@ -188,158 +248,39 @@
 </tbody></table>
 <h1 id="时间复杂度"><a href="#时间复杂度" class="headerlink" title="时间复杂度"></a>时间复杂度</h1><p>归并排序的时间复杂度为：</p>
 <p>$$ \theta(N \log N) $$</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://xzdxrz.github.io/2019/05/26/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/" data-id="clkgoyd1u00014c2s0w3idoy6" data-title="归并排序学习笔记" class="article-share-link"><span class="fa fa-share">Share</span></a>
-      
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/" rel="tag">C++</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%AE%97%E6%B3%95/" rel="tag">算法</a></li></ul>
-
-    </footer>
-  </div>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="http://xzdxrz.github.io">Bromaster's Cactus</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="http://xzdxrz.github.io/2019/05/26/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/">http://xzdxrz.github.io/2019/05/26/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/C/">C++</a><a class="post-meta__tags" href="/tags/%E7%AE%97%E6%B3%95/">算法</a></div><div class="post_share"><div class="social-share" data-image="/images/cover_img/2.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2020/02/24/%E5%BF%AB%E9%80%9F%E5%B9%82%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="快速幂学习笔记"><img class="cover" src="/images/cover_img/3.jpg" onerror="onerror=null;src='/images/favicon/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">Previous Post</div><div class="prev_info">快速幂学习笔记</div></div></a></div><div class="next-post pull-right"><a href="/2019/05/12/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F/" title="插入排序学习笔记"><img class="cover" src="/images/cover_img/1.jpg" onerror="onerror=null;src='/images/favicon/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">Next Post</div><div class="next_info">插入排序学习笔记</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>Related Articles</span></div><div class="relatedPosts-list"><div><a href="/2020/02/24/%E5%BF%AB%E9%80%9F%E5%B9%82%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="快速幂学习笔记"><img class="cover" src="/images/cover_img/3.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 24-02-2020</div><div class="title">快速幂学习笔记</div></div></a></div><div><a href="/2019/05/12/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F/" title="插入排序学习笔记"><img class="cover" src="/images/cover_img/1.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 12-05-2019</div><div class="title">插入排序学习笔记</div></div></a></div><div><a href="/2020/02/26/%E6%AC%A7%E6%8B%89%E7%AD%9B%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="欧拉筛学习笔记"><img class="cover" src="/images/cover_img/4.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 26-02-2020</div><div class="title">欧拉筛学习笔记</div></div></a></div><div><a href="/2021/07/27/%E4%BD%8D%E8%BF%90%E7%AE%97%E7%89%88%E5%BF%AB%E8%AF%BB%E7%AE%80%E6%9E%90/" title="位运算版快读简析"><img class="cover" src="/images/cover_img/7.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 27-07-2021</div><div class="title">位运算版快读简析</div></div></a></div><div><a href="/2020/03/01/%E6%A0%91%E6%97%8B%E8%BD%AC%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="树旋转学习笔记"><img class="cover" src="/images/cover_img/5.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 01-03-2020</div><div class="title">树旋转学习笔记</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/images/favicon/avatar.png" onerror="this.onerror=null;this.src='/images/favicon/404_flink.jpg'" alt="avatar"/></div><div class="author-info__name">Bromaster's Cactus</div><div class="author-info__description">欢迎来到我的小窝，我会在这里分享一些学习笔记</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">9</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">6</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">1</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/XZDXRZ"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">God's Blessing on This Wonderful World!</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>Catalog</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81"><span class="toc-number">1.</span> <span class="toc-text">代码</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90"><span class="toc-number">2.</span> <span class="toc-text">算法分析</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#MERGE-%E5%87%BD%E6%95%B0%E8%A7%A3%E6%9E%90"><span class="toc-number">2.1.</span> <span class="toc-text">MERGE()函数解析</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#MERGE-SORT-%E5%87%BD%E6%95%B0%E8%A7%A3%E6%9E%90"><span class="toc-number">2.2.</span> <span class="toc-text">MERGE_SORT()函数解析</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6"><span class="toc-number">3.</span> <span class="toc-text">时间复杂度</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2023/07/24/Blog-Remake/" title="Blog Remake"><img src="/images/cover_img/0.jpg" onerror="this.onerror=null;this.src='/images/favicon/404.jpg'" alt="Blog Remake"/></a><div class="content"><a class="title" href="/2023/07/24/Blog-Remake/" title="Blog Remake">Blog Remake</a><time datetime="2023-07-24T09:25:33.000Z" title="Created 24-07-2023 19:25:33">24-07-2023</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/05/09/%E6%95%B4%E9%99%A4%E4%B8%8E%E5%90%8C%E4%BD%99/" title="整除与同余"><img src="/images/cover_img/8.jpg" onerror="this.onerror=null;this.src='/images/favicon/404.jpg'" alt="整除与同余"/></a><div class="content"><a class="title" href="/2022/05/09/%E6%95%B4%E9%99%A4%E4%B8%8E%E5%90%8C%E4%BD%99/" title="整除与同余">整除与同余</a><time datetime="2022-05-09T11:15:13.000Z" title="Created 09-05-2022 21:15:13">09-05-2022</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/07/27/%E4%BD%8D%E8%BF%90%E7%AE%97%E7%89%88%E5%BF%AB%E8%AF%BB%E7%AE%80%E6%9E%90/" title="位运算版快读简析"><img src="/images/cover_img/7.jpg" onerror="this.onerror=null;this.src='/images/favicon/404.jpg'" alt="位运算版快读简析"/></a><div class="content"><a class="title" href="/2021/07/27/%E4%BD%8D%E8%BF%90%E7%AE%97%E7%89%88%E5%BF%AB%E8%AF%BB%E7%AE%80%E6%9E%90/" title="位运算版快读简析">位运算版快读简析</a><time datetime="2021-07-27T05:32:26.000Z" title="Created 27-07-2021 15:32:26">27-07-2021</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2020/03/07/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="裴蜀定理学习笔记"><img src="/images/cover_img/6.jpg" onerror="this.onerror=null;this.src='/images/favicon/404.jpg'" alt="裴蜀定理学习笔记"/></a><div class="content"><a class="title" href="/2020/03/07/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="裴蜀定理学习笔记">裴蜀定理学习笔记</a><time datetime="2020-03-07T10:16:11.000Z" title="Created 07-03-2020 21:16:11">07-03-2020</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2020/03/01/%E6%A0%91%E6%97%8B%E8%BD%AC%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="树旋转学习笔记"><img src="/images/cover_img/5.jpg" onerror="this.onerror=null;this.src='/images/favicon/404.jpg'" alt="树旋转学习笔记"/></a><div class="content"><a class="title" href="/2020/03/01/%E6%A0%91%E6%97%8B%E8%BD%AC%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" title="树旋转学习笔记">树旋转学习笔记</a><time datetime="2020-03-01T04:51:35.000Z" title="Created 01-03-2020 15:51:35">01-03-2020</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By Bromaster's Cactus</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between single-column and double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="Table Of Contents"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>if (!window.MathJax) {
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      tags: 'ams'
+    },
+    chtml: {
+      scale: 1.1
+    },
+    options: {
+      renderActions: {
+        findScript: [10, doc => {
+          for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+            const display = !!node.type.match(/; *mode=display/)
+            const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+            const text = document.createTextNode('')
+            node.parentNode.replaceChild(text, node)
+            math.start = {node: text, delim: '', n: 0}
+            math.end = {node: text, delim: '', n: 0}
+            doc.math.push(math)
+          }
+        }, '']
+      }
+    }
+  }
   
-    
-<nav id="article-nav">
-  
-    <a href="/2020/02/24/%E5%BF%AB%E9%80%9F%E5%B9%82%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          快速幂学习笔记
-        
-      </div>
-    </a>
-  
-  
-    <a href="/2019/05/12/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">插入排序学习笔记</div>
-    </a>
-  
-</nav>
-
-  
-</article>
-
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Categories</h3>
-    <div class="widget">
-      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tags</h3>
-    <div class="widget">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/C/" rel="tag">C++</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%B9%B3%E8%A1%A1%E6%A0%91/" rel="tag">平衡树</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%B0%E5%AD%A6/" rel="tag">数学</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" rel="tag">数据结构</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%B0%E8%AE%BA/" rel="tag">数论</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AE%97%E6%B3%95/" rel="tag">算法</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Tag Cloud</h3>
-    <div class="widget tagcloud">
-      <a href="/tags/C/" style="font-size: 20px;">C++</a> <a href="/tags/%E5%B9%B3%E8%A1%A1%E6%A0%91/" style="font-size: 10px;">平衡树</a> <a href="/tags/%E6%95%B0%E5%AD%A6/" style="font-size: 15px;">数学</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 10px;">数据结构</a> <a href="/tags/%E6%95%B0%E8%AE%BA/" style="font-size: 12.5px;">数论</a> <a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 17.5px;">算法</a>
-    </div>
-  </div>
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/07/">July 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/05/">May 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/07/">July 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">March 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/">February 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/05/">May 2019</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2023/07/24/Blog-Remake/">Blog Remake</a>
-          </li>
-        
-          <li>
-            <a href="/2022/05/09/%E6%95%B4%E9%99%A4%E4%B8%8E%E5%90%8C%E4%BD%99/">整除与同余</a>
-          </li>
-        
-          <li>
-            <a href="/2021/07/27/%E4%BD%8D%E8%BF%90%E7%AE%97%E7%89%88%E5%BF%AB%E8%AF%BB%E7%AE%80%E6%9E%90/">位运算版快读简析</a>
-          </li>
-        
-          <li>
-            <a href="/2020/03/07/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">裴蜀定理学习笔记</a>
-          </li>
-        
-          <li>
-            <a href="/2020/03/01/%E6%A0%91%E6%97%8B%E8%BD%AC%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">树旋转学习笔记</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      
-      &copy; 2023 Bromaster&#39;s Cactus<br>
-      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-
-<script src="/js/jquery-3.6.4.min.js"></script>
-
-
-
-  
-<script src="/fancybox/jquery.fancybox.min.js"></script>
-
-
-
-
-<script src="/js/script.js"></script>
-
-
-
-
-
-  </div>
-</body>
-</html>
+  const script = document.createElement('script')
+  script.src = 'https://cdn.jsdelivr.net/npm/mathjax/es5/tex-mml-chtml.min.js'
+  script.id = 'MathJax-script'
+  script.async = true
+  document.head.appendChild(script)
+} else {
+  MathJax.startup.document.state(0)
+  MathJax.texReset()
+  MathJax.typesetPromise()
+}</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
