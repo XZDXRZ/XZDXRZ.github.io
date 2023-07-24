@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>整除与同余 | XZDXRZ&#39;s Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="整除与同余整除定义$\exists q \in \mathbb{Z}$ 使得 $b &#x3D; a \cdot q$ 则$a \mid b$，其中$a$是$b$的因数，$b$是$a$的倍数 性质 $a\mid b$ 且 $a\mid c$，则$a\mid (b\pm c)$ $a\mid b$，若$c\neq 0$，则$a\mid b\cdot c$ 若$ a\mid b $ 且 $b\mid">
+<meta property="og:type" content="article">
+<meta property="og:title" content="整除与同余">
+<meta property="og:url" content="http://xzdxrz.github.io/2022/05/09/%E6%95%B4%E9%99%A4%E4%B8%8E%E5%90%8C%E4%BD%99/index.html">
+<meta property="og:site_name" content="XZDXRZ&#39;s Blog">
+<meta property="og:description" content="整除与同余整除定义$\exists q \in \mathbb{Z}$ 使得 $b &#x3D; a \cdot q$ 则$a \mid b$，其中$a$是$b$的因数，$b$是$a$的倍数 性质 $a\mid b$ 且 $a\mid c$，则$a\mid (b\pm c)$ $a\mid b$，若$c\neq 0$，则$a\mid b\cdot c$ 若$ a\mid b $ 且 $b\mid">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2022-05-09T11:15:13.000Z">
+<meta property="article:modified_time" content="2023-07-24T09:42:34.000Z">
+<meta property="article:author" content="Bromaster&#39;s Cactus">
+<meta property="article:tag" content="数论">
+<meta property="article:tag" content="数学">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="XZDXRZ's Blog" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">XZDXRZ&#39;s Blog</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">God&#39;s Blessing on This Wonderful World!</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+          <a class="nav-icon" href="/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
+        
+        <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://xzdxrz.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-整除与同余" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/05/09/%E6%95%B4%E9%99%A4%E4%B8%8E%E5%90%8C%E4%BD%99/" class="article-date">
+  <time class="dt-published" datetime="2022-05-09T11:15:13.000Z" itemprop="datePublished">09-05-2022</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      整除与同余
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="整除与同余"><a href="#整除与同余" class="headerlink" title="整除与同余"></a>整除与同余</h1><h2 id="整除"><a href="#整除" class="headerlink" title="整除"></a>整除</h2><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>$\exists q \in \mathbb{Z}$ 使得 $b &#x3D; a \cdot q$ 则$a \mid b$，其中$a$是$b$的因数，$b$是$a$的倍数</p>
+<h3 id="性质"><a href="#性质" class="headerlink" title="性质"></a>性质</h3><ol>
+<li>$a\mid b$ 且 $a\mid c$，则$a\mid (b\pm c)$</li>
+<li>$a\mid b$，若$c\neq 0$，则$a\mid b\cdot c$</li>
+<li>若$ a\mid b $ 且 $b\mid c$，则$a\mid c$</li>
+<li>若 $a\mid b$ 且 $a\mid c$，$\forall x,y \in \mathbb{Z}\setminus{0}$，存在$a\mid (b\cdot x+c\cdot y)$</li>
+<li>若 $a\mid b$，$\forall m\neq 0$，有$(m\cdot a)\mid (m\cdot b)$</li>
+<li>若 $a\mid n$ 且 $b\mid n$ ，$ \exists x,y \in \mathbb{Z}$ ，满足 $a\cdot x+b\cdot y&#x3D;1$ 时，有 $(a\cdot b)\mid n$</li>
+</ol>
+<h3 id="证明"><a href="#证明" class="headerlink" title="证明"></a>证明</h3><ol>
+<li><p>$a\mid b$ 且 $a\mid c$，则$a\mid (b\pm c)$  </p>
+<blockquote>
+<p>设$b &#x3D; qa$ 且 $c&#x3D;pa$<br>$\therefore b\pm c &#x3D; qa\pm pa &#x3D; (p+q)\cdot a$<br>$\therefore a\mid b\pm c$</p>
+</blockquote>
+</li>
+<li><p>$a\mid b$，若$c\neq 0$，则$a\mid b\cdot c$</p>
+<blockquote>
+<p>设$b &#x3D; qa$<br>$\therefore b\cdot c &#x3D; q\cdot a\cdot c$<br>$\therefore a\mid b\cdot c$</p>
+</blockquote>
+</li>
+<li><p>若$ a\mid b $ 且 $b\mid c$，则$a\mid c$</p>
+<blockquote>
+<p>设$b &#x3D; qa$ 且 $c&#x3D;pb$<br>则$c&#x3D;pb&#x3D;p\cdot q\cdot a$<br>$\therefore a\mid c$</p>
+</blockquote>
+</li>
+<li><p>若 $a\mid b$ 且 $a\mid c$，$\forall x,y \in \mathbb{Z}\setminus{0}$，存在$a\mid (b\cdot x+c\cdot y)$</p>
+<blockquote>
+<p>参考1与2的证明</p>
+</blockquote>
+</li>
+<li><p>若 $a\mid b$，$\forall m\neq 0$，有$(m\cdot a)\mid (m\cdot b)$</p>
+<blockquote>
+<p>设$b &#x3D; qa$<br>则$mb&#x3D;m\cdot a\cdot q$<br>$\therefore (m\cdot a)\mid (m\cdot b)$</p>
+</blockquote>
+</li>
+<li><p>若 $a\mid n$ 且 $b\mid n$ ，$ \exists x,y \in \mathbb{Z}$ ，满足 $a\cdot x+b\cdot y&#x3D;1$ 时，有 $(a\cdot b)\mid n$</p>
+<blockquote>
+<p>由题意得：$ab\mid bn$，$ab\mid an$<br>$\therefore ab\mid an\cdot x+bn\cdot y$（由4得）<br>$\therefore ab\mid (ax+by)\cdot n$<br>$\because ax+by&#x3D;0$<br>$\therefore ab\mid n$</p>
+</blockquote>
+</li>
+</ol>
+<h2 id="同余"><a href="#同余" class="headerlink" title="同余"></a>同余</h2><h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ul>
+<li><p>整除及其性质 2018, China, viewed 3 May 2022, <a target="_blank" rel="noopener" href="https://blog.csdn.net/blaze003003/article/details/82261485">https://blog.csdn.net/blaze003003/article/details/82261485</a>.</p>
+</li>
+<li><p>数论 —— 整除与同余 2018, China, viewed 3 May 2022, <a target="_blank" rel="noopener" href="https://blog.csdn.net/u011815404/article/details/81280625">https://blog.csdn.net/u011815404/article/details/81280625</a>.</p>
+</li>
+<li><p>Modular arithmetic&#x2F;Introduction n.d., viewed 9 May 2022, <a target="_blank" rel="noopener" href="https://artofproblemsolving.com/wiki/index.php/Modular_arithmetic/Introduction">https://artofproblemsolving.com/wiki/index.php/Modular_arithmetic/Introduction</a>.</p>
+</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://xzdxrz.github.io/2022/05/09/%E6%95%B4%E9%99%A4%E4%B8%8E%E5%90%8C%E4%BD%99/" data-id="clkgoyd1z00074c2s394z76in" data-title="整除与同余" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%95%B0%E5%AD%A6/" rel="tag">数学</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%95%B0%E8%AE%BA/" rel="tag">数论</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2023/07/24/Blog-Remake/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Blog Remake
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2021/07/27/%E4%BD%8D%E8%BF%90%E7%AE%97%E7%89%88%E5%BF%AB%E8%AF%BB%E7%AE%80%E6%9E%90/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">位运算版快读简析</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/C/" rel="tag">C++</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%B9%B3%E8%A1%A1%E6%A0%91/" rel="tag">平衡树</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%B0%E5%AD%A6/" rel="tag">数学</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" rel="tag">数据结构</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%B0%E8%AE%BA/" rel="tag">数论</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AE%97%E6%B3%95/" rel="tag">算法</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/C/" style="font-size: 20px;">C++</a> <a href="/tags/%E5%B9%B3%E8%A1%A1%E6%A0%91/" style="font-size: 10px;">平衡树</a> <a href="/tags/%E6%95%B0%E5%AD%A6/" style="font-size: 15px;">数学</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 10px;">数据结构</a> <a href="/tags/%E6%95%B0%E8%AE%BA/" style="font-size: 12.5px;">数论</a> <a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 17.5px;">算法</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/07/">July 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/05/">May 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/07/">July 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">March 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/">February 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/05/">May 2019</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2023/07/24/Blog-Remake/">Blog Remake</a>
+          </li>
+        
+          <li>
+            <a href="/2022/05/09/%E6%95%B4%E9%99%A4%E4%B8%8E%E5%90%8C%E4%BD%99/">整除与同余</a>
+          </li>
+        
+          <li>
+            <a href="/2021/07/27/%E4%BD%8D%E8%BF%90%E7%AE%97%E7%89%88%E5%BF%AB%E8%AF%BB%E7%AE%80%E6%9E%90/">位运算版快读简析</a>
+          </li>
+        
+          <li>
+            <a href="/2020/03/07/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">裴蜀定理学习笔记</a>
+          </li>
+        
+          <li>
+            <a href="/2020/03/01/%E6%A0%91%E6%97%8B%E8%BD%AC%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">树旋转学习笔记</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2023 Bromaster&#39;s Cactus<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>

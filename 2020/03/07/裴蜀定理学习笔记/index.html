@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>裴蜀定理学习笔记 | XZDXRZ&#39;s Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="裴蜀定理  裴蜀定理的内容定理1 若$a,b$是整数,且$\gcd(a,b)&#x3D;d$，那么对于任意的整数$x,y,ax+by$都一定是$d$的倍数，特别地，一定存在整数$x,y$，使$ax+by&#x3D;d$成立。  定理2 对于方程$ax+by&#x3D;1$，只有当整数$a,b$互质时，方程才有整数解。  以上内容摘自百度百科。 裴蜀定理的证明特此说明：以下证明纯属我自己yy，如有错">
+<meta property="og:type" content="article">
+<meta property="og:title" content="裴蜀定理学习笔记">
+<meta property="og:url" content="http://xzdxrz.github.io/2020/03/07/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.html">
+<meta property="og:site_name" content="XZDXRZ&#39;s Blog">
+<meta property="og:description" content="裴蜀定理  裴蜀定理的内容定理1 若$a,b$是整数,且$\gcd(a,b)&#x3D;d$，那么对于任意的整数$x,y,ax+by$都一定是$d$的倍数，特别地，一定存在整数$x,y$，使$ax+by&#x3D;d$成立。  定理2 对于方程$ax+by&#x3D;1$，只有当整数$a,b$互质时，方程才有整数解。  以上内容摘自百度百科。 裴蜀定理的证明特此说明：以下证明纯属我自己yy，如有错">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-03-07T10:16:11.000Z">
+<meta property="article:modified_time" content="2023-07-24T09:42:14.000Z">
+<meta property="article:author" content="Bromaster&#39;s Cactus">
+<meta property="article:tag" content="数学">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="XZDXRZ's Blog" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">XZDXRZ&#39;s Blog</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">God&#39;s Blessing on This Wonderful World!</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+          <a class="nav-icon" href="/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
+        
+        <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://xzdxrz.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-裴蜀定理学习笔记" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2020/03/07/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" class="article-date">
+  <time class="dt-published" datetime="2020-03-07T10:16:11.000Z" itemprop="datePublished">07-03-2020</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      裴蜀定理学习笔记
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="裴蜀定理"><a href="#裴蜀定理" class="headerlink" title="裴蜀定理"></a>裴蜀定理</h1><!--more--->
+
+<h2 id="裴蜀定理的内容"><a href="#裴蜀定理的内容" class="headerlink" title="裴蜀定理的内容"></a>裴蜀定理的内容</h2><h3 id="定理1"><a href="#定理1" class="headerlink" title="定理1"></a>定理1</h3><blockquote>
+<p>若$a,b$是整数,且$\gcd(a,b)&#x3D;d$，那么对于任意的整数$x,y,ax+by$都一定是$d$的倍数，特别地，一定存在整数$x,y$，使$ax+by&#x3D;d$成立。</p>
+</blockquote>
+<h3 id="定理2"><a href="#定理2" class="headerlink" title="定理2"></a>定理2</h3><blockquote>
+<p>对于方程$ax+by&#x3D;1$，只有当整数$a,b$互质时，方程才有整数解。</p>
+</blockquote>
+<p>以上内容摘自<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86/5186593">百度百科</a>。</p>
+<h2 id="裴蜀定理的证明"><a href="#裴蜀定理的证明" class="headerlink" title="裴蜀定理的证明"></a>裴蜀定理的证明</h2><p><strong>特此说明：以下证明纯属我自己yy，如有错误请联系我指正。</strong></p>
+<h3 id="定理1证明"><a href="#定理1证明" class="headerlink" title="定理1证明"></a>定理1证明</h3><p>我们设$ d&#x3D;\gcd(a,b) $，则显而易见，$d \mid a$，且$d \mid b$。</p>
+<p>根据整除的性质，我们得出$ d \mid ax+by ( x,y \in Z ) $。······（式1.2.1.1）</p>
+<p>所以根据（式1.2.1.1）以及整除的意义得出$ ax+by&#x3D;dk ( k \in Z^+ ) $。</p>
+<p>当$k&#x3D;1$时，则$ax+by&#x3D;d$。</p>
+<p>根据（式1.2.1.1），我们还可以得出$d \mid x$，且$d \mid y$。</p>
+<p>至此，定理1证毕。</p>
+<h3 id="定理2证明"><a href="#定理2证明" class="headerlink" title="定理2证明"></a>定理2证明</h3><p>我们可以看出，定理2就是定理1的特殊情况，即$d&#x3D;1$时的情况。</p>
+<p>我们可以利用反证法证明。</p>
+<p>首先我们假设$a,b$不互质，即$\gcd(a,b) \not &#x3D; 1$。······（命题1.2.2.1）</p>
+<p>也就是$d \not &#x3D; 1$。······（式1.2.2.2）</p>
+<p>根据定理1，$ax+by&#x3D;d$。</p>
+<p>在定理2中，这个式子是$ax+by&#x3D;1$。</p>
+<p>可得$d&#x3D;1$。······（式1.2.2.3）</p>
+<p>所以，（式1.2.2.2）与（式1.2.2.3）矛盾，所以（命题1.2.2.1）为伪命题。</p>
+<p>至此，定理2证毕。</p>
+<h2 id="裴蜀定理的应用"><a href="#裴蜀定理的应用" class="headerlink" title="裴蜀定理的应用"></a>裴蜀定理的应用</h2><ol>
+<li>拓展欧几里得算法</li>
+</ol>
+<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ol>
+<li><p><a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86/5186593">裴蜀定理_百度百科</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/a_forever_dream/article/details/83859354">裴蜀定理_C&#x2F;C++_a_forever_dream的博客-CSDN博客</a></p>
+</li>
+</ol>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://xzdxrz.github.io/2020/03/07/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" data-id="clkgoyd2700104c2s0upy2pm4" data-title="裴蜀定理学习笔记" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%95%B0%E5%AD%A6/" rel="tag">数学</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2021/07/27/%E4%BD%8D%E8%BF%90%E7%AE%97%E7%89%88%E5%BF%AB%E8%AF%BB%E7%AE%80%E6%9E%90/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          位运算版快读简析
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2020/03/01/%E6%A0%91%E6%97%8B%E8%BD%AC%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">树旋转学习笔记</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">学习笔记</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/C/" rel="tag">C++</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%B9%B3%E8%A1%A1%E6%A0%91/" rel="tag">平衡树</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%B0%E5%AD%A6/" rel="tag">数学</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" rel="tag">数据结构</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%B0%E8%AE%BA/" rel="tag">数论</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%AE%97%E6%B3%95/" rel="tag">算法</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/C/" style="font-size: 20px;">C++</a> <a href="/tags/%E5%B9%B3%E8%A1%A1%E6%A0%91/" style="font-size: 10px;">平衡树</a> <a href="/tags/%E6%95%B0%E5%AD%A6/" style="font-size: 15px;">数学</a> <a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" style="font-size: 10px;">数据结构</a> <a href="/tags/%E6%95%B0%E8%AE%BA/" style="font-size: 12.5px;">数论</a> <a href="/tags/%E7%AE%97%E6%B3%95/" style="font-size: 17.5px;">算法</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/07/">July 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/05/">May 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/07/">July 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">March 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/">February 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/05/">May 2019</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2023/07/24/Blog-Remake/">Blog Remake</a>
+          </li>
+        
+          <li>
+            <a href="/2022/05/09/%E6%95%B4%E9%99%A4%E4%B8%8E%E5%90%8C%E4%BD%99/">整除与同余</a>
+          </li>
+        
+          <li>
+            <a href="/2021/07/27/%E4%BD%8D%E8%BF%90%E7%AE%97%E7%89%88%E5%BF%AB%E8%AF%BB%E7%AE%80%E6%9E%90/">位运算版快读简析</a>
+          </li>
+        
+          <li>
+            <a href="/2020/03/07/%E8%A3%B4%E8%9C%80%E5%AE%9A%E7%90%86%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">裴蜀定理学习笔记</a>
+          </li>
+        
+          <li>
+            <a href="/2020/03/01/%E6%A0%91%E6%97%8B%E8%BD%AC%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">树旋转学习笔记</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2023 Bromaster&#39;s Cactus<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
