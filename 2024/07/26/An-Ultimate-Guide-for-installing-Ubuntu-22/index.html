@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Algorithmics, Blog, Computer Science, Data Structures, Mathematics, Programming">
+    <meta name="description" content="Welcome to my den, where I will share some intriguing stuffs">
+    <meta name="author" content="XZDXRZ">
+    
+    <title>
+        
+            An Ultimate Guide for installing Ubuntu 22 |
+        
+        XZDXRZ&#39;s Blog
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    
+        <link rel="shortcut icon" href="/images/favicon/512.png">
+    
+    
+<link rel="stylesheet" href="/font/css/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/regular.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/solid.min.css">
+
+    
+<link rel="stylesheet" href="/font/css/brands.min.css">
+
+    
+    <script class="keep-theme-configurations">
+    const KEEP = window.KEEP || {}
+    KEEP.hexo_config = {"hostname":"xzdxrz.github.io","root":"/","language":"en"}
+    KEEP.theme_config = {"base_info":{"primary_color":"#0066cc","title":"XZDXRZ's Blog","author":"XZDXRZ","avatar":"/images/favicon/avatar.png","logo":"/images/favicon/512.png","favicon":"/images/favicon/512.png"},"menu":{"home":"/                       || fa-solid fa-home","archives":"/archives           || fa-solid fa-box-archive","tags":"/tags                   || fa-solid fa-tags","categories":"/categories       || fa-solid fa-layer-group"},"first_screen":{"enable":true,"background_img":"/images/bg.svg","background_img_dark":"/images/bg.svg","description":"Welcome to my den, where I will share some intriguing stuffs","hitokoto":false},"social_contact":{"enable":false,"links":{"github":null,"weixin":null,"qq":null,"weibo":null,"zhihu":null,"twitter":null,"x":null,"facebook":null,"email":null}},"scroll":{"progress_bar":true,"percent":false,"hide_header":true},"home":{"announcement":null,"category":true,"tag":true,"post_datetime":"created"},"post":{"author_badge":{"enable":true,"level_badge":true,"custom_badge":["One","Two","Three"]},"word_count":{"wordcount":false,"min2read":false},"datetime_format":"DD-MM-YYYY HH:mm:ss","copyright_info":false,"share":false,"reward":{"enable":false,"img_link":null,"text":null,"icon":null}},"code_block":{"tools":{"enable":true,"style":"mac"},"highlight_theme":"default"},"toc":{"enable":true,"number":false,"expand_all":true,"init_open":true,"layout":"right"},"website_count":{"busuanzi_count":{"enable":false,"site_uv":false,"site_pv":false,"page_pv":false}},"local_search":{"enable":false,"preload":false},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.36"},"waline":{"server_url":null,"reaction":false,"version":"3.2.1"},"giscus":{"repo":null,"repo_id":null,"category":"Announcements","category_id":null,"reactions_enabled":false},"artalk":{"server":null},"disqus":{"shortname":null}},"rss":{"enable":false},"lazyload":{"enable":false},"cdn":{"enable":false,"provider":"cdnjs"},"pjax":{"enable":false},"footer":{"since":2019,"word_count":false,"site_deploy":{"enable":false,"provider":"github","url":null},"record":{"enable":false,"list":[{"code":null,"link":null}]}},"inject":{"enable":false,"css":[null],"js":[null]},"root":"","source_data":{},"version":"4.2.0"}
+    KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"}
+    KEEP.language_code_block = {"copy":"Copy code","copied":"Copied","fold":"Fold code block","folded":"Folded"}
+    KEEP.language_copy_copyright = {"copy":"Copy copyright info","copied":"Copied","title":"Original post title","author":"Original post author","link":"Original post link"}
+  </script>
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+        <span class="scroll-progress-bar"></span>
+    
+
+    
+</div>
+
+
+
+<main class="page-container border-box">
+    <!-- home first screen  -->
+    
+
+    <!-- page content -->
+    <div class="page-main-content border-box">
+        <div class="page-main-content-top">
+            
+<header class="header-wrapper">
+
+    <div class="border-box header-content">
+        <div class="left flex-start border-box">
+            
+                <a class="logo-image border-box" href="/">
+                    <img src="/images/favicon/512.png">
+                </a>
+            
+            <a class="site-name border-box" href="/">
+               XZDXRZ&#39;s Blog
+            </a>
+        </div>
+
+        <div class="right border-box">
+            <div class="pc border-box">
+                <ul class="menu-list border-box">
+                    
+                        
+                        <li class="menu-item flex-start border-box">
+                            <a class="menu-text-color border-box" href="/">
+                                
+                                    <i class="menu-text-color menu-icon fa-solid fa-home"></i>
+                                
+                                HOME
+                                
+                            </a>
+                            
+                        </li>
+                    
+                        
+                        <li class="menu-item flex-start border-box">
+                            <a class="menu-text-color border-box" href="/archives">
+                                
+                                    <i class="menu-text-color menu-icon fa-solid fa-box-archive"></i>
+                                
+                                ARCHIVES
+                                
+                            </a>
+                            
+                        </li>
+                    
+                        
+                        <li class="menu-item flex-start border-box">
+                            <a class="menu-text-color border-box" href="/tags">
+                                
+                                    <i class="menu-text-color menu-icon fa-solid fa-tags"></i>
+                                
+                                TAGS
+                                
+                            </a>
+                            
+                        </li>
+                    
+                        
+                        <li class="menu-item flex-start border-box">
+                            <a class="menu-text-color border-box" href="/categories">
+                                
+                                    <i class="menu-text-color menu-icon fa-solid fa-layer-group"></i>
+                                
+                                CATEGORIES
+                                
+                            </a>
+                            
+                        </li>
+                    
+                    
+                </ul>
+            </div>
+            <div class="mobile border-box flex-start">
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list border-box">
+            
+                
+                <li class="drawer-menu-item border-box not-sub-menu">
+                    <label class="drawer-menu-label border-box">
+                        <a class="drawer-menu-text-color left-side flex-start border-box" href="/">
+                            
+                                <span class="menu-icon-wrap border-box flex-center">
+                                    <i class="drawer-menu-text-color menu-icon fa-solid fa-home"></i>
+                                </span>
+                            
+                            HOME
+                        </a>
+                        
+                    </label>
+                    
+                </li>
+            
+                
+                <li class="drawer-menu-item border-box not-sub-menu">
+                    <label class="drawer-menu-label border-box">
+                        <a class="drawer-menu-text-color left-side flex-start border-box" href="/archives">
+                            
+                                <span class="menu-icon-wrap border-box flex-center">
+                                    <i class="drawer-menu-text-color menu-icon fa-solid fa-box-archive"></i>
+                                </span>
+                            
+                            ARCHIVES
+                        </a>
+                        
+                    </label>
+                    
+                </li>
+            
+                
+                <li class="drawer-menu-item border-box not-sub-menu">
+                    <label class="drawer-menu-label border-box">
+                        <a class="drawer-menu-text-color left-side flex-start border-box" href="/tags">
+                            
+                                <span class="menu-icon-wrap border-box flex-center">
+                                    <i class="drawer-menu-text-color menu-icon fa-solid fa-tags"></i>
+                                </span>
+                            
+                            TAGS
+                        </a>
+                        
+                    </label>
+                    
+                </li>
+            
+                
+                <li class="drawer-menu-item border-box not-sub-menu">
+                    <label class="drawer-menu-label border-box">
+                        <a class="drawer-menu-text-color left-side flex-start border-box" href="/categories">
+                            
+                                <span class="menu-icon-wrap border-box flex-center">
+                                    <i class="drawer-menu-text-color menu-icon fa-solid fa-layer-group"></i>
+                                </span>
+                            
+                            CATEGORIES
+                        </a>
+                        
+                    </label>
+                    
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle border-box">
+
+            <div class="main-content border-box">
+                
+
+                    
+<div class="fade-in-down-animation">
+    <div class="post-page-container border-box">
+        <div class="post-content-container border-box">
+            
+
+            <div class="post-content-bottom border-box">
+                
+                    <div class="post-title">
+                        An Ultimate Guide for installing Ubuntu 22
+                    </div>
+                
+
+                
+                    <div class="post-header border-box">
+                        
+                            <div class="avatar-box border-box">
+                                <img src="/images/favicon/avatar.png">
+                            </div>
+                        
+                        <div class="info-box">
+                            <div class="author border-box">
+                                <span class="name">XZDXRZ</span>
+                                
+                                    <span class="author-badge">Lv1</span>
+                                
+                            </div>
+                            <div class="meta-info border-box">
+                                
+
+<div class="post-meta-info-container border-box post">
+    <div class="post-meta-info border-box">
+        
+
+        
+            <span class="meta-info-item post-create-date">
+                <i class="icon fa-solid fa-calendar-plus"></i>&nbsp;
+                <span class="datetime">26-07-2024 20:44:50</span>
+            </span>
+
+            <span class="meta-info-item post-update-date">
+                <i class="icon fa-solid fa-file-pen"></i>&nbsp;
+                <span class="datetime" data-updated="Fri Jul 26 2024 21:14:52 GMT+1000">26-07-2024 21:14:52</span>
+            </span>
+        
+
+        
+            <span class="meta-info-item post-category border-box"><i class="icon fas fa-folder"></i>&nbsp;
+                <ul class="post-category-ul">
+                    
+                            <li class="category-item"><a href="/categories/Operating-System/">Operating System</a></li>
+                        
+                    
+                </ul>
+            </span>
+        
+
+        
+            <span class="post-tag meta-info-item border-box">
+                <ul class="post-tag-ul">
+                    
+                            <li class="tag-item"><span class="tag-separator"><i class="icon fas fa-hashtag"></i></span><a href="/tags/Ubuntu/">Ubuntu</a></li>
+                        
+                    
+                </ul>
+            </span>
+        
+
+        
+        
+        
+        
+    </div>
+
+    
+</div>
+
+                            </div>
+                        </div>
+                    </div>
+                
+
+                <div class="post-content keep-markdown-body ">
+                    
+
+                    
+                         <p>Ma finally abandoned her old laptop and purchased a new one. After getting that outmoded HP, I found that the computer is such behind the times that it cannot even run Windows 11.</p>
+<p>However, what surprised me is that that laptop has 1.0TB of HDD and 256GB of SSD. Thus, I decided to install Ubuntu 22 acompanied with Windows 10 on that computer.</p>
+<span id="more"></span>
+<p>Actually, I were to install Elementary OS, Ubuntu 24 and Manjaro on that PC. However, it turns out that the old laptop cannot run these OS properly (cannot boot Elementary OS, not fluent while running Ubuntu 24, and I don’t know how to use a arch Linux system qwq).</p>
+<p>Anyway, Ubuntu 22 has become my overall decision. And this article will be focusing on installing Ubuntu 22 and its subsequent prettification.</p>
+<h1 id="download-and-install"><a class="markdownIt-Anchor" href="#download-and-install"></a> Download and Install</h1>
+<ol>
+<li>Download the ISO image of Ubuntu 22 from the <a class="link"   target="_blank" rel="noopener" href="https://ubuntu.com/download/desktop/" >official website<i class="fas fa-external-link-alt"></i></a>.</li>
+<li>Download <a class="link"   target="_blank" rel="noopener" href="https://rufus.ie/en/" >Rufus<i class="fas fa-external-link-alt"></i></a> to create a USB drive. Remember to choose the “Partition Scheme” to be “GPT”.</li>
+<li>Insert the USB drive and start the computer. Madly press F10 key to enter the BIOS (Noting that this key may vary in different computer. The key for entering BIOS on HP computer is F10).</li>
+<li>Boot the computer with USB Drive.</li>
+</ol>
+<h1 id="install-ubuntu-onto-your-pc"><a class="markdownIt-Anchor" href="#install-ubuntu-onto-your-pc"></a> Install Ubuntu onto your PC</h1>
+<p>There is nothing notable during the installation process except for the partitioning. To install Linux system aside with Windows 10, we would need to manually assign each partition with their size.</p>
+<p>I will list my settings for a reference.</p>
+<ol>
+<li>Boot Dictionary <code>/boot</code>: should be around 100MB to 500MB</li>
+<li>Swap Partition: an extension of physical RAM, offering virtual memory that helps maintain system stability and performance. It should be 1 or 2 times of physical RAM.</li>
+<li>Root Dictionary <code>root</code>: The topmost directory in the filesystem, containing all the files and directories of the operating system. I assigned the rest of my SSD space (around 90GB) for this partition.</li>
+<li>(Optional) Home Dictionary <code>/home</code>: Containing user data. I assigned 90GB of HDD for this.</li>
+</ol>
+<h1 id="setup-your-ubuntu-desktop"><a class="markdownIt-Anchor" href="#setup-your-ubuntu-desktop"></a> Setup your Ubuntu Desktop</h1>
+<h2 id="install-chrome"><a class="markdownIt-Anchor" href="#install-chrome"></a> Install Chrome</h2>
+<p>Like how every Windows user would do when they first got their new computer, installing Chrome is always the very first process. Download the <code>.deb</code> package from <a class="link"   target="_blank" rel="noopener" href="https://www.google.com.au/intl/en_au/chrome/" >the official site of Chrome<i class="fas fa-external-link-alt"></i></a>. Double-click or run</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update</span><br><span class="line"><span class="built_in">sudo</span> apt install ./google-chrome-stable_current_amd64.deb </span><br></pre></td></tr></table></figure>
+<p>to install Chrome.</p>
+<h2 id="install-gnome-tweak"><a class="markdownIt-Anchor" href="#install-gnome-tweak"></a> * Install GNOME Tweak</h2>
+<p>Execute the commands below,</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt-get install gnome-tweak</span><br><span class="line"><span class="built_in">sudo</span> apt-get install chrome-gnome-shell <span class="comment"># Support for chrome</span></span><br></pre></td></tr></table></figure>
+<p>Then, open <a class="link"   target="_blank" rel="noopener" href="https://extensions.gnome.org/" >Gnome Extensions<i class="fas fa-external-link-alt"></i></a> to install <a class="link"   target="_blank" rel="noopener" href="https://extensions.gnome.org/extension/19/user-themes/" >User Themes<i class="fas fa-external-link-alt"></i></a> and <a class="link"   target="_blank" rel="noopener" href="https://extensions.gnome.org/extension/307/dash-to-dock/" >Dash to Dock<i class="fas fa-external-link-alt"></i></a></p>
+<h2 id="download-theme-pack"><a class="markdownIt-Anchor" href="#download-theme-pack"></a> Download theme pack</h2>
+<p>The theme pack is gained from <a class="link"   target="_blank" rel="noopener" href="https://www.gnome-look.org/browse/" >the Gnome look wesite<i class="fas fa-external-link-alt"></i></a></p>
+<p>The package I’m using is:</p>
+<p>Theme pack: <a class="link"   target="_blank" rel="noopener" href="https://www.gnome-look.org/p/1403328/" >WhiteSur Gtk Theme<i class="fas fa-external-link-alt"></i></a></p>
+<p>Cursor pack: <a class="link"   target="_blank" rel="noopener" href="https://www.pling.com/p/1355701/" >McMojave cursors<i class="fas fa-external-link-alt"></i></a></p>
+<p>Icon pack: <a class="link"   target="_blank" rel="noopener" href="https://www.pling.com/p/1405756/" >WhiteSur icon theme<i class="fas fa-external-link-alt"></i></a></p>
+<h2 id="install-theme-pack"><a class="markdownIt-Anchor" href="#install-theme-pack"></a> Install theme pack</h2>
+<p>Enter commands below to create <code>/.icons</code> and <code>/.themes</code> folder under the home directory,</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line"><span class="built_in">mkdir</span> /.themes</span><br><span class="line"><span class="built_in">mkdir</span> /.icons</span><br></pre></td></tr></table></figure>
+<p>Then, extract the theme package to <code>/.themes</code>. The cursor and icon pack would need to be extracted to <code>/.icons</code> folder.</p>
+<p>Having your theme, cursor and icons pack ready in correct path, you would be able to use them by Gnome Tweak Tool.</p>
+<h2 id="optional-stop-being-prompted-to-unlock-the-default-keyring-on-boot"><a class="markdownIt-Anchor" href="#optional-stop-being-prompted-to-unlock-the-default-keyring-on-boot"></a> (Optional) Stop being prompted to unlock the ‘default’ keyring on boot</h2>
+<p>See also <a class="link"   target="_blank" rel="noopener" href="https://askubuntu.com/questions/867/how-can-i-stop-being-prompted-to-unlock-the-default-keyring-on-boot" >Ask Ubuntu - How can I stop being prompted to unlock the ‘default’ keyring on boot?<i class="fas fa-external-link-alt"></i></a></p>
+<h2 id="install-chinese-pinyin-input-method"><a class="markdownIt-Anchor" href="#install-chinese-pinyin-input-method"></a> Install Chinese pinyin input method</h2>
+<p>See also <a class="link"   target="_blank" rel="noopener" href="https://askubuntu.com/questions/1408873/ubuntu-22-04-chinese-simplified-pinyin-input-support" >Ask Ubuntu - Ubuntu 22.04 Chinese (simplified) pinyin input support<i class="fas fa-external-link-alt"></i></a></p>
+<h2 id="turn-on-asterisks-while-typing-sudo-password"><a class="markdownIt-Anchor" href="#turn-on-asterisks-while-typing-sudo-password"></a> Turn on Asterisks While Typing Sudo Password</h2>
+<p>Firstly, install Vim to edit file through terminal,</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt-get install vim</span><br></pre></td></tr></table></figure>
+<p>Modify the configuration file,</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> <span class="built_in">cp</span> /etc/sudoers /etc/sudoers.bak <span class="comment"># Make a backup for configure file</span></span><br><span class="line"><span class="built_in">sudo</span> visudo</span><br></pre></td></tr></table></figure>
+<p>Find <code>Defaults env_reset</code>. Add <code>,pwfeedback</code> to it,</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Defaults env_reset,pwfeedback</span><br></pre></td></tr></table></figure>
+<h2 id="get-a-clean-desktop"><a class="markdownIt-Anchor" href="#get-a-clean-desktop"></a> Get a Clean Desktop</h2>
+<p>There are several ways to achieve this prupose,</p>
+<h3 id="disable-display-of-personal-folder"><a class="markdownIt-Anchor" href="#disable-display-of-personal-folder"></a> Disable Display of Personal Folder</h3>
+<p>This would be the most easiest method. Just need to toggle <code>Settings - Appearance - Show Personal folder</code> off.</p>
+<h3 id="other-methods"><a class="markdownIt-Anchor" href="#other-methods"></a> Other methods</h3>
+<p>See also <a class="link"   target="_blank" rel="noopener" href="https://www.maketecheasier.com/hide-desktop-icons-ubuntu/" >5 Ways to Hide Desktop Icons in Ubuntu<i class="fas fa-external-link-alt"></i></a></p>
+<h2 id="beautify-the-terminal"><a class="markdownIt-Anchor" href="#beautify-the-terminal"></a> Beautify the Terminal</h2>
+<h3 id="installing-zsh"><a class="markdownIt-Anchor" href="#installing-zsh"></a> Installing Zsh</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt-get install zsh</span><br></pre></td></tr></table></figure>
+<h3 id="change-the-default-shell-to-zsh"><a class="markdownIt-Anchor" href="#change-the-default-shell-to-zsh"></a> Change the default shell to Zsh</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cat</span> /etc/shells <span class="comment"># To check for shells already installed</span></span><br><span class="line">chsh -s /bin/zsh <span class="comment"># Change default shell</span></span><br></pre></td></tr></table></figure>
+<h3 id="install-oh-my-zsh"><a class="markdownIt-Anchor" href="#install-oh-my-zsh"></a> Install Oh-My-Zsh</h3>
+<p>See also <a class="link"   target="_blank" rel="noopener" href="https://ohmyz.sh/" >Oh My Zsh<i class="fas fa-external-link-alt"></i></a></p>
+<p>Or run,</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sh -c <span class="string">&quot;<span class="subst">$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)</span>&quot;</span></span><br></pre></td></tr></table></figure>
+<h3 id="configurate-oh-my-zsh"><a class="markdownIt-Anchor" href="#configurate-oh-my-zsh"></a> Configurate Oh-My-Zsh</h3>
+<p>Edit <code>~/.zshrc</code>,</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> vim ~/.zshrc</span><br></pre></td></tr></table></figure>
+<p>Then set <code>ZSH_THEME</code> to the name of the theme you prefer. The detailed information about themes could be found on <a class="link"   target="_blank" rel="noopener" href="https://github.com/ohmyzsh/ohmyzsh/wiki/Themes" >Oh-My-Zsh Themes<i class="fas fa-external-link-alt"></i></a>. For me, I use <code>ZSH_THEME=&quot;agnoster&quot;</code></p>
+<h3 id="issue-about-rendering-special-characters-in-zsh"><a class="markdownIt-Anchor" href="#issue-about-rendering-special-characters-in-zsh"></a> Issue about rendering special characters in Zsh</h3>
+<p>Run commands below,</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~/Downloads &amp;&amp; git <span class="built_in">clone</span> https://github.com/powerline/fonts.git	<span class="comment"># Install Powerline fonts to /Downloads</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">cd</span> fonts &amp;&amp; ./install.sh	<span class="comment"># Install Powerline fonts</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">cd</span> &amp;&amp; <span class="built_in">rm</span> -rf ~/Downloads/fonts	<span class="comment"># Delete fond folder</span></span><br></pre></td></tr></table></figure>
+<p>See also <a class="link"   target="_blank" rel="noopener" href="https://www.cnblogs.com/marsggbo/p/17531721.html" >Oh-my-zsh主题乱码解决办法<i class="fas fa-external-link-alt"></i></a></p>
+<p>The issue should be fixed by now. If not, try right clicking the terminal window, find “Preference”. Modify “Profiles - Unnamed - Text - Custom font”.</p>
+<p>That’s it. These process takes you from installing Ubuntu to subsequent prettification. By following instruction above, You will be hoping to get a “fancy” (lol) Ubuntu PC.</p>
+
+                    
+                </div>
+
+                
+
+                <div class="post-bottom-tags-and-share border-box">
+                    <div>
+                        
+                            <ul class="post-tags-box border-box">
+                                
+                                    <li class="tag-item border-box">
+                                        <i class="icon fas fa-hashtag"></i>&nbsp;<a href="/tags/Ubuntu/">Ubuntu</a>
+                                    </li>
+                                
+                            </ul>
+                        
+                    </div>
+                    <div>
+                        
+                    </div>
+                </div>
+
+                
+
+                
+
+                
+                    
+
+
+
+
+
+
+                
+            </div>
+        </div>
+
+        
+            <div class="pc-post-toc right-toc">
+                <div class="post-toc-wrap border-box">
+    <div class="post-toc border-box">
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#download-and-install"><span class="nav-text"> Download and Install</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#install-ubuntu-onto-your-pc"><span class="nav-text"> Install Ubuntu onto your PC</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#setup-your-ubuntu-desktop"><span class="nav-text"> Setup your Ubuntu Desktop</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#install-chrome"><span class="nav-text"> Install Chrome</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#install-gnome-tweak"><span class="nav-text"> * Install GNOME Tweak</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#download-theme-pack"><span class="nav-text"> Download theme pack</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#install-theme-pack"><span class="nav-text"> Install theme pack</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#optional-stop-being-prompted-to-unlock-the-default-keyring-on-boot"><span class="nav-text"> (Optional) Stop being prompted to unlock the ‘default’ keyring on boot</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#install-chinese-pinyin-input-method"><span class="nav-text"> Install Chinese pinyin input method</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#turn-on-asterisks-while-typing-sudo-password"><span class="nav-text"> Turn on Asterisks While Typing Sudo Password</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#get-a-clean-desktop"><span class="nav-text"> Get a Clean Desktop</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#disable-display-of-personal-folder"><span class="nav-text"> Disable Display of Personal Folder</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#other-methods"><span class="nav-text"> Other methods</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#beautify-the-terminal"><span class="nav-text"> Beautify the Terminal</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#installing-zsh"><span class="nav-text"> Installing Zsh</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#change-the-default-shell-to-zsh"><span class="nav-text"> Change the default shell to Zsh</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#install-oh-my-zsh"><span class="nav-text"> Install Oh-My-Zsh</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#configurate-oh-my-zsh"><span class="nav-text"> Configurate Oh-My-Zsh</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#issue-about-rendering-special-characters-in-zsh"><span class="nav-text"> Issue about rendering special characters in Zsh</span></a></li></ol></li></ol></li></ol>
+    </div>
+</div>
+
+            </div>
+        
+    </div>
+</div>
+
+
+                
+            </div>
+        </div>
+
+        <div class="page-main-content-bottom border-box">
+            
+<footer class="footer border-box">
+    <div class="copyright-info info-item">
+        &copy;&nbsp;<span>2019</span>&nbsp;-&nbsp;2024
+        
+            &nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;&nbsp;<a href="/">XZDXRZ</a>
+        
+    </div>
+
+    <div class="theme-info info-item">
+        Powered by&nbsp;<a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;&&nbsp;Theme&nbsp;<a class="keep-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep</a>
+    </div>
+
+    
+
+    
+
+    
+</footer>
+
+        </div>
+    </div>
+
+    <!-- post tools -->
+    
+        <div class="post-tools right-toc">
+            <div class="post-tools-container border-box">
+    <ul class="post-tools-list border-box">
+        <!-- PC encrypt again -->
+        
+
+        <!-- PC TOC show toggle -->
+        
+            <li class="tools-item flex-center toggle-show-toc">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        <!-- PC go comment -->
+        
+
+        <!-- PC full screen -->
+        <li class="tools-item flex-center full-screen">
+            <i class="fa-solid fa-expand"></i>
+        </li>
+    </ul>
+</div>
+
+        </div>
+    
+
+    <!-- side tools -->
+    <div class="side-tools">
+        <div class="side-tools-container border-box ">
+    <ul class="side-tools-list side-tools-show-handle border-box">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <!-- toggle mode -->
+        
+            <li class="tools-item tool-toggle-theme-mode flex-center">
+                <i class="fas fa-moon"></i>
+            </li>
+        
+
+        <!-- rss -->
+        
+
+        <!-- to bottom -->
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list border-box">
+        
+            <li class="tools-item toggle-show-toc-tablet flex-center">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        
+
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+
+        <li class="tools-item tool-scroll-to-top flex-center show-arrow">
+            <i class="arrow fas fa-arrow-up"></i>
+            <span class="percent"></span>
+        </li>
+    </ul>
+</div>
+
+    </div>
+
+    <!-- image mask -->
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
+</div>
+
+
+    <!-- local search -->
+    
+
+    <!-- tablet toc -->
+    
+        <div class="tablet-post-toc-mask">
+            <div class="tablet-post-toc">
+                <div class="post-toc-wrap border-box">
+    <div class="post-toc border-box">
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#download-and-install"><span class="nav-text"> Download and Install</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#install-ubuntu-onto-your-pc"><span class="nav-text"> Install Ubuntu onto your PC</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#setup-your-ubuntu-desktop"><span class="nav-text"> Setup your Ubuntu Desktop</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#install-chrome"><span class="nav-text"> Install Chrome</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#install-gnome-tweak"><span class="nav-text"> * Install GNOME Tweak</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#download-theme-pack"><span class="nav-text"> Download theme pack</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#install-theme-pack"><span class="nav-text"> Install theme pack</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#optional-stop-being-prompted-to-unlock-the-default-keyring-on-boot"><span class="nav-text"> (Optional) Stop being prompted to unlock the ‘default’ keyring on boot</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#install-chinese-pinyin-input-method"><span class="nav-text"> Install Chinese pinyin input method</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#turn-on-asterisks-while-typing-sudo-password"><span class="nav-text"> Turn on Asterisks While Typing Sudo Password</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#get-a-clean-desktop"><span class="nav-text"> Get a Clean Desktop</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#disable-display-of-personal-folder"><span class="nav-text"> Disable Display of Personal Folder</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#other-methods"><span class="nav-text"> Other methods</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#beautify-the-terminal"><span class="nav-text"> Beautify the Terminal</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#installing-zsh"><span class="nav-text"> Installing Zsh</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#change-the-default-shell-to-zsh"><span class="nav-text"> Change the default shell to Zsh</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#install-oh-my-zsh"><span class="nav-text"> Install Oh-My-Zsh</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#configurate-oh-my-zsh"><span class="nav-text"> Configurate Oh-My-Zsh</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#issue-about-rendering-special-characters-in-zsh"><span class="nav-text"> Issue about rendering special characters in Zsh</span></a></li></ol></li></ol></li></ol>
+    </div>
+</div>
+
+            </div>
+        </div>
+    
+</main>
+
+
+
+
+
+<!-- common js -->
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/header-shrink.js"></script>
+
+<script src="/js/back2top.js"></script>
+
+<script src="/js/toggle-theme.js"></script>
+
+<script src="/js/code-block.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/libs/anime.min.js"></script>
+
+
+<!-- local search -->
+
+
+<!-- lazyload -->
+
+
+<div class="">
+    <!-- home page -->
+    
+
+    <!-- post page -->
+    
+        <!-- post-helper -->
+        
+<script src="/js/post/post-helper.js"></script>
+
+
+        <!-- toc -->
+        
+            
+<script src="/js/post/toc.js"></script>
+
+        
+
+        <!-- copyright-info -->
+        
+
+        <!-- share -->
+        
+    
+
+    <!-- categories page -->
+    
+
+    <!-- links page -->
+    
+
+    <!-- photos page -->
+    
+
+    <!-- tools page -->
+    
+</div>
+
+<!-- mermaid -->
+
+
+<!-- pjax -->
+
+
+
+</body>
+</html>
